@@ -1,0 +1,40 @@
+# Build folder.
+/build/
+/build_scripts/
+
+# Test output folder.
+tests/data/
+data/
+/docs/
+/LICENSE.md
+/README.md
+
+# Media folders.
+/media
+/media_internal
+fbx_media/
+media/*
+fbx_media/*
+
+# Packman folders.
+/external/packman/
+/tools/.packman/
+
+# IDE folders.
+/.vs/
+/.vscode/
+/.vscode-default/
+# User files.
+/CMakeUserPresets.json
+
+# File types.
+*.user
+*.suo
+*.pyc
+*.VC.db
+*.VC.opendb
+*.pyc
+*slang-dump-*
+*.mp4
+*.tlog
+*.bak
