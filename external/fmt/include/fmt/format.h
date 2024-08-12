@@ -554,7 +554,8 @@ inline auto get_data(Container& c) -> typename Container::value_type* {
   return c.data();
 }
 
-#if defined(_SECURE_SCL) && _SECURE_SCL
+//#if defined(_SECURE_SCL) && _SECURE_SCL //bm to disable warning as error during debug build
+#if 0
 // Make a checked iterator to avoid MSVC warnings.
 template <typename T> using checked_ptr = stdext::checked_array_iterator<T*>;
 template <typename T>

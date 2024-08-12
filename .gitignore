@@ -4,6 +4,8 @@
 
 # Test output folder.
 tests/data/
+
+# BM modified
 data/
 /docs/
 /LICENSE.md
@@ -19,6 +21,7 @@ fbx_media/*
 # Packman folders.
 /external/packman/
 /tools/.packman/
+!/external/fmt/include/fmt/format.h
 
 # IDE folders.
 /.vs/
