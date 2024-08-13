@@ -515,3 +515,75 @@ set(RTXDI_DIR ${PACKMAN_DIR}/rtxdi)
 add_library(rtxdi INTERFACE)
 target_include_directories(rtxdi INTERFACE ${RTXDI_DIR}/rtxdi-sdk/include)
 
+
+# bm: openXR
+# TODO: relative path
+#include_directories(C:/Users/local-admin/Desktop/Falcor/external/OpenXR-SDK/include/openxr)
+#target_link_libraries(FALCOR_WINDOWS C:/Users/local-admin/Desktop/Falcor/external/OpenXR-SDK/build/win64/src/loader/Release/openxr_loader.lib)
+
+
+# bm: OpenXR
+#[[
+# Note: Using an INTERFACE target to simplify linking against all the various libraries in OpenXR
+if(FALCOR_WINDOWS)
+    add_library(OpenXR INTERFACE)
+    target_include_directories(OpenXR INTERFACE ${FALCOR_DEPS_DIR}/include/OpenXR-SDK/include/openxr)
+    target_link_directories(OpenXR INTERFACE
+        $<$<CONFIG:Release>:${FALCOR_DEPS_DIR}/lib>
+        $<$<CONFIG:Debug>:${FALCOR_DEPS_DIR}/debug/lib>
+    )
+    target_link_libraries(OpenXR INTERFACE
+        $<$<CONFIG:Release>:openxr_loader.lib>
+        $<$<CONFIG:Debug>:openxr_loaderd.lib>
+    )
+elseif(FALCOR_LINUX)
+    add_library(OpenXR INTERFACE)
+    target_include_directories(OpenXR INTERFACE ${FALCOR_DEPS_DIR}/include)
+    target_link_directories(OpenXR INTERFACE
+        $<$<CONFIG:Release>:${FALCOR_DEPS_DIR}/lib>
+        $<$<CONFIG:Debug>:${FALCOR_DEPS_DIR}/debug/lib>
+    )
+    target_link_libraries(OpenXR INTERFACE
+        $<$<CONFIG:Release>:libopenxr_loader.so>
+        $<$<CONFIG:Debug>:libopenxr_loader_d.so>
+    )
+endif()
+
+
+set(OPENXR_DIR ${PACKMAN_DIR}/OpenXR-SDK)
+if(EXISTS ${OPENXR_DIR}/include/openxr/openxr.h)
+    add_library(openxr INTERFACE)
+    target_include_directories(openxr INTERFACE ${OPENXR_DIR}/include/openxr)
+    set(FALCOR_HAS_OPENXR ON PARENT_SCOPE)
+else()
+    set(FALCOR_HAS_OPENXR OFF PARENT_SCOPE)
+endif()
+
+
+add_library(OpenXR-SDK INTERFACE)
+target_include_directories(OpenXR-SDK INTERFACE OpenXR-SDK/include/openxr)
+target_link_libraries(OpenXR-SDK INTERFACE OpenXR-SDK/build/win64/src/loader/Release/openxr_loader.lib)
+
+]]
+
+# Note: only static libs are supported under windows. Use static for linux as well for symmetry.
+if(FALCOR_WINDOWS)
+    add_library(openxr STATIC IMPORTED GLOBAL)
+    set_target_properties(openxr PROPERTIES
+        INTERFACE_INCLUDE_DIRECTORIES ${FALCOR_DEPS_DIR}/include/
+        IMPORTED_LOCATION_RELEASE ${FALCOR_DEPS_DIR}/lib/openxr_loader.lib
+        IMPORTED_LOCATION_DEBUG ${FALCOR_DEPS_DIR}/debug/lib/openxr_loaderd.lib
+    )
+    set(OPENXR_DIR ${FALCOR_DEPS_DIR}/include/openxr)
+    if(EXISTS ${OPENXR_DIR}/openxr.h)
+    #add_library(openxr INTERFACE)
+    target_include_directories(openxr INTERFACE ${OPENXR_DIR})
+    set(FALCOR_HAS_OPENXR ON PARENT_SCOPE)
+else()
+    set(FALCOR_HAS_OPENXR OFF PARENT_SCOPE)
+endif()
+
+
+elseif(FALCOR_LINUX)
+    #nothing
+endif()

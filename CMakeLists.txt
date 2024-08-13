@@ -215,7 +215,7 @@ message(STATUS "FALCOR_HAS_DLSS: ${FALCOR_HAS_DLSS}")
 message(STATUS "FALCOR_HAS_NV_USD: ${FALCOR_HAS_NV_USD}")
 message(STATUS "FALCOR_HAS_MDL_SDK: ${FALCOR_HAS_MDL_SDK}")
 message(STATUS "FALCOR_ENABLE_USD: ${FALCOR_ENABLE_USD}")
-
+message(STATUS "FALCOR_HAS_OPENXR: ${FALCOR_HAS_OPENXR}") #cmake configered: vcpkg
 # -----------------------------------------------------------------------------
 # Packman dependencies
 # -----------------------------------------------------------------------------
