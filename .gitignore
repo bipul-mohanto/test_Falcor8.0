@@ -22,7 +22,7 @@ fbx_media/*
 /external/packman/
 /tools/.packman/
 !/external/fmt/include/fmt/format.h
-
+!/external/packman/deps/packages.txt
 # IDE folders.
 /.vs/
 /.vscode/
