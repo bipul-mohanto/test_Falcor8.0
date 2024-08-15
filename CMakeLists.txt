@@ -6,7 +6,7 @@ cmake_policy(SET CMP0104 NEW)
 cmake_policy(SET CMP0057 NEW)
 
 set(CMAKE_MODULE_PATH ${CMAKE_MODULE_PATH} ${CMAKE_SOURCE_DIR}/cmake)
-# bm: vcpkg
+# bm: vcpkg (already integrated)
 #set(CMAKE_TOOLCHAIN_FILE "C:/vcpkg/scripts/buildsystems/vcpkg.cmake")
 project(Falcor
     DESCRIPTION "Falcor Realtime Rendering Framework"
@@ -17,9 +17,12 @@ project(Falcor
 # Configuration options
 # -----------------------------------------------------------------------------
 
-# Enable/disable reporting Falcor exceptions as fatal errors before actually throwing them.
-# This allows to break into the debugger at the location where an exception is thrown.
-set(FALCOR_REPORT_EXCEPTION_AS_ERROR OFF CACHE BOOL "Report Falcor exceptions as fatal errors (and break into debugger)")
+# Enable/disable asserts. AUTO enables asserts in debug builds.
+set(FALCOR_ENABLE_ASSERTS "AUTO" CACHE STRING "Enable asserts")
+set_property(CACHE FALCOR_ENABLE_ASSERTS PROPERTY STRINGS AUTO ON OFF)
+
+# Enable/disable the profiler.
+set(FALCOR_ENABLE_PROFILER ON CACHE BOOL "Enable profiler")
 
 # Enable/disable using system Python distribution. This requires Python 3.7 to be available.
 set(FALCOR_USE_SYSTEM_PYTHON OFF CACHE BOOL "Use system Python distribution")
@@ -215,7 +218,8 @@ message(STATUS "FALCOR_HAS_DLSS: ${FALCOR_HAS_DLSS}")
 message(STATUS "FALCOR_HAS_NV_USD: ${FALCOR_HAS_NV_USD}")
 message(STATUS "FALCOR_HAS_MDL_SDK: ${FALCOR_HAS_MDL_SDK}")
 message(STATUS "FALCOR_ENABLE_USD: ${FALCOR_ENABLE_USD}")
-message(STATUS "FALCOR_HAS_OPENXR: ${FALCOR_HAS_OPENXR}") #cmake configered: vcpkg
+message(STATUS "FALCOR_HAS_OPENXR: ${FALCOR_HAS_OPENXR}") #bm
+
 # -----------------------------------------------------------------------------
 # Packman dependencies
 # -----------------------------------------------------------------------------
@@ -430,6 +434,7 @@ endif()
 # -----------------------------------------------------------------------------
 
 add_subdirectory(Source/Falcor)
+add_subdirectory(Source/Modules)
 add_subdirectory(Source/Mogwai)
 add_subdirectory(Source/plugins)
 add_subdirectory(Source/RenderPasses)
