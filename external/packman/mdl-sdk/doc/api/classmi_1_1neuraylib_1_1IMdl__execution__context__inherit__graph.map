@@ -1,0 +1,5 @@
+<map id="mi::neuraylib::IMdl_execution_context" name="mi::neuraylib::IMdl_execution_context">
+<area shape="rect" id="node1" title="The execution context can be used to query status information like error and warning messages concern..." alt="" coords="5,155,276,181"/>
+<area shape="rect" id="node2" href="$classmi_1_1base_1_1Interface__declare.html" title=" " alt="" coords="20,80,261,107"/>
+<area shape="rect" id="node3" href="$classmi_1_1base_1_1IInterface.html" title="The basic extensible interface." alt="" coords="67,5,215,32"/>
+</map>

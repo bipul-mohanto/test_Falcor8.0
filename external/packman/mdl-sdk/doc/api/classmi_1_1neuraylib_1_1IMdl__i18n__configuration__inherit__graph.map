@@ -1,0 +1,5 @@
+<map id="mi::neuraylib::IMdl_i18n_configuration" name="mi::neuraylib::IMdl_i18n_configuration">
+<area shape="rect" id="node1" title="This interface is used to query and change MDL internationalization settings." alt="" coords="5,155,276,181"/>
+<area shape="rect" id="node2" href="$classmi_1_1base_1_1Interface__declare.html" title=" " alt="" coords="20,80,261,107"/>
+<area shape="rect" id="node3" href="$classmi_1_1base_1_1IInterface.html" title="The basic extensible interface." alt="" coords="67,5,215,32"/>
+</map>

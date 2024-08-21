@@ -1,0 +1,7 @@
+<map id="mi::neuraylib::IType_alias" name="mi::neuraylib::IType_alias">
+<area shape="rect" id="node1" title="The type of kind alias." alt="" coords="87,304,275,331"/>
+<area shape="rect" id="node2" href="$classmi_1_1base_1_1Interface__declare.html" title=" " alt="" coords="5,229,357,256"/>
+<area shape="rect" id="node3" href="$classmi_1_1neuraylib_1_1IType.html" title="The interface to MDL types." alt="" coords="106,155,257,181"/>
+<area shape="rect" id="node4" href="$classmi_1_1base_1_1Interface__declare.html" title=" " alt="" coords="61,80,302,107"/>
+<area shape="rect" id="node5" href="$classmi_1_1base_1_1IInterface.html" title="The basic extensible interface." alt="" coords="107,5,255,32"/>
+</map>

@@ -1,0 +1,11 @@
+<map id="mi::neuraylib::IType_bsdf_measurement" name="mi::neuraylib::IType_bsdf_measurement">
+<area shape="rect" id="node1" title="The type of kind bsdf_measurement." alt="" coords="75,603,357,629"/>
+<area shape="rect" id="node2" href="$classmi_1_1base_1_1Interface__declare.html" title=" " alt="" coords="9,528,423,555"/>
+<area shape="rect" id="node3" href="$classmi_1_1neuraylib_1_1IType__resource.html" title="A string valued resource type." alt="" coords="109,453,323,480"/>
+<area shape="rect" id="node4" href="$classmi_1_1base_1_1Interface__declare.html" title=" " alt="" coords="5,379,427,405"/>
+<area shape="rect" id="node5" href="$classmi_1_1neuraylib_1_1IType__reference.html" title="The reference types." alt="" coords="107,304,325,331"/>
+<area shape="rect" id="node6" href="$classmi_1_1base_1_1Interface__declare.html" title=" " alt="" coords="40,229,392,256"/>
+<area shape="rect" id="node7" href="$classmi_1_1neuraylib_1_1IType.html" title="The interface to MDL types." alt="" coords="141,155,291,181"/>
+<area shape="rect" id="node8" href="$classmi_1_1base_1_1Interface__declare.html" title=" " alt="" coords="95,80,337,107"/>
+<area shape="rect" id="node9" href="$classmi_1_1base_1_1IInterface.html" title="The basic extensible interface." alt="" coords="142,5,290,32"/>
+</map>

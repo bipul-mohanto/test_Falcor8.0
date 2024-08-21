@@ -1,0 +1,474 @@
+<map id="Graphical Class Hierarchy" name="Graphical Class Hierarchy">
+<area shape="rect" id="node1" href="$classmi_1_1base_1_1IInterface.html" title="The basic extensible interface." alt="" coords="35457,5,35605,32"/>
+<area shape="rect" id="node2" href="$classmi_1_1base_1_1Interface__declare.html" title=" " alt="" coords="24875,80,25117,107"/>
+<area shape="rect" id="node188" href="$classmi_1_1base_1_1Interface__declare.html" title=" " alt="" coords="25327,80,25569,107"/>
+<area shape="rect" id="node190" href="$classmi_1_1base_1_1Interface__declare.html" title=" " alt="" coords="25593,80,25834,107"/>
+<area shape="rect" id="node192" href="$classmi_1_1base_1_1Interface__declare.html" title=" " alt="" coords="25858,80,26099,107"/>
+<area shape="rect" id="node198" href="$classmi_1_1base_1_1Interface__declare.html" title=" " alt="" coords="26123,80,26365,107"/>
+<area shape="rect" id="node200" href="$classmi_1_1base_1_1Interface__declare.html" title=" " alt="" coords="26389,80,26630,107"/>
+<area shape="rect" id="node202" href="$classmi_1_1base_1_1Interface__declare.html" title=" " alt="" coords="26654,80,27029,107"/>
+<area shape="rect" id="node204" href="$classmi_1_1base_1_1Interface__declare.html" title=" " alt="" coords="27053,80,27294,107"/>
+<area shape="rect" id="node206" href="$classmi_1_1base_1_1Interface__declare.html" title=" " alt="" coords="27318,80,27559,107"/>
+<area shape="rect" id="node208" href="$classmi_1_1base_1_1Interface__declare.html" title=" " alt="" coords="27583,80,27825,107"/>
+<area shape="rect" id="node210" href="$classmi_1_1base_1_1Interface__declare.html" title=" " alt="" coords="27849,80,28090,107"/>
+<area shape="rect" id="node212" href="$classmi_1_1base_1_1Interface__declare.html" title=" " alt="" coords="28114,80,28355,107"/>
+<area shape="rect" id="node236" href="$classmi_1_1base_1_1Interface__declare.html" title=" " alt="" coords="28379,80,28621,107"/>
+<area shape="rect" id="node238" href="$classmi_1_1base_1_1Interface__declare.html" title=" " alt="" coords="28645,80,28886,107"/>
+<area shape="rect" id="node242" href="$classmi_1_1base_1_1Interface__declare.html" title=" " alt="" coords="28910,80,29151,107"/>
+<area shape="rect" id="node246" href="$classmi_1_1base_1_1Interface__declare.html" title=" " alt="" coords="29175,80,29417,107"/>
+<area shape="rect" id="node248" href="$classmi_1_1base_1_1Interface__declare.html" title=" " alt="" coords="29441,80,29682,107"/>
+<area shape="rect" id="node252" href="$classmi_1_1base_1_1Interface__declare.html" title=" " alt="" coords="29706,80,29947,107"/>
+<area shape="rect" id="node254" href="$classmi_1_1base_1_1Interface__declare.html" title=" " alt="" coords="29971,80,30213,107"/>
+<area shape="rect" id="node256" href="$classmi_1_1base_1_1Interface__declare.html" title=" " alt="" coords="30237,80,30478,107"/>
+<area shape="rect" id="node258" href="$classmi_1_1base_1_1Interface__declare.html" title=" " alt="" coords="30502,80,30743,107"/>
+<area shape="rect" id="node260" href="$classmi_1_1base_1_1Interface__declare.html" title=" " alt="" coords="30767,80,31009,107"/>
+<area shape="rect" id="node272" href="$classmi_1_1base_1_1Interface__declare.html" title=" " alt="" coords="31033,80,31274,107"/>
+<area shape="rect" id="node274" href="$classmi_1_1base_1_1Interface__declare.html" title=" " alt="" coords="31298,80,31539,107"/>
+<area shape="rect" id="node276" href="$classmi_1_1base_1_1Interface__declare.html" title=" " alt="" coords="31563,80,31805,107"/>
+<area shape="rect" id="node278" href="$classmi_1_1base_1_1Interface__declare.html" title=" " alt="" coords="31829,80,32070,107"/>
+<area shape="rect" id="node280" href="$classmi_1_1base_1_1Interface__declare.html" title=" " alt="" coords="32094,80,32335,107"/>
+<area shape="rect" id="node282" href="$classmi_1_1base_1_1Interface__declare.html" title=" " alt="" coords="32359,80,32601,107"/>
+<area shape="rect" id="node284" href="$classmi_1_1base_1_1Interface__declare.html" title=" " alt="" coords="32625,80,32866,107"/>
+<area shape="rect" id="node286" href="$classmi_1_1base_1_1Interface__declare.html" title=" " alt="" coords="32890,80,33131,107"/>
+<area shape="rect" id="node288" href="$classmi_1_1base_1_1Interface__declare.html" title=" " alt="" coords="33155,80,33397,107"/>
+<area shape="rect" id="node290" href="$classmi_1_1base_1_1Interface__declare.html" title=" " alt="" coords="33421,80,33662,107"/>
+<area shape="rect" id="node292" href="$classmi_1_1base_1_1Interface__declare.html" title=" " alt="" coords="33686,80,33927,107"/>
+<area shape="rect" id="node294" href="$classmi_1_1base_1_1Interface__declare.html" title=" " alt="" coords="33951,80,34193,107"/>
+<area shape="rect" id="node296" href="$classmi_1_1base_1_1Interface__declare.html" title=" " alt="" coords="34217,80,34458,107"/>
+<area shape="rect" id="node298" href="$classmi_1_1base_1_1Interface__declare.html" title=" " alt="" coords="34482,80,34723,107"/>
+<area shape="rect" id="node300" href="$classmi_1_1base_1_1Interface__declare.html" title=" " alt="" coords="34747,80,34989,107"/>
+<area shape="rect" id="node302" href="$classmi_1_1base_1_1Interface__declare.html" title=" " alt="" coords="35013,80,35254,107"/>
+<area shape="rect" id="node304" href="$classmi_1_1base_1_1Interface__declare.html" title=" " alt="" coords="35278,80,35519,107"/>
+<area shape="rect" id="node306" href="$classmi_1_1base_1_1Interface__declare.html" title=" " alt="" coords="35543,80,35785,107"/>
+<area shape="rect" id="node308" href="$classmi_1_1base_1_1Interface__declare.html" title=" " alt="" coords="35809,80,36050,107"/>
+<area shape="rect" id="node310" href="$classmi_1_1base_1_1Interface__declare.html" title=" " alt="" coords="36074,80,36315,107"/>
+<area shape="rect" id="node312" href="$classmi_1_1base_1_1Interface__declare.html" title=" " alt="" coords="36339,80,36581,107"/>
+<area shape="rect" id="node314" href="$classmi_1_1base_1_1Interface__declare.html" title=" " alt="" coords="36605,80,36846,107"/>
+<area shape="rect" id="node316" href="$classmi_1_1base_1_1Interface__declare.html" title=" " alt="" coords="36870,80,37111,107"/>
+<area shape="rect" id="node318" href="$classmi_1_1base_1_1Interface__declare.html" title=" " alt="" coords="37135,80,37377,107"/>
+<area shape="rect" id="node320" href="$classmi_1_1base_1_1Interface__declare.html" title=" " alt="" coords="37401,80,37642,107"/>
+<area shape="rect" id="node322" href="$classmi_1_1base_1_1Interface__declare.html" title=" " alt="" coords="37666,80,37907,107"/>
+<area shape="rect" id="node324" href="$classmi_1_1base_1_1Interface__declare.html" title=" " alt="" coords="37931,80,38173,107"/>
+<area shape="rect" id="node326" href="$classmi_1_1base_1_1Interface__declare.html" title=" " alt="" coords="38197,80,38438,107"/>
+<area shape="rect" id="node328" href="$classmi_1_1base_1_1Interface__declare.html" title=" " alt="" coords="38462,80,38703,107"/>
+<area shape="rect" id="node330" href="$classmi_1_1base_1_1Interface__declare.html" title=" " alt="" coords="38727,80,38969,107"/>
+<area shape="rect" id="node332" href="$classmi_1_1base_1_1Interface__declare.html" title=" " alt="" coords="38993,80,39234,107"/>
+<area shape="rect" id="node334" href="$classmi_1_1base_1_1Interface__declare.html" title=" " alt="" coords="39258,80,39499,107"/>
+<area shape="rect" id="node336" href="$classmi_1_1base_1_1Interface__declare.html" title=" " alt="" coords="39523,80,39765,107"/>
+<area shape="rect" id="node338" href="$classmi_1_1base_1_1Interface__declare.html" title=" " alt="" coords="39789,80,40030,107"/>
+<area shape="rect" id="node340" href="$classmi_1_1base_1_1Interface__declare.html" title=" " alt="" coords="40054,80,40295,107"/>
+<area shape="rect" id="node342" href="$classmi_1_1base_1_1Interface__declare.html" title=" " alt="" coords="40319,80,40561,107"/>
+<area shape="rect" id="node344" href="$classmi_1_1base_1_1Interface__declare.html" title=" " alt="" coords="40585,80,40826,107"/>
+<area shape="rect" id="node346" href="$classmi_1_1base_1_1Interface__declare.html" title=" " alt="" coords="40850,80,41091,107"/>
+<area shape="rect" id="node348" href="$classmi_1_1base_1_1Interface__declare.html" title=" " alt="" coords="41115,80,41357,107"/>
+<area shape="rect" id="node354" href="$classmi_1_1base_1_1Interface__declare.html" title=" " alt="" coords="41381,80,41622,107"/>
+<area shape="rect" id="node356" href="$classmi_1_1base_1_1Interface__declare.html" title=" " alt="" coords="41646,80,41887,107"/>
+<area shape="rect" id="node358" href="$classmi_1_1base_1_1Interface__declare.html" title=" " alt="" coords="41911,80,42153,107"/>
+<area shape="rect" id="node360" href="$classmi_1_1base_1_1Interface__declare.html" title=" " alt="" coords="42177,80,42418,107"/>
+<area shape="rect" id="node362" href="$classmi_1_1base_1_1Interface__declare.html" title=" " alt="" coords="42442,80,42683,107"/>
+<area shape="rect" id="node364" href="$classmi_1_1base_1_1Interface__declare.html" title=" " alt="" coords="42707,80,42949,107"/>
+<area shape="rect" id="node366" href="$classmi_1_1base_1_1Interface__declare.html" title=" " alt="" coords="42973,80,43214,107"/>
+<area shape="rect" id="node368" href="$classmi_1_1base_1_1Interface__declare.html" title=" " alt="" coords="43238,80,43479,107"/>
+<area shape="rect" id="node370" href="$classmi_1_1base_1_1Interface__declare.html" title=" " alt="" coords="43503,80,43745,107"/>
+<area shape="rect" id="node372" href="$classmi_1_1base_1_1Interface__declare.html" title=" " alt="" coords="43769,80,44010,107"/>
+<area shape="rect" id="node422" href="$classmi_1_1base_1_1Interface__declare.html" title=" " alt="" coords="44034,80,44275,107"/>
+<area shape="rect" id="node424" href="$classmi_1_1base_1_1Interface__declare.html" title=" " alt="" coords="44299,80,44541,107"/>
+<area shape="rect" id="node426" href="$classmi_1_1base_1_1Interface__declare.html" title=" " alt="" coords="44565,80,44806,107"/>
+<area shape="rect" id="node466" href="$classmi_1_1base_1_1Interface__declare.html" title=" " alt="" coords="44830,80,45071,107"/>
+<area shape="rect" id="node468" href="$classmi_1_1base_1_1Interface__declare.html" title=" " alt="" coords="45095,80,45337,107"/>
+<area shape="rect" id="node470" href="$classmi_1_1base_1_1Interface__declare.html" title=" " alt="" coords="45361,80,45602,107"/>
+<area shape="rect" id="node472" href="$classmi_1_1base_1_1Interface__declare.html" title="Mixin class template for deriving new interface declarations." alt="" coords="45627,80,46184,107"/>
+<area shape="rect" id="node3" href="$classmi_1_1IData.html" title="This interface is the base interface of all types." alt="" coords="24761,155,24844,181"/>
+<area shape="rect" id="node4" href="$classmi_1_1base_1_1Interface__declare.html" title=" " alt="" coords="17893,229,18177,256"/>
+<area shape="rect" id="node144" href="$classmi_1_1base_1_1Interface__declare.html" title=" " alt="" coords="24661,229,24945,256"/>
+<area shape="rect" id="node5" href="$classmi_1_1IData__collection.html" title="This interface represents collections." alt="" coords="11701,304,11853,331"/>
+<area shape="rect" id="node6" href="$classmi_1_1base_1_1Interface__declare.html" title=" " alt="" coords="8168,379,8523,405"/>
+<area shape="rect" id="node10" href="$classmi_1_1base_1_1Interface__declare.html" title=" " alt="" coords="11221,379,11576,405"/>
+<area shape="rect" id="node140" href="$classmi_1_1base_1_1Interface__declare.html" title=" " alt="" coords="11600,379,11955,405"/>
+<area shape="rect" id="node142" href="$classmi_1_1base_1_1Interface__declare.html" title=" " alt="" coords="11979,379,12333,405"/>
+<area shape="rect" id="node7" href="$classmi_1_1IArray.html" title="This interface represents static arrays, i.e., arrays with a fixed number of elements." alt="" coords="2954,453,3041,480"/>
+<area shape="rect" id="node8" href="$classmi_1_1base_1_1Interface__declare.html" title=" " alt="" coords="5,528,293,555"/>
+<area shape="rect" id="node9" href="$classmi_1_1IDynamic__array.html" title="This interface represents dynamic arrays, i.e., arrays with a variable number of elements." alt="" coords="74,603,225,629"/>
+<area shape="rect" id="node11" href="$classmi_1_1ICompound.html" title="This interface represents compounds, i.e., vectors, matrices, colors, spectrums, and bounding boxes." alt="" coords="11338,453,11459,480"/>
+<area shape="rect" id="node12" href="$classmi_1_1base_1_1Interface__declare.html" title=" " alt="" coords="317,528,640,555"/>
+<area shape="rect" id="node14" href="$classmi_1_1base_1_1Interface__declare.html" title=" " alt="" coords="664,528,987,555"/>
+<area shape="rect" id="node16" href="$classmi_1_1base_1_1Interface__declare.html" title=" " alt="" coords="1011,528,1333,555"/>
+<area shape="rect" id="node18" href="$classmi_1_1base_1_1Interface__declare.html" title=" " alt="" coords="1357,528,1680,555"/>
+<area shape="rect" id="node20" href="$classmi_1_1base_1_1Interface__declare.html" title=" " alt="" coords="1704,528,2027,555"/>
+<area shape="rect" id="node22" href="$classmi_1_1base_1_1Interface__declare.html" title=" " alt="" coords="2051,528,2373,555"/>
+<area shape="rect" id="node24" href="$classmi_1_1base_1_1Interface__declare.html" title=" " alt="" coords="2397,528,2720,555"/>
+<area shape="rect" id="node26" href="$classmi_1_1base_1_1Interface__declare.html" title=" " alt="" coords="2744,528,3067,555"/>
+<area shape="rect" id="node28" href="$classmi_1_1base_1_1Interface__declare.html" title=" " alt="" coords="3091,528,3413,555"/>
+<area shape="rect" id="node30" href="$classmi_1_1base_1_1Interface__declare.html" title=" " alt="" coords="3437,528,3760,555"/>
+<area shape="rect" id="node32" href="$classmi_1_1base_1_1Interface__declare.html" title=" " alt="" coords="3784,528,4107,555"/>
+<area shape="rect" id="node34" href="$classmi_1_1base_1_1Interface__declare.html" title=" " alt="" coords="4131,528,4453,555"/>
+<area shape="rect" id="node36" href="$classmi_1_1base_1_1Interface__declare.html" title=" " alt="" coords="4477,528,4800,555"/>
+<area shape="rect" id="node38" href="$classmi_1_1base_1_1Interface__declare.html" title=" " alt="" coords="4824,528,5147,555"/>
+<area shape="rect" id="node40" href="$classmi_1_1base_1_1Interface__declare.html" title=" " alt="" coords="5171,528,5493,555"/>
+<area shape="rect" id="node42" href="$classmi_1_1base_1_1Interface__declare.html" title=" " alt="" coords="5517,528,5840,555"/>
+<area shape="rect" id="node44" href="$classmi_1_1base_1_1Interface__declare.html" title=" " alt="" coords="5864,528,6187,555"/>
+<area shape="rect" id="node46" href="$classmi_1_1base_1_1Interface__declare.html" title=" " alt="" coords="6211,528,6533,555"/>
+<area shape="rect" id="node48" href="$classmi_1_1base_1_1Interface__declare.html" title=" " alt="" coords="6557,528,6880,555"/>
+<area shape="rect" id="node50" href="$classmi_1_1base_1_1Interface__declare.html" title=" " alt="" coords="6904,528,7227,555"/>
+<area shape="rect" id="node52" href="$classmi_1_1base_1_1Interface__declare.html" title=" " alt="" coords="7251,528,7573,555"/>
+<area shape="rect" id="node54" href="$classmi_1_1base_1_1Interface__declare.html" title=" " alt="" coords="7597,528,7920,555"/>
+<area shape="rect" id="node56" href="$classmi_1_1base_1_1Interface__declare.html" title=" " alt="" coords="7944,528,8267,555"/>
+<area shape="rect" id="node58" href="$classmi_1_1base_1_1Interface__declare.html" title=" " alt="" coords="8291,528,8613,555"/>
+<area shape="rect" id="node60" href="$classmi_1_1base_1_1Interface__declare.html" title=" " alt="" coords="8637,528,8960,555"/>
+<area shape="rect" id="node62" href="$classmi_1_1base_1_1Interface__declare.html" title=" " alt="" coords="8984,528,9307,555"/>
+<area shape="rect" id="node64" href="$classmi_1_1base_1_1Interface__declare.html" title=" " alt="" coords="9331,528,9653,555"/>
+<area shape="rect" id="node66" href="$classmi_1_1base_1_1Interface__declare.html" title=" " alt="" coords="9677,528,10000,555"/>
+<area shape="rect" id="node68" href="$classmi_1_1base_1_1Interface__declare.html" title=" " alt="" coords="10024,528,10347,555"/>
+<area shape="rect" id="node70" href="$classmi_1_1base_1_1Interface__declare.html" title=" " alt="" coords="10371,528,10693,555"/>
+<area shape="rect" id="node72" href="$classmi_1_1base_1_1Interface__declare.html" title=" " alt="" coords="10717,528,11040,555"/>
+<area shape="rect" id="node74" href="$classmi_1_1base_1_1Interface__declare.html" title=" " alt="" coords="11064,528,11387,555"/>
+<area shape="rect" id="node76" href="$classmi_1_1base_1_1Interface__declare.html" title=" " alt="" coords="11411,528,11733,555"/>
+<area shape="rect" id="node78" href="$classmi_1_1base_1_1Interface__declare.html" title=" " alt="" coords="11757,528,12080,555"/>
+<area shape="rect" id="node80" href="$classmi_1_1base_1_1Interface__declare.html" title=" " alt="" coords="12104,528,12427,555"/>
+<area shape="rect" id="node82" href="$classmi_1_1base_1_1Interface__declare.html" title=" " alt="" coords="12451,528,12773,555"/>
+<area shape="rect" id="node84" href="$classmi_1_1base_1_1Interface__declare.html" title=" " alt="" coords="12797,528,13120,555"/>
+<area shape="rect" id="node86" href="$classmi_1_1base_1_1Interface__declare.html" title=" " alt="" coords="13144,528,13467,555"/>
+<area shape="rect" id="node88" href="$classmi_1_1base_1_1Interface__declare.html" title=" " alt="" coords="13491,528,13813,555"/>
+<area shape="rect" id="node90" href="$classmi_1_1base_1_1Interface__declare.html" title=" " alt="" coords="13837,528,14160,555"/>
+<area shape="rect" id="node92" href="$classmi_1_1base_1_1Interface__declare.html" title=" " alt="" coords="14184,528,14507,555"/>
+<area shape="rect" id="node94" href="$classmi_1_1base_1_1Interface__declare.html" title=" " alt="" coords="14531,528,14853,555"/>
+<area shape="rect" id="node96" href="$classmi_1_1base_1_1Interface__declare.html" title=" " alt="" coords="14877,528,15200,555"/>
+<area shape="rect" id="node98" href="$classmi_1_1base_1_1Interface__declare.html" title=" " alt="" coords="15224,528,15547,555"/>
+<area shape="rect" id="node100" href="$classmi_1_1base_1_1Interface__declare.html" title=" " alt="" coords="15571,528,15893,555"/>
+<area shape="rect" id="node102" href="$classmi_1_1base_1_1Interface__declare.html" title=" " alt="" coords="15917,528,16240,555"/>
+<area shape="rect" id="node104" href="$classmi_1_1base_1_1Interface__declare.html" title=" " alt="" coords="16264,528,16587,555"/>
+<area shape="rect" id="node106" href="$classmi_1_1base_1_1Interface__declare.html" title=" " alt="" coords="16611,528,16933,555"/>
+<area shape="rect" id="node108" href="$classmi_1_1base_1_1Interface__declare.html" title=" " alt="" coords="16957,528,17280,555"/>
+<area shape="rect" id="node110" href="$classmi_1_1base_1_1Interface__declare.html" title=" " alt="" coords="17304,528,17627,555"/>
+<area shape="rect" id="node112" href="$classmi_1_1base_1_1Interface__declare.html" title=" " alt="" coords="17651,528,17973,555"/>
+<area shape="rect" id="node114" href="$classmi_1_1base_1_1Interface__declare.html" title=" " alt="" coords="17997,528,18320,555"/>
+<area shape="rect" id="node116" href="$classmi_1_1base_1_1Interface__declare.html" title=" " alt="" coords="18344,528,18667,555"/>
+<area shape="rect" id="node118" href="$classmi_1_1base_1_1Interface__declare.html" title=" " alt="" coords="18691,528,19013,555"/>
+<area shape="rect" id="node120" href="$classmi_1_1base_1_1Interface__declare.html" title=" " alt="" coords="19037,528,19360,555"/>
+<area shape="rect" id="node122" href="$classmi_1_1base_1_1Interface__declare.html" title=" " alt="" coords="19384,528,19707,555"/>
+<area shape="rect" id="node124" href="$classmi_1_1base_1_1Interface__declare.html" title=" " alt="" coords="19731,528,20053,555"/>
+<area shape="rect" id="node126" href="$classmi_1_1base_1_1Interface__declare.html" title=" " alt="" coords="20077,528,20400,555"/>
+<area shape="rect" id="node128" href="$classmi_1_1base_1_1Interface__declare.html" title=" " alt="" coords="20424,528,20747,555"/>
+<area shape="rect" id="node130" href="$classmi_1_1base_1_1Interface__declare.html" title=" " alt="" coords="20771,528,21093,555"/>
+<area shape="rect" id="node132" href="$classmi_1_1base_1_1Interface__declare.html" title=" " alt="" coords="21117,528,21440,555"/>
+<area shape="rect" id="node134" href="$classmi_1_1base_1_1Interface__declare.html" title=" " alt="" coords="21464,528,21787,555"/>
+<area shape="rect" id="node136" href="$classmi_1_1base_1_1Interface__declare.html" title=" " alt="" coords="21811,528,22133,555"/>
+<area shape="rect" id="node138" href="$classmi_1_1base_1_1Interface__declare.html" title=" " alt="" coords="22157,528,22480,555"/>
+<area shape="rect" id="node13" href="$classmi_1_1IBbox3.html" title="This interface represents bounding boxes." alt="" coords="433,603,525,629"/>
+<area shape="rect" id="node15" href="$classmi_1_1IBoolean__2.html" title="This interface represents a vector of two bool." alt="" coords="766,603,885,629"/>
+<area shape="rect" id="node17" href="$classmi_1_1IBoolean__2__2.html" title="This interface represents a 2 x 2 matrix of bool." alt="" coords="1105,603,1239,629"/>
+<area shape="rect" id="node19" href="$classmi_1_1IBoolean__2__3.html" title="This interface represents a 2 x 3 matrix of bool." alt="" coords="1451,603,1586,629"/>
+<area shape="rect" id="node21" href="$classmi_1_1IBoolean__2__4.html" title="This interface represents a 2 x 4 matrix of bool." alt="" coords="1798,603,1933,629"/>
+<area shape="rect" id="node23" href="$classmi_1_1IBoolean__3.html" title="This interface represents a vector of three bool." alt="" coords="2153,603,2271,629"/>
+<area shape="rect" id="node25" href="$classmi_1_1IBoolean__3__2.html" title="This interface represents a 3 x 2 matrix of bool." alt="" coords="2491,603,2626,629"/>
+<area shape="rect" id="node27" href="$classmi_1_1IBoolean__3__3.html" title="This interface represents a 3 x 3 matrix of bool." alt="" coords="2838,603,2973,629"/>
+<area shape="rect" id="node29" href="$classmi_1_1IBoolean__3__4.html" title="This interface represents a 3 x 4 matrix of bool." alt="" coords="3185,603,3319,629"/>
+<area shape="rect" id="node31" href="$classmi_1_1IBoolean__4.html" title="This interface represents a vector of four bool." alt="" coords="3539,603,3658,629"/>
+<area shape="rect" id="node33" href="$classmi_1_1IBoolean__4__2.html" title="This interface represents a 4 x 2 matrix of bool." alt="" coords="3878,603,4013,629"/>
+<area shape="rect" id="node35" href="$classmi_1_1IBoolean__4__3.html" title="This interface represents a 4 x 3 matrix of bool." alt="" coords="4225,603,4359,629"/>
+<area shape="rect" id="node37" href="$classmi_1_1IBoolean__4__4.html" title="This interface represents a 4 x 4 matrix of bool." alt="" coords="4571,603,4706,629"/>
+<area shape="rect" id="node39" href="$classmi_1_1IColor.html" title="This interface represents RGBA colors." alt="" coords="4943,603,5028,629"/>
+<area shape="rect" id="node41" href="$classmi_1_1IColor3.html" title="This interface represents RGB colors." alt="" coords="5285,603,5379,629"/>
+<area shape="rect" id="node43" href="$classmi_1_1IFloat32__2.html" title="This interface represents a vector of two Float32." alt="" coords="5621,603,5736,629"/>
+<area shape="rect" id="node45" href="$classmi_1_1IFloat32__2__2.html" title="This interface represents a 2 x 2 matrix of Float32." alt="" coords="5961,603,6090,629"/>
+<area shape="rect" id="node47" href="$classmi_1_1IFloat32__2__3.html" title="This interface represents a 2 x 3 matrix of Float32." alt="" coords="6307,603,6437,629"/>
+<area shape="rect" id="node49" href="$classmi_1_1IFloat32__2__4.html" title="This interface represents a 2 x 4 matrix of Float32." alt="" coords="6654,603,6783,629"/>
+<area shape="rect" id="node51" href="$classmi_1_1IFloat32__3.html" title="This interface represents a vector of three Float32." alt="" coords="7008,603,7123,629"/>
+<area shape="rect" id="node53" href="$classmi_1_1IFloat32__3__2.html" title="This interface represents a 3 x 2 matrix of Float32." alt="" coords="7347,603,7477,629"/>
+<area shape="rect" id="node55" href="$classmi_1_1IFloat32__3__3.html" title="This interface represents a 3 x 3 matrix of Float32." alt="" coords="7694,603,7823,629"/>
+<area shape="rect" id="node57" href="$classmi_1_1IFloat32__3__4.html" title="This interface represents a 3 x 4 matrix of Float32." alt="" coords="8041,603,8170,629"/>
+<area shape="rect" id="node59" href="$classmi_1_1IFloat32__4.html" title="This interface represents a vector of four Float32." alt="" coords="8395,603,8509,629"/>
+<area shape="rect" id="node61" href="$classmi_1_1IFloat32__4__2.html" title="This interface represents a 4 x 2 matrix of Float32." alt="" coords="8734,603,8863,629"/>
+<area shape="rect" id="node63" href="$classmi_1_1IFloat32__4__3.html" title="This interface represents a 4 x 3 matrix of Float32." alt="" coords="9081,603,9210,629"/>
+<area shape="rect" id="node65" href="$classmi_1_1IFloat32__4__4.html" title="This interface represents a 4 x 4 matrix of Float32." alt="" coords="9427,603,9557,629"/>
+<area shape="rect" id="node67" href="$classmi_1_1IFloat64__2.html" title="This interface represents a vector of two Float64." alt="" coords="9781,603,9896,629"/>
+<area shape="rect" id="node69" href="$classmi_1_1IFloat64__2__2.html" title="This interface represents a 2 x 2 matrix of Float64." alt="" coords="10121,603,10250,629"/>
+<area shape="rect" id="node71" href="$classmi_1_1IFloat64__2__3.html" title="This interface represents a 2 x 3 matrix of Float64." alt="" coords="10467,603,10597,629"/>
+<area shape="rect" id="node73" href="$classmi_1_1IFloat64__2__4.html" title="This interface represents a 2 x 4 matrix of Float64." alt="" coords="10814,603,10943,629"/>
+<area shape="rect" id="node75" href="$classmi_1_1IFloat64__3.html" title="This interface represents a vector of three Float64." alt="" coords="11168,603,11283,629"/>
+<area shape="rect" id="node77" href="$classmi_1_1IFloat64__3__2.html" title="This interface represents a 3 x 2 matrix of Float64." alt="" coords="11507,603,11637,629"/>
+<area shape="rect" id="node79" href="$classmi_1_1IFloat64__3__3.html" title="This interface represents a 3 x 3 matrix of Float64." alt="" coords="11854,603,11983,629"/>
+<area shape="rect" id="node81" href="$classmi_1_1IFloat64__3__4.html" title="This interface represents a 3 x 4 matrix of Float64." alt="" coords="12201,603,12330,629"/>
+<area shape="rect" id="node83" href="$classmi_1_1IFloat64__4.html" title="This interface represents a vector of four Float64." alt="" coords="12555,603,12669,629"/>
+<area shape="rect" id="node85" href="$classmi_1_1IFloat64__4__2.html" title="This interface represents a 4 x 2 matrix of Float64." alt="" coords="12894,603,13023,629"/>
+<area shape="rect" id="node87" href="$classmi_1_1IFloat64__4__3.html" title="This interface represents a 4 x 3 matrix of Float64." alt="" coords="13241,603,13370,629"/>
+<area shape="rect" id="node89" href="$classmi_1_1IFloat64__4__4.html" title="This interface represents a 4 x 4 matrix of Float64." alt="" coords="13587,603,13717,629"/>
+<area shape="rect" id="node91" href="$classmi_1_1ISint32__2.html" title="This interface represents a vector of two Sint32." alt="" coords="13945,603,14052,629"/>
+<area shape="rect" id="node93" href="$classmi_1_1ISint32__2__2.html" title="This interface represents a 2 x 2 matrix of Sint32." alt="" coords="14284,603,14407,629"/>
+<area shape="rect" id="node95" href="$classmi_1_1ISint32__2__3.html" title="This interface represents a 2 x 3 matrix of Sint32." alt="" coords="14631,603,14753,629"/>
+<area shape="rect" id="node97" href="$classmi_1_1ISint32__2__4.html" title="This interface represents a 2 x 4 matrix of Sint32." alt="" coords="14977,603,15100,629"/>
+<area shape="rect" id="node99" href="$classmi_1_1ISint32__3.html" title="This interface represents a vector of three Sint32." alt="" coords="15332,603,15439,629"/>
+<area shape="rect" id="node101" href="$classmi_1_1ISint32__3__2.html" title="This interface represents a 3 x 2 matrix of Sint32." alt="" coords="15671,603,15793,629"/>
+<area shape="rect" id="node103" href="$classmi_1_1ISint32__3__3.html" title="This interface represents a 3 x 3 matrix of Sint32." alt="" coords="16017,603,16140,629"/>
+<area shape="rect" id="node105" href="$classmi_1_1ISint32__3__4.html" title="This interface represents a 3 x 4 matrix of Sint32." alt="" coords="16364,603,16487,629"/>
+<area shape="rect" id="node107" href="$classmi_1_1ISint32__4.html" title="This interface represents a vector of four Sint32." alt="" coords="16719,603,16825,629"/>
+<area shape="rect" id="node109" href="$classmi_1_1ISint32__4__2.html" title="This interface represents a 4 x 2 matrix of Sint32." alt="" coords="17057,603,17180,629"/>
+<area shape="rect" id="node111" href="$classmi_1_1ISint32__4__3.html" title="This interface represents a 4 x 3 matrix of Sint32." alt="" coords="17404,603,17527,629"/>
+<area shape="rect" id="node113" href="$classmi_1_1ISint32__4__4.html" title="This interface represents a 4 x 4 matrix of Sint32." alt="" coords="17751,603,17873,629"/>
+<area shape="rect" id="node115" href="$classmi_1_1ISpectrum.html" title="This interface represents spectrums." alt="" coords="18102,603,18215,629"/>
+<area shape="rect" id="node117" href="$classmi_1_1IUint32__2.html" title="This interface represents a vector of two Uint32." alt="" coords="18451,603,18560,629"/>
+<area shape="rect" id="node119" href="$classmi_1_1IUint32__2__2.html" title="This interface represents a 2 x 2 matrix of Uint32." alt="" coords="18790,603,18914,629"/>
+<area shape="rect" id="node121" href="$classmi_1_1IUint32__2__3.html" title="This interface represents a 2 x 3 matrix of Uint32." alt="" coords="19137,603,19261,629"/>
+<area shape="rect" id="node123" href="$classmi_1_1IUint32__2__4.html" title="This interface represents a 2 x 4 matrix of Uint32." alt="" coords="19483,603,19607,629"/>
+<area shape="rect" id="node125" href="$classmi_1_1IUint32__3.html" title="This interface represents a vector of three Uint32." alt="" coords="19837,603,19947,629"/>
+<area shape="rect" id="node127" href="$classmi_1_1IUint32__3__2.html" title="This interface represents a 3 x 2 matrix of Uint32." alt="" coords="20177,603,20301,629"/>
+<area shape="rect" id="node129" href="$classmi_1_1IUint32__3__3.html" title="This interface represents a 3 x 3 matrix of Uint32." alt="" coords="20523,603,20647,629"/>
+<area shape="rect" id="node131" href="$classmi_1_1IUint32__3__4.html" title="This interface represents a 3 x 4 matrix of Uint32." alt="" coords="20870,603,20994,629"/>
+<area shape="rect" id="node133" href="$classmi_1_1IUint32__4.html" title="This interface represents a vector of four Uint32." alt="" coords="21224,603,21333,629"/>
+<area shape="rect" id="node135" href="$classmi_1_1IUint32__4__2.html" title="This interface represents a 4 x 2 matrix of Uint32." alt="" coords="21563,603,21687,629"/>
+<area shape="rect" id="node137" href="$classmi_1_1IUint32__4__3.html" title="This interface represents a 4 x 3 matrix of Uint32." alt="" coords="21910,603,22034,629"/>
+<area shape="rect" id="node139" href="$classmi_1_1IUint32__4__4.html" title="This interface represents a 4 x 4 matrix of Uint32." alt="" coords="22257,603,22381,629"/>
+<area shape="rect" id="node141" href="$classmi_1_1IMap.html" title="This interface represents maps, i.e., a key&#45;value based data structure." alt="" coords="11738,453,11817,480"/>
+<area shape="rect" id="node143" href="$classmi_1_1IStructure.html" title="This interface represents structures, i.e., a key&#45;value based data structure." alt="" coords="12101,453,12211,480"/>
+<area shape="rect" id="node145" href="$classmi_1_1IData__simple.html" title="This interface represents simple types." alt="" coords="24736,304,24869,331"/>
+<area shape="rect" id="node146" href="$classmi_1_1base_1_1Interface__declare.html" title=" " alt="" coords="23466,379,23801,405"/>
+<area shape="rect" id="node148" href="$classmi_1_1base_1_1Interface__declare.html" title=" " alt="" coords="23825,379,24159,405"/>
+<area shape="rect" id="node150" href="$classmi_1_1base_1_1Interface__declare.html" title=" " alt="" coords="24183,379,24518,405"/>
+<area shape="rect" id="node178" href="$classmi_1_1base_1_1Interface__declare.html" title=" " alt="" coords="24542,379,24877,405"/>
+<area shape="rect" id="node180" href="$classmi_1_1base_1_1Interface__declare.html" title=" " alt="" coords="24901,379,25235,405"/>
+<area shape="rect" id="node182" href="$classmi_1_1base_1_1Interface__declare.html" title=" " alt="" coords="25259,379,25594,405"/>
+<area shape="rect" id="node184" href="$classmi_1_1base_1_1Interface__declare.html" title=" " alt="" coords="25618,379,25953,405"/>
+<area shape="rect" id="node186" href="$classmi_1_1base_1_1Interface__declare.html" title=" " alt="" coords="25977,379,26311,405"/>
+<area shape="rect" id="node147" href="$classmi_1_1IConst__pointer.html" title="This interface represents const pointers." alt="" coords="23563,453,23704,480"/>
+<area shape="rect" id="node149" href="$classmi_1_1IEnum.html" title="This interface represents enums." alt="" coords="23948,453,24036,480"/>
+<area shape="rect" id="node151" href="$classmi_1_1INumber.html" title="This interface represents simple numeric types." alt="" coords="24417,453,24519,480"/>
+<area shape="rect" id="node152" href="$classmi_1_1base_1_1Interface__declare.html" title=" " alt="" coords="22505,528,22810,555"/>
+<area shape="rect" id="node154" href="$classmi_1_1base_1_1Interface__declare.html" title=" " alt="" coords="22834,528,23139,555"/>
+<area shape="rect" id="node156" href="$classmi_1_1base_1_1Interface__declare.html" title=" " alt="" coords="23163,528,23469,555"/>
+<area shape="rect" id="node158" href="$classmi_1_1base_1_1Interface__declare.html" title=" " alt="" coords="23493,528,23798,555"/>
+<area shape="rect" id="node160" href="$classmi_1_1base_1_1Interface__declare.html" title=" " alt="" coords="23822,528,24127,555"/>
+<area shape="rect" id="node162" href="$classmi_1_1base_1_1Interface__declare.html" title=" " alt="" coords="24151,528,24457,555"/>
+<area shape="rect" id="node164" href="$classmi_1_1base_1_1Interface__declare.html" title=" " alt="" coords="24481,528,24786,555"/>
+<area shape="rect" id="node166" href="$classmi_1_1base_1_1Interface__declare.html" title=" " alt="" coords="24810,528,25115,555"/>
+<area shape="rect" id="node168" href="$classmi_1_1base_1_1Interface__declare.html" title=" " alt="" coords="25139,528,25445,555"/>
+<area shape="rect" id="node170" href="$classmi_1_1base_1_1Interface__declare.html" title=" " alt="" coords="25469,528,25774,555"/>
+<area shape="rect" id="node172" href="$classmi_1_1base_1_1Interface__declare.html" title=" " alt="" coords="25798,528,26103,555"/>
+<area shape="rect" id="node174" href="$classmi_1_1base_1_1Interface__declare.html" title=" " alt="" coords="26127,528,26433,555"/>
+<area shape="rect" id="node176" href="$classmi_1_1base_1_1Interface__declare.html" title=" " alt="" coords="26457,528,26762,555"/>
+<area shape="rect" id="node153" href="$classmi_1_1IBoolean.html" title="This interface represents bool." alt="" coords="22605,603,22709,629"/>
+<area shape="rect" id="node155" href="$classmi_1_1IDifference.html" title="This interface represents mi::Difference." alt="" coords="22927,603,23046,629"/>
+<area shape="rect" id="node157" href="$classmi_1_1IFloat32.html" title="This interface represents mi::Float32." alt="" coords="23267,603,23365,629"/>
+<area shape="rect" id="node159" href="$classmi_1_1IFloat64.html" title="This interface represents mi::Float64." alt="" coords="23596,603,23695,629"/>
+<area shape="rect" id="node161" href="$classmi_1_1ISint16.html" title="This interface represents mi::Sint16." alt="" coords="23929,603,24021,629"/>
+<area shape="rect" id="node163" href="$classmi_1_1ISint32.html" title="This interface represents mi::Sint32." alt="" coords="24258,603,24350,629"/>
+<area shape="rect" id="node165" href="$classmi_1_1ISint64.html" title="This interface represents mi::Sint64." alt="" coords="24587,603,24679,629"/>
+<area shape="rect" id="node167" href="$classmi_1_1ISint8.html" title="This interface represents mi::Sint8." alt="" coords="24921,603,25005,629"/>
+<area shape="rect" id="node169" href="$classmi_1_1ISize.html" title="This interface represents mi::Size." alt="" coords="25253,603,25331,629"/>
+<area shape="rect" id="node171" href="$classmi_1_1IUint16.html" title="This interface represents mi::Uint16." alt="" coords="25574,603,25669,629"/>
+<area shape="rect" id="node173" href="$classmi_1_1IUint32.html" title="This interface represents mi::Uint32." alt="" coords="25903,603,25998,629"/>
+<area shape="rect" id="node175" href="$classmi_1_1IUint64.html" title="This interface represents mi::Uint64." alt="" coords="26233,603,26327,629"/>
+<area shape="rect" id="node177" href="$classmi_1_1IUint8.html" title="This interface represents mi::Uint8." alt="" coords="26566,603,26653,629"/>
+<area shape="rect" id="node179" href="$classmi_1_1IPointer.html" title="This interface represents mutable pointers." alt="" coords="24661,453,24758,480"/>
+<area shape="rect" id="node181" href="$classmi_1_1IRef.html" title="A reference is an object that acts as a pointer to other database elements." alt="" coords="25032,453,25104,480"/>
+<area shape="rect" id="node183" href="$classmi_1_1IString.html" title="A simple string class." alt="" coords="25382,453,25471,480"/>
+<area shape="rect" id="node185" href="$classmi_1_1IUuid.html" title="This interface represents UUIDs." alt="" coords="25745,453,25826,480"/>
+<area shape="rect" id="node187" href="$classmi_1_1IVoid.html" title="This interface represents the void type." alt="" coords="26105,453,26183,480"/>
+<area shape="rect" id="node189" href="$classmi_1_1IEnum__decl.html" title="An enum declaration is used to describe enum types." alt="" coords="25387,155,25509,181"/>
+<area shape="rect" id="node191" href="$classmi_1_1IStructure__decl.html" title="A structure declaration is used to describe structure types." alt="" coords="25641,155,25785,181"/>
+<area shape="rect" id="node193" href="$classmi_1_1base_1_1IAllocator.html" title="The IAllocator interface class supports allocating and releasing memory dynamically." alt="" coords="25905,155,26053,181"/>
+<area shape="rect" id="node194" href="$classmi_1_1base_1_1Interface__declare.html" title=" " alt="" coords="25607,229,25958,256"/>
+<area shape="rect" id="node196" href="$classmi_1_1base_1_1Interface__implement__singleton.html" title=" " alt="" coords="25983,229,26364,256"/>
+<area shape="rect" id="node195" href="$classmi_1_1neuraylib_1_1IAllocator.html" title="The Allocator interface class supports allocating and releasing memory dynamically and querying the a..." alt="" coords="25693,304,25872,331"/>
+<area shape="rect" id="node197" href="$classmi_1_1base_1_1Default__allocator.html" title="A default allocator implementation based on global new and delete." alt="" coords="26074,304,26273,331"/>
+<area shape="rect" id="node199" href="$classmi_1_1base_1_1ILogger.html" title="The ILogger interface class supports logging of messages." alt="" coords="26177,155,26311,181"/>
+<area shape="rect" id="node201" href="$classmi_1_1base_1_1IPlugin__descriptor.html" title="Represents a plugin." alt="" coords="26408,155,26611,181"/>
+<area shape="rect" id="node203" href="$classmi_1_1mdl_1_1IDag__builder.html" title="A Builder for DAG graphs." alt="" coords="26760,155,26923,181"/>
+<area shape="rect" id="node205" href="$classmi_1_1neuraylib_1_1IAnnotation.html" title="An annotation is similar to a direct call expression, but without return type." alt="" coords="27078,155,27269,181"/>
+<area shape="rect" id="node207" href="$classmi_1_1neuraylib_1_1IAnnotation__block.html" title="An annotation block is an array of annotations." alt="" coords="27318,155,27551,181"/>
+<area shape="rect" id="node209" href="$classmi_1_1neuraylib_1_1IAnnotation__definition.html" title="An annotation definition." alt="" coords="27576,155,27835,181"/>
+<area shape="rect" id="node211" href="$classmi_1_1neuraylib_1_1IAnnotation__list.html" title="An ordered collection of annotation blocks identified by name or index." alt="" coords="27860,155,28079,181"/>
+<area shape="rect" id="node213" href="$classmi_1_1neuraylib_1_1IAttribute__set.html" title="The attribute set comprises all attributes attached to a database element." alt="" coords="28133,155,28337,181"/>
+<area shape="rect" id="node214" href="$classmi_1_1base_1_1Interface__declare.html" title=" " alt="" coords="28031,229,28438,256"/>
+<area shape="rect" id="node215" href="$classmi_1_1neuraylib_1_1IScene__element.html" title="Common base interface for all scene elements." alt="" coords="28223,304,28443,331"/>
+<area shape="rect" id="node216" href="$classmi_1_1base_1_1Interface__declare.html" title=" " alt="" coords="26335,379,26758,405"/>
+<area shape="rect" id="node218" href="$classmi_1_1base_1_1Interface__declare.html" title=" " alt="" coords="26782,379,27205,405"/>
+<area shape="rect" id="node220" href="$classmi_1_1base_1_1Interface__declare.html" title=" " alt="" coords="27229,379,27651,405"/>
+<area shape="rect" id="node222" href="$classmi_1_1base_1_1Interface__declare.html" title=" " alt="" coords="27675,379,28098,405"/>
+<area shape="rect" id="node224" href="$classmi_1_1base_1_1Interface__declare.html" title=" " alt="" coords="28122,379,28545,405"/>
+<area shape="rect" id="node226" href="$classmi_1_1base_1_1Interface__declare.html" title=" " alt="" coords="28569,379,28991,405"/>
+<area shape="rect" id="node228" href="$classmi_1_1base_1_1Interface__declare.html" title=" " alt="" coords="29015,379,29438,405"/>
+<area shape="rect" id="node230" href="$classmi_1_1base_1_1Interface__declare.html" title=" " alt="" coords="29462,379,29885,405"/>
+<area shape="rect" id="node232" href="$classmi_1_1base_1_1Interface__declare.html" title=" " alt="" coords="29909,379,30331,405"/>
+<area shape="rect" id="node234" href="$classmi_1_1base_1_1Interface__declare.html" title=" " alt="" coords="30355,379,30778,405"/>
+<area shape="rect" id="node217" href="$classmi_1_1neuraylib_1_1IAttribute__container.html" title="An attribute container is a database element that stores attributes and no other data." alt="" coords="26424,453,26669,480"/>
+<area shape="rect" id="node219" href="$classmi_1_1neuraylib_1_1IBsdf__measurement.html" title="A scene element that stores measured BSDF data." alt="" coords="26870,453,27117,480"/>
+<area shape="rect" id="node221" href="$classmi_1_1neuraylib_1_1ICompiled__material.html" title="This interface represents a compiled material." alt="" coords="27318,453,27562,480"/>
+<area shape="rect" id="node223" href="$classmi_1_1neuraylib_1_1IFunction__call.html" title="This interface represents a function call." alt="" coords="27785,453,27989,480"/>
+<area shape="rect" id="node225" href="$classmi_1_1neuraylib_1_1IFunction__definition.html" title="This interface represents a function definition." alt="" coords="28212,453,28455,480"/>
+<area shape="rect" id="node227" href="$classmi_1_1neuraylib_1_1IImage.html" title="This interface represents a pixel image file." alt="" coords="28699,453,28861,480"/>
+<area shape="rect" id="node229" href="$classmi_1_1neuraylib_1_1ILightprofile.html" title="This interface represents light profiles." alt="" coords="29130,453,29323,480"/>
+<area shape="rect" id="node231" href="$classmi_1_1neuraylib_1_1IMaterial__instance.html" title="This interface represents a material instance." alt="" coords="29556,453,29791,480"/>
+<area shape="rect" id="node233" href="$classmi_1_1neuraylib_1_1IModule.html" title="This interface represents an MDL module." alt="" coords="30037,453,30203,480"/>
+<area shape="rect" id="node235" href="$classmi_1_1neuraylib_1_1ITexture.html" title="Textures add image processing options to images." alt="" coords="30483,453,30651,480"/>
+<area shape="rect" id="node237" href="$classmi_1_1neuraylib_1_1IBaker.html" title="Allows to bake a varying or uniform expression of a compiled material into a texture or constant." alt="" coords="28421,155,28579,181"/>
+<area shape="rect" id="node239" href="$classmi_1_1neuraylib_1_1IBsdf__buffer.html" title="Abstract interface for a buffer of BSDF values." alt="" coords="28636,155,28831,181"/>
+<area shape="rect" id="node240" href="$classmi_1_1base_1_1Interface__implement.html" title=" " alt="" coords="28462,229,28861,256"/>
+<area shape="rect" id="node241" href="$classmi_1_1neuraylib_1_1Bsdf__buffer.html" title="Example implementation of the abstract interface mi::neuraylib::IBsdf_buffer." alt="" coords="28566,304,28757,331"/>
+<area shape="rect" id="node243" href="$classmi_1_1neuraylib_1_1IBsdf__isotropic__data.html" title="Abstract interface for isotropic BSDF data." alt="" coords="28925,155,29173,181"/>
+<area shape="rect" id="node244" href="$classmi_1_1base_1_1Interface__implement.html" title=" " alt="" coords="28885,229,29339,256"/>
+<area shape="rect" id="node245" href="$classmi_1_1neuraylib_1_1Bsdf__isotropic__data.html" title="Example implementation of the abstract interface mi::neuraylib::IBsdf_isotropic_data." alt="" coords="28990,304,29234,331"/>
+<area shape="rect" id="node247" href="$classmi_1_1neuraylib_1_1IBuffer.html" title="Abstract interface for a simple buffer with binary data." alt="" coords="29217,155,29375,181"/>
+<area shape="rect" id="node249" href="$classmi_1_1neuraylib_1_1ICanvas__base.html" title="Abstract interface for a canvas (base class)." alt="" coords="29458,155,29665,181"/>
+<area shape="rect" id="node250" href="$classmi_1_1base_1_1Interface__declare.html" title=" " alt="" coords="29363,229,29771,256"/>
+<area shape="rect" id="node251" href="$classmi_1_1neuraylib_1_1ICanvas.html" title="Abstract interface for a canvas represented by a rectangular array of tiles." alt="" coords="29483,304,29651,331"/>
+<area shape="rect" id="node253" href="$classmi_1_1neuraylib_1_1IDatabase.html" title="This interface is used to interact with the distributed database." alt="" coords="29689,155,29871,181"/>
+<area shape="rect" id="node255" href="$classmi_1_1neuraylib_1_1IDebug__configuration.html" title="This interface represents an interface to set debug options." alt="" coords="29895,155,30150,181"/>
+<area shape="rect" id="node257" href="$classmi_1_1neuraylib_1_1IDeserialized__function__name.html" title="Represents a deserialized function name." alt="" coords="30174,155,30479,181"/>
+<area shape="rect" id="node259" href="$classmi_1_1neuraylib_1_1IDeserialized__module__name.html" title="Represents a deserialized module name." alt="" coords="30504,155,30805,181"/>
+<area shape="rect" id="node261" href="$classmi_1_1neuraylib_1_1IExpression.html" title="The interface to MDL expressions." alt="" coords="30830,155,31021,181"/>
+<area shape="rect" id="node262" href="$classmi_1_1base_1_1Interface__declare.html" title=" " alt="" coords="29894,229,30287,256"/>
+<area shape="rect" id="node264" href="$classmi_1_1base_1_1Interface__declare.html" title=" " alt="" coords="30311,229,30705,256"/>
+<area shape="rect" id="node266" href="$classmi_1_1base_1_1Interface__declare.html" title=" " alt="" coords="30729,229,31122,256"/>
+<area shape="rect" id="node268" href="$classmi_1_1base_1_1Interface__declare.html" title=" " alt="" coords="31146,229,31539,256"/>
+<area shape="rect" id="node270" href="$classmi_1_1base_1_1Interface__declare.html" title=" " alt="" coords="31563,229,31957,256"/>
+<area shape="rect" id="node263" href="$classmi_1_1neuraylib_1_1IExpression__call.html" title="An indirect call expression." alt="" coords="29980,304,30201,331"/>
+<area shape="rect" id="node265" href="$classmi_1_1neuraylib_1_1IExpression__constant.html" title="A constant expression." alt="" coords="30381,304,30635,331"/>
+<area shape="rect" id="node267" href="$classmi_1_1neuraylib_1_1IExpression__direct__call.html" title="A direct call expression." alt="" coords="30793,304,31058,331"/>
+<area shape="rect" id="node269" href="$classmi_1_1neuraylib_1_1IExpression__parameter.html" title="A parameter reference expression." alt="" coords="31209,304,31476,331"/>
+<area shape="rect" id="node271" href="$classmi_1_1neuraylib_1_1IExpression__temporary.html" title="A temporary reference expression." alt="" coords="31627,304,31893,331"/>
+<area shape="rect" id="node273" href="$classmi_1_1neuraylib_1_1IExpression__factory.html" title="The interface for creating expressions." alt="" coords="31045,155,31289,181"/>
+<area shape="rect" id="node275" href="$classmi_1_1neuraylib_1_1IExpression__list.html" title="An ordered collection of expressions identified by name or index." alt="" coords="31313,155,31532,181"/>
+<area shape="rect" id="node277" href="$classmi_1_1neuraylib_1_1IFactory.html" title="This API component allows the creation, assignment, and cloning of instances of types." alt="" coords="31601,155,31767,181"/>
+<area shape="rect" id="node279" href="$classmi_1_1neuraylib_1_1IImage__api.html" title="This interface provides various utilities related to canvases and buffers." alt="" coords="31855,155,32043,181"/>
+<area shape="rect" id="node281" href="$classmi_1_1neuraylib_1_1IImage__file.html" title="Abstract interface for image files." alt="" coords="32121,155,32309,181"/>
+<area shape="rect" id="node283" href="$classmi_1_1neuraylib_1_1IImpexp__base.html" title="Abstract base interface common for importers and exporters." alt="" coords="32377,155,32583,181"/>
+<area shape="rect" id="node285" href="$classmi_1_1neuraylib_1_1ILink__unit.html" title="Represents a link&#45;unit of an MDL backend." alt="" coords="32656,155,32835,181"/>
+<area shape="rect" id="node287" href="$classmi_1_1neuraylib_1_1IManifest.html" title="Represents the manifest in an MDL archive." alt="" coords="32923,155,33099,181"/>
+<area shape="rect" id="node289" href="$classmi_1_1neuraylib_1_1IMdl__archive__api.html" title="This API component provides functionality related to MDL archives." alt="" coords="33127,155,33353,181"/>
+<area shape="rect" id="node291" href="$classmi_1_1neuraylib_1_1IMdl__backend.html" title="MDL backends allow to transform compiled material instances or function calls into target code." alt="" coords="33377,155,33583,181"/>
+<area shape="rect" id="node293" href="$classmi_1_1neuraylib_1_1IMdl__backend__api.html" title="This interface can be used to obtain the MDL backends." alt="" coords="33607,155,33839,181"/>
+<area shape="rect" id="node295" href="$classmi_1_1neuraylib_1_1IMdl__compatibility__api.html" title="Provides access to various functions to inspect the compatibility between MDL modules and archives." alt="" coords="33863,155,34126,181"/>
+<area shape="rect" id="node297" href="$classmi_1_1neuraylib_1_1IMdl__compiler.html" title="The MDL compiler allows to register builtin modules." alt="" coords="34150,155,34357,181"/>
+<area shape="rect" id="node299" href="$classmi_1_1neuraylib_1_1IMdl__configuration.html" title="This interface can be used to query and change the MDL configuration." alt="" coords="34381,155,34616,181"/>
+<area shape="rect" id="node301" href="$classmi_1_1neuraylib_1_1IMdl__discovery__api.html" title="Interface for the discovery API." alt="" coords="34640,155,34880,181"/>
+<area shape="rect" id="node303" href="$classmi_1_1neuraylib_1_1IMdl__discovery__result.html" title="Interface for the discovery result." alt="" coords="34905,155,35162,181"/>
+<area shape="rect" id="node305" href="$classmi_1_1neuraylib_1_1IMdl__distiller__api.html" title="Provides access to various functionality related to MDL distilling." alt="" coords="35187,155,35413,181"/>
+<area shape="rect" id="node307" href="$classmi_1_1neuraylib_1_1IMdl__entity__resolver.html" title="The entity resolver is used to resolve MDL modules and resources in such modules." alt="" coords="35437,155,35685,181"/>
+<area shape="rect" id="node309" href="$classmi_1_1neuraylib_1_1IMdl__evaluator__api.html" title="Provides access to various functions for the evaluation of MDL expressions." alt="" coords="35710,155,35949,181"/>
+<area shape="rect" id="node311" href="$classmi_1_1neuraylib_1_1IMdl__execution__context.html" title="The execution context can be used to query status information like error and warning messages concern..." alt="" coords="35973,155,36243,181"/>
+<area shape="rect" id="node313" href="$classmi_1_1neuraylib_1_1IMdl__factory.html" title="Factory for various MDL interfaces and functions." alt="" coords="36267,155,36463,181"/>
+<area shape="rect" id="node315" href="$classmi_1_1neuraylib_1_1IMdl__i18n__configuration.html" title="This interface is used to query and change MDL internationalization settings." alt="" coords="36487,155,36758,181"/>
+<area shape="rect" id="node317" href="$classmi_1_1neuraylib_1_1IMdl__impexp__api.html" title="API component for MDL related import and export operations." alt="" coords="36783,155,37009,181"/>
+<area shape="rect" id="node319" href="$classmi_1_1neuraylib_1_1IMdl__info.html" title="Abstract interface for a discovery graph node." alt="" coords="37034,155,37209,181"/>
+<area shape="rect" id="node321" href="$classmi_1_1neuraylib_1_1IMdl__loading__wait__handle.html" title="Interface of a loading wait handle." alt="" coords="37233,155,37517,181"/>
+<area shape="rect" id="node323" href="$classmi_1_1neuraylib_1_1IMdl__loading__wait__handle__factory.html" title="Interface of a loading wait handle factory." alt="" coords="37541,155,37878,181"/>
+<area shape="rect" id="node325" href="$classmi_1_1neuraylib_1_1IMdl__module__builder.html" title="The module builder allows to create new MDL modules." alt="" coords="37903,155,38153,181"/>
+<area shape="rect" id="node327" href="$classmi_1_1neuraylib_1_1IMdl__module__transformer.html" title="The module transformer allows to apply certain transformations on an MDL module." alt="" coords="38177,155,38460,181"/>
+<area shape="rect" id="node329" href="$classmi_1_1neuraylib_1_1IMdl__resolved__module.html" title="Describes a resolved module (or a failed attempt)." alt="" coords="38485,155,38747,181"/>
+<area shape="rect" id="node331" href="$classmi_1_1neuraylib_1_1IMdl__resolved__resource.html" title="Describes an ordered set of resolved resource elements." alt="" coords="38772,155,39041,181"/>
+<area shape="rect" id="node333" href="$classmi_1_1neuraylib_1_1IMdl__resolved__resource__element.html" title="Describes an ordered set of resolved resource entities." alt="" coords="39065,155,39396,181"/>
+<area shape="rect" id="node335" href="$classmi_1_1neuraylib_1_1IMdle__api.html" title="Provides access to functions related to the creation of encapsulated MDL modules (MDLE)." alt="" coords="39420,155,39599,181"/>
+<area shape="rect" id="node337" href="$classmi_1_1neuraylib_1_1IMdle__deserialization__callback.html" title="Callback to map references to MDLE modules during deserialization." alt="" coords="39623,155,39937,181"/>
+<area shape="rect" id="node339" href="$classmi_1_1neuraylib_1_1IMdle__serialization__callback.html" title="Callback to map references to MDLE modules during serialization." alt="" coords="39961,155,40260,181"/>
+<area shape="rect" id="node341" href="$classmi_1_1neuraylib_1_1IMessage.html" title="Message interface." alt="" coords="40285,155,40462,181"/>
+<area shape="rect" id="node343" href="$classmi_1_1neuraylib_1_1INeuray.html" title="This is an object representing the MDL SDK library." alt="" coords="40486,155,40653,181"/>
+<area shape="rect" id="node345" href="$classmi_1_1neuraylib_1_1IPlugin__api.html" title="This abstract interface gives access to the MDL SDK API to plugins." alt="" coords="40677,155,40864,181"/>
+<area shape="rect" id="node347" href="$classmi_1_1neuraylib_1_1IPlugin__configuration.html" title="This interface is used to load plugins and to query information about loaded plugins." alt="" coords="40889,155,41141,181"/>
+<area shape="rect" id="node349" href="$classmi_1_1neuraylib_1_1IReader__writer__base.html" title="Base interface for readers and writers." alt="" coords="41165,155,41413,181"/>
+<area shape="rect" id="node350" href="$classmi_1_1base_1_1Interface__declare.html" title=" " alt="" coords="40207,229,40657,256"/>
+<area shape="rect" id="node352" href="$classmi_1_1base_1_1Interface__declare.html" title=" " alt="" coords="41041,229,41492,256"/>
+<area shape="rect" id="node351" href="$classmi_1_1neuraylib_1_1IReader.html" title="A reader supports binary block reads and string&#45;oriented line reads that zero&#45;terminate the result." alt="" coords="40195,304,40360,331"/>
+<area shape="rect" id="node353" href="$classmi_1_1neuraylib_1_1IWriter.html" title="A writer supports binary block writes and string&#45;oriented line writes that accept a zero&#45;terminated s..." alt="" coords="40385,304,40543,331"/>
+<area shape="rect" id="node355" href="$classmi_1_1neuraylib_1_1IScope.html" title="A scope is the context which determines the visibility of database elements." alt="" coords="41438,155,41597,181"/>
+<area shape="rect" id="node357" href="$classmi_1_1neuraylib_1_1ISerialized__function__name.html" title="Represents a serialized function name." alt="" coords="41621,155,41909,181"/>
+<area shape="rect" id="node359" href="$classmi_1_1neuraylib_1_1IStream__position.html" title="Represents the position in a data stream." alt="" coords="41933,155,42160,181"/>
+<area shape="rect" id="node361" href="$classmi_1_1neuraylib_1_1ITarget__argument__block.html" title="Represents an argument block of a class&#45;compiled material compiled for a specific target." alt="" coords="42184,155,42456,181"/>
+<area shape="rect" id="node363" href="$classmi_1_1neuraylib_1_1ITarget__code.html" title="Represents target code of an MDL backend." alt="" coords="42479,155,42678,181"/>
+<area shape="rect" id="node365" href="$classmi_1_1neuraylib_1_1ITarget__resource__callback.html" title="A callback interface to allow the user to handle resources when creating new mi::neuraylib::ITarget_a..." alt="" coords="42702,155,42986,181"/>
+<area shape="rect" id="node367" href="$classmi_1_1neuraylib_1_1ITarget__value__layout.html" title="Represents the layout of an mi::neuraylib::ITarget_argument_block with support for nested elements." alt="" coords="43011,155,43261,181"/>
+<area shape="rect" id="node369" href="$classmi_1_1neuraylib_1_1ITile.html" title="Abstract interface for a tile." alt="" coords="43287,155,43431,181"/>
+<area shape="rect" id="node371" href="$classmi_1_1neuraylib_1_1ITransaction.html" title="A transaction provides a consistent view on the database." alt="" coords="43487,155,43681,181"/>
+<area shape="rect" id="node373" href="$classmi_1_1neuraylib_1_1IType.html" title="The interface to MDL types." alt="" coords="43706,155,43857,181"/>
+<area shape="rect" id="node374" href="$classmi_1_1base_1_1Interface__declare.html" title=" " alt="" coords="41696,229,42048,256"/>
+<area shape="rect" id="node376" href="$classmi_1_1base_1_1Interface__declare.html" title=" " alt="" coords="42163,229,42515,256"/>
+<area shape="rect" id="node390" href="$classmi_1_1base_1_1Interface__declare.html" title=" " alt="" coords="42584,229,42936,256"/>
+<area shape="rect" id="node402" href="$classmi_1_1base_1_1Interface__declare.html" title=" " alt="" coords="43693,229,44045,256"/>
+<area shape="rect" id="node375" href="$classmi_1_1neuraylib_1_1IType__alias.html" title="The type of kind alias." alt="" coords="40567,304,40755,331"/>
+<area shape="rect" id="node377" href="$classmi_1_1neuraylib_1_1IType__atomic.html" title="An atomic type." alt="" coords="40780,304,40983,331"/>
+<area shape="rect" id="node378" href="$classmi_1_1base_1_1Interface__declare.html" title=" " alt="" coords="38858,379,39262,405"/>
+<area shape="rect" id="node380" href="$classmi_1_1base_1_1Interface__declare.html" title=" " alt="" coords="39286,379,39690,405"/>
+<area shape="rect" id="node382" href="$classmi_1_1base_1_1Interface__declare.html" title=" " alt="" coords="39714,379,40118,405"/>
+<area shape="rect" id="node384" href="$classmi_1_1base_1_1Interface__declare.html" title=" " alt="" coords="40142,379,40546,405"/>
+<area shape="rect" id="node386" href="$classmi_1_1base_1_1Interface__declare.html" title=" " alt="" coords="40570,379,40974,405"/>
+<area shape="rect" id="node388" href="$classmi_1_1base_1_1Interface__declare.html" title=" " alt="" coords="40998,379,41402,405"/>
+<area shape="rect" id="node379" href="$classmi_1_1neuraylib_1_1IType__bool.html" title="The type of kind bool." alt="" coords="38967,453,39153,480"/>
+<area shape="rect" id="node381" href="$classmi_1_1neuraylib_1_1IType__double.html" title="The type of kind double." alt="" coords="39387,453,39589,480"/>
+<area shape="rect" id="node383" href="$classmi_1_1neuraylib_1_1IType__enum.html" title="A type of kind enum." alt="" coords="39819,453,40013,480"/>
+<area shape="rect" id="node385" href="$classmi_1_1neuraylib_1_1IType__float.html" title="The type of kind float." alt="" coords="40251,453,40437,480"/>
+<area shape="rect" id="node387" href="$classmi_1_1neuraylib_1_1IType__int.html" title="The type of kind int." alt="" coords="40685,453,40859,480"/>
+<area shape="rect" id="node389" href="$classmi_1_1neuraylib_1_1IType__string.html" title="The type of kind string." alt="" coords="41103,453,41297,480"/>
+<area shape="rect" id="node391" href="$classmi_1_1neuraylib_1_1IType__compound.html" title="A compound type." alt="" coords="42473,304,42698,331"/>
+<area shape="rect" id="node392" href="$classmi_1_1base_1_1Interface__declare.html" title=" " alt="" coords="41427,379,41853,405"/>
+<area shape="rect" id="node394" href="$classmi_1_1base_1_1Interface__declare.html" title=" " alt="" coords="41877,379,42304,405"/>
+<area shape="rect" id="node396" href="$classmi_1_1base_1_1Interface__declare.html" title=" " alt="" coords="42328,379,42755,405"/>
+<area shape="rect" id="node398" href="$classmi_1_1base_1_1Interface__declare.html" title=" " alt="" coords="42779,379,43205,405"/>
+<area shape="rect" id="node400" href="$classmi_1_1base_1_1Interface__declare.html" title=" " alt="" coords="43229,379,43656,405"/>
+<area shape="rect" id="node393" href="$classmi_1_1neuraylib_1_1IType__array.html" title="The type of kind array." alt="" coords="41545,453,41735,480"/>
+<area shape="rect" id="node395" href="$classmi_1_1neuraylib_1_1IType__color.html" title="The type of kind color." alt="" coords="41996,453,42185,480"/>
+<area shape="rect" id="node397" href="$classmi_1_1neuraylib_1_1IType__matrix.html" title="The type of kind matrix." alt="" coords="42441,453,42641,480"/>
+<area shape="rect" id="node399" href="$classmi_1_1neuraylib_1_1IType__struct.html" title="The type of kind struct." alt="" coords="42895,453,43089,480"/>
+<area shape="rect" id="node401" href="$classmi_1_1neuraylib_1_1IType__vector.html" title="The type of kind vector." alt="" coords="43343,453,43542,480"/>
+<area shape="rect" id="node403" href="$classmi_1_1neuraylib_1_1IType__reference.html" title="The reference types." alt="" coords="43781,304,44000,331"/>
+<area shape="rect" id="node404" href="$classmi_1_1base_1_1Interface__declare.html" title=" " alt="" coords="43680,379,44101,405"/>
+<area shape="rect" id="node414" href="$classmi_1_1base_1_1Interface__declare.html" title=" " alt="" coords="44125,379,44547,405"/>
+<area shape="rect" id="node405" href="$classmi_1_1neuraylib_1_1IType__df.html" title="The type of distribution functions." alt="" coords="43588,453,43759,480"/>
+<area shape="rect" id="node406" href="$classmi_1_1base_1_1Interface__declare.html" title=" " alt="" coords="42695,528,43067,555"/>
+<area shape="rect" id="node408" href="$classmi_1_1base_1_1Interface__declare.html" title=" " alt="" coords="43091,528,43463,555"/>
+<area shape="rect" id="node410" href="$classmi_1_1base_1_1Interface__declare.html" title=" " alt="" coords="43487,528,43859,555"/>
+<area shape="rect" id="node412" href="$classmi_1_1base_1_1Interface__declare.html" title=" " alt="" coords="43883,528,44255,555"/>
+<area shape="rect" id="node407" href="$classmi_1_1neuraylib_1_1IType__bsdf.html" title="The type of kind bsdf." alt="" coords="42789,603,42974,629"/>
+<area shape="rect" id="node409" href="$classmi_1_1neuraylib_1_1IType__edf.html" title="The type of kind edf." alt="" coords="43188,603,43367,629"/>
+<area shape="rect" id="node411" href="$classmi_1_1neuraylib_1_1IType__hair__bsdf.html" title="The type of kind bsdf." alt="" coords="43565,603,43782,629"/>
+<area shape="rect" id="node413" href="$classmi_1_1neuraylib_1_1IType__vdf.html" title="The type of kind vdf." alt="" coords="43980,603,44159,629"/>
+<area shape="rect" id="node415" href="$classmi_1_1neuraylib_1_1IType__resource.html" title="A string valued resource type." alt="" coords="44401,453,44615,480"/>
+<area shape="rect" id="node416" href="$classmi_1_1base_1_1Interface__declare.html" title=" " alt="" coords="44279,528,44694,555"/>
+<area shape="rect" id="node418" href="$classmi_1_1base_1_1Interface__declare.html" title=" " alt="" coords="44718,528,45133,555"/>
+<area shape="rect" id="node420" href="$classmi_1_1base_1_1Interface__declare.html" title=" " alt="" coords="45157,528,45571,555"/>
+<area shape="rect" id="node417" href="$classmi_1_1neuraylib_1_1IType__bsdf__measurement.html" title="The type of kind bsdf_measurement." alt="" coords="44345,603,44628,629"/>
+<area shape="rect" id="node419" href="$classmi_1_1neuraylib_1_1IType__light__profile.html" title="The type of kind light_profile." alt="" coords="44808,603,45043,629"/>
+<area shape="rect" id="node421" href="$classmi_1_1neuraylib_1_1IType__texture.html" title="The type of kind texture." alt="" coords="45262,603,45466,629"/>
+<area shape="rect" id="node423" href="$classmi_1_1neuraylib_1_1IType__factory.html" title="The interface for creating types." alt="" coords="44053,155,44256,181"/>
+<area shape="rect" id="node425" href="$classmi_1_1neuraylib_1_1IType__list.html" title="An ordered collection of types identified by name or index." alt="" coords="44331,155,44509,181"/>
+<area shape="rect" id="node427" href="$classmi_1_1neuraylib_1_1IValue.html" title="The interface to MDL values." alt="" coords="45117,155,45273,181"/>
+<area shape="rect" id="node428" href="$classmi_1_1base_1_1Interface__declare.html" title=" " alt="" coords="45241,229,45599,256"/>
+<area shape="rect" id="node444" href="$classmi_1_1base_1_1Interface__declare.html" title=" " alt="" coords="46105,229,46463,256"/>
+<area shape="rect" id="node456" href="$classmi_1_1base_1_1Interface__declare.html" title=" " alt="" coords="46967,229,47326,256"/>
+<area shape="rect" id="node458" href="$classmi_1_1base_1_1Interface__declare.html" title=" " alt="" coords="47943,229,48302,256"/>
+<area shape="rect" id="node429" href="$classmi_1_1neuraylib_1_1IValue__atomic.html" title="An atomic value." alt="" coords="45541,304,45749,331"/>
+<area shape="rect" id="node430" href="$classmi_1_1base_1_1Interface__declare.html" title=" " alt="" coords="44571,379,44981,405"/>
+<area shape="rect" id="node432" href="$classmi_1_1base_1_1Interface__declare.html" title=" " alt="" coords="45005,379,45416,405"/>
+<area shape="rect" id="node434" href="$classmi_1_1base_1_1Interface__declare.html" title=" " alt="" coords="45440,379,45851,405"/>
+<area shape="rect" id="node436" href="$classmi_1_1base_1_1Interface__declare.html" title=" " alt="" coords="45875,379,46285,405"/>
+<area shape="rect" id="node438" href="$classmi_1_1base_1_1Interface__declare.html" title=" " alt="" coords="46309,379,46720,405"/>
+<area shape="rect" id="node440" href="$classmi_1_1base_1_1Interface__declare.html" title=" " alt="" coords="46744,379,47155,405"/>
+<area shape="rect" id="node431" href="$classmi_1_1neuraylib_1_1IValue__bool.html" title="A value of type boolean." alt="" coords="44681,453,44871,480"/>
+<area shape="rect" id="node433" href="$classmi_1_1neuraylib_1_1IValue__double.html" title="A value of type double." alt="" coords="45107,453,45314,480"/>
+<area shape="rect" id="node435" href="$classmi_1_1neuraylib_1_1IValue__enum.html" title="A value of type enum." alt="" coords="45545,453,45745,480"/>
+<area shape="rect" id="node437" href="$classmi_1_1neuraylib_1_1IValue__float.html" title="A value of type float." alt="" coords="45984,453,46176,480"/>
+<area shape="rect" id="node439" href="$classmi_1_1neuraylib_1_1IValue__int.html" title="A value of type integer." alt="" coords="46425,453,46605,480"/>
+<area shape="rect" id="node441" href="$classmi_1_1neuraylib_1_1IValue__string.html" title="A value of type string." alt="" coords="46849,453,47049,480"/>
+<area shape="rect" id="node442" href="$classmi_1_1base_1_1Interface__declare.html" title=" " alt="" coords="46748,528,47151,555"/>
+<area shape="rect" id="node443" href="$classmi_1_1neuraylib_1_1IValue__string__localized.html" title="A value of type string which can be used to obtain the original, non&#45;localized value of a localized s..." alt="" coords="46817,603,47082,629"/>
+<area shape="rect" id="node445" href="$classmi_1_1neuraylib_1_1IValue__compound.html" title="A compound value." alt="" coords="47738,304,47969,331"/>
+<area shape="rect" id="node446" href="$classmi_1_1base_1_1Interface__declare.html" title=" " alt="" coords="47179,379,47613,405"/>
+<area shape="rect" id="node448" href="$classmi_1_1base_1_1Interface__declare.html" title=" " alt="" coords="47637,379,48070,405"/>
+<area shape="rect" id="node450" href="$classmi_1_1base_1_1Interface__declare.html" title=" " alt="" coords="48094,379,48527,405"/>
+<area shape="rect" id="node452" href="$classmi_1_1base_1_1Interface__declare.html" title=" " alt="" coords="48551,379,48985,405"/>
+<area shape="rect" id="node454" href="$classmi_1_1base_1_1Interface__declare.html" title=" " alt="" coords="49009,379,49442,405"/>
+<area shape="rect" id="node447" href="$classmi_1_1neuraylib_1_1IValue__array.html" title="A value of type array." alt="" coords="47297,453,47495,480"/>
+<area shape="rect" id="node449" href="$classmi_1_1neuraylib_1_1IValue__color.html" title="A value of type color." alt="" coords="47756,453,47951,480"/>
+<area shape="rect" id="node451" href="$classmi_1_1neuraylib_1_1IValue__matrix.html" title="A value of type matrix." alt="" coords="48207,453,48414,480"/>
+<area shape="rect" id="node453" href="$classmi_1_1neuraylib_1_1IValue__struct.html" title="A value of type struct." alt="" coords="48668,453,48868,480"/>
+<area shape="rect" id="node455" href="$classmi_1_1neuraylib_1_1IValue__vector.html" title="A value of type vector." alt="" coords="49123,453,49327,480"/>
+<area shape="rect" id="node457" href="$classmi_1_1neuraylib_1_1IValue__invalid__df.html" title="An invalid distribution function value." alt="" coords="47993,304,48220,331"/>
+<area shape="rect" id="node459" href="$classmi_1_1neuraylib_1_1IValue__resource.html" title="Base class for resource values." alt="" coords="49789,304,50008,331"/>
+<area shape="rect" id="node460" href="$classmi_1_1base_1_1Interface__declare.html" title=" " alt="" coords="49465,379,49887,405"/>
+<area shape="rect" id="node462" href="$classmi_1_1base_1_1Interface__declare.html" title=" " alt="" coords="49911,379,50332,405"/>
+<area shape="rect" id="node464" href="$classmi_1_1base_1_1Interface__declare.html" title=" " alt="" coords="50356,379,50777,405"/>
+<area shape="rect" id="node461" href="$classmi_1_1neuraylib_1_1IValue__bsdf__measurement.html" title="A BSDF measurement value." alt="" coords="49531,453,49821,480"/>
+<area shape="rect" id="node463" href="$classmi_1_1neuraylib_1_1IValue__light__profile.html" title="A light profile value." alt="" coords="50001,453,50241,480"/>
+<area shape="rect" id="node465" href="$classmi_1_1neuraylib_1_1IValue__texture.html" title="A texture value." alt="" coords="50461,453,50672,480"/>
+<area shape="rect" id="node467" href="$classmi_1_1neuraylib_1_1IValue__factory.html" title="The interface for creating values." alt="" coords="45297,155,45506,181"/>
+<area shape="rect" id="node469" href="$classmi_1_1neuraylib_1_1IValue__list.html" title="An ordered collection of values identified by name or index." alt="" coords="45530,155,45713,181"/>
+<area shape="rect" id="node471" href="$classmi_1_1neuraylib_1_1IVersion.html" title="Abstract interface for accessing version information." alt="" coords="45737,155,45905,181"/>
+</map>

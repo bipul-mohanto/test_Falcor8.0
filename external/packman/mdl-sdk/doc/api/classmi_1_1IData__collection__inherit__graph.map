@@ -1,0 +1,145 @@
+<map id="mi::IData_collection" name="mi::IData_collection">
+<area shape="rect" id="node1" title="This interface represents collections." alt="" coords="880,2130,1032,2157"/>
+<area shape="rect" id="node6" href="$classmi_1_1base_1_1Interface__declare.html" title=" " alt="" coords="1080,1520,1291,1561"/>
+<area shape="rect" id="node10" href="$classmi_1_1base_1_1Interface__declare.html" title=" " alt="" coords="1080,2089,1291,2131"/>
+<area shape="rect" id="node140" href="$classmi_1_1base_1_1Interface__declare.html" title=" " alt="" coords="1080,2155,1291,2196"/>
+<area shape="rect" id="node142" href="$classmi_1_1base_1_1Interface__declare.html" title=" " alt="" coords="1080,2220,1291,2261"/>
+<area shape="rect" id="node2" href="$classmi_1_1base_1_1Interface__declare.html" title=" " alt="" coords="621,2123,832,2164"/>
+<area shape="rect" id="node3" href="$classmi_1_1IData.html" title="This interface is the base interface of all types." alt="" coords="491,2130,573,2157"/>
+<area shape="rect" id="node4" href="$classmi_1_1base_1_1Interface__declare.html" title=" " alt="" coords="201,2130,443,2157"/>
+<area shape="rect" id="node5" href="$classmi_1_1base_1_1IInterface.html" title="The basic extensible interface." alt="" coords="5,2130,153,2157"/>
+<area shape="rect" id="node7" href="$classmi_1_1IArray.html" title="This interface represents static arrays, i.e., arrays with a fixed number of elements." alt="" coords="1356,518,1443,545"/>
+<area shape="rect" id="node8" href="$classmi_1_1base_1_1Interface__declare.html" title=" " alt="" coords="1508,5,1719,47"/>
+<area shape="rect" id="node9" href="$classmi_1_1IDynamic__array.html" title="This interface represents dynamic arrays, i.e., arrays with a variable number of elements." alt="" coords="1767,13,1917,39"/>
+<area shape="rect" id="node11" href="$classmi_1_1ICompound.html" title="This interface represents compounds, i.e., vectors, matrices, colors, spectrums, and bounding boxes." alt="" coords="1339,2103,1460,2130"/>
+<area shape="rect" id="node12" href="$classmi_1_1base_1_1Interface__declare.html" title=" " alt="" coords="1508,71,1719,112"/>
+<area shape="rect" id="node14" href="$classmi_1_1base_1_1Interface__declare.html" title=" " alt="" coords="1508,136,1719,177"/>
+<area shape="rect" id="node16" href="$classmi_1_1base_1_1Interface__declare.html" title=" " alt="" coords="1508,201,1719,243"/>
+<area shape="rect" id="node18" href="$classmi_1_1base_1_1Interface__declare.html" title=" " alt="" coords="1508,267,1719,308"/>
+<area shape="rect" id="node20" href="$classmi_1_1base_1_1Interface__declare.html" title=" " alt="" coords="1508,332,1719,373"/>
+<area shape="rect" id="node22" href="$classmi_1_1base_1_1Interface__declare.html" title=" " alt="" coords="1508,397,1719,439"/>
+<area shape="rect" id="node24" href="$classmi_1_1base_1_1Interface__declare.html" title=" " alt="" coords="1508,463,1719,504"/>
+<area shape="rect" id="node26" href="$classmi_1_1base_1_1Interface__declare.html" title=" " alt="" coords="1508,528,1719,569"/>
+<area shape="rect" id="node28" href="$classmi_1_1base_1_1Interface__declare.html" title=" " alt="" coords="1508,593,1719,635"/>
+<area shape="rect" id="node30" href="$classmi_1_1base_1_1Interface__declare.html" title=" " alt="" coords="1508,659,1719,700"/>
+<area shape="rect" id="node32" href="$classmi_1_1base_1_1Interface__declare.html" title=" " alt="" coords="1508,724,1719,765"/>
+<area shape="rect" id="node34" href="$classmi_1_1base_1_1Interface__declare.html" title=" " alt="" coords="1508,789,1719,831"/>
+<area shape="rect" id="node36" href="$classmi_1_1base_1_1Interface__declare.html" title=" " alt="" coords="1508,855,1719,896"/>
+<area shape="rect" id="node38" href="$classmi_1_1base_1_1Interface__declare.html" title=" " alt="" coords="1508,920,1719,961"/>
+<area shape="rect" id="node40" href="$classmi_1_1base_1_1Interface__declare.html" title=" " alt="" coords="1508,985,1719,1027"/>
+<area shape="rect" id="node42" href="$classmi_1_1base_1_1Interface__declare.html" title=" " alt="" coords="1508,1051,1719,1092"/>
+<area shape="rect" id="node44" href="$classmi_1_1base_1_1Interface__declare.html" title=" " alt="" coords="1508,1116,1719,1157"/>
+<area shape="rect" id="node46" href="$classmi_1_1base_1_1Interface__declare.html" title=" " alt="" coords="1508,1181,1719,1223"/>
+<area shape="rect" id="node48" href="$classmi_1_1base_1_1Interface__declare.html" title=" " alt="" coords="1508,1247,1719,1288"/>
+<area shape="rect" id="node50" href="$classmi_1_1base_1_1Interface__declare.html" title=" " alt="" coords="1508,1312,1719,1353"/>
+<area shape="rect" id="node52" href="$classmi_1_1base_1_1Interface__declare.html" title=" " alt="" coords="1508,1377,1719,1419"/>
+<area shape="rect" id="node54" href="$classmi_1_1base_1_1Interface__declare.html" title=" " alt="" coords="1508,1443,1719,1484"/>
+<area shape="rect" id="node56" href="$classmi_1_1base_1_1Interface__declare.html" title=" " alt="" coords="1508,1508,1719,1549"/>
+<area shape="rect" id="node58" href="$classmi_1_1base_1_1Interface__declare.html" title=" " alt="" coords="1508,1573,1719,1615"/>
+<area shape="rect" id="node60" href="$classmi_1_1base_1_1Interface__declare.html" title=" " alt="" coords="1508,1639,1719,1680"/>
+<area shape="rect" id="node62" href="$classmi_1_1base_1_1Interface__declare.html" title=" " alt="" coords="1508,1704,1719,1745"/>
+<area shape="rect" id="node64" href="$classmi_1_1base_1_1Interface__declare.html" title=" " alt="" coords="1508,1769,1719,1811"/>
+<area shape="rect" id="node66" href="$classmi_1_1base_1_1Interface__declare.html" title=" " alt="" coords="1508,1835,1719,1876"/>
+<area shape="rect" id="node68" href="$classmi_1_1base_1_1Interface__declare.html" title=" " alt="" coords="1508,1900,1719,1941"/>
+<area shape="rect" id="node70" href="$classmi_1_1base_1_1Interface__declare.html" title=" " alt="" coords="1508,1965,1719,2007"/>
+<area shape="rect" id="node72" href="$classmi_1_1base_1_1Interface__declare.html" title=" " alt="" coords="1508,2031,1719,2072"/>
+<area shape="rect" id="node74" href="$classmi_1_1base_1_1Interface__declare.html" title=" " alt="" coords="1508,2096,1719,2137"/>
+<area shape="rect" id="node76" href="$classmi_1_1base_1_1Interface__declare.html" title=" " alt="" coords="1508,2161,1719,2203"/>
+<area shape="rect" id="node78" href="$classmi_1_1base_1_1Interface__declare.html" title=" " alt="" coords="1508,2227,1719,2268"/>
+<area shape="rect" id="node80" href="$classmi_1_1base_1_1Interface__declare.html" title=" " alt="" coords="1508,2292,1719,2333"/>
+<area shape="rect" id="node82" href="$classmi_1_1base_1_1Interface__declare.html" title=" " alt="" coords="1508,2357,1719,2399"/>
+<area shape="rect" id="node84" href="$classmi_1_1base_1_1Interface__declare.html" title=" " alt="" coords="1508,2423,1719,2464"/>
+<area shape="rect" id="node86" href="$classmi_1_1base_1_1Interface__declare.html" title=" " alt="" coords="1508,2488,1719,2529"/>
+<area shape="rect" id="node88" href="$classmi_1_1base_1_1Interface__declare.html" title=" " alt="" coords="1508,2553,1719,2595"/>
+<area shape="rect" id="node90" href="$classmi_1_1base_1_1Interface__declare.html" title=" " alt="" coords="1508,2619,1719,2660"/>
+<area shape="rect" id="node92" href="$classmi_1_1base_1_1Interface__declare.html" title=" " alt="" coords="1508,2684,1719,2725"/>
+<area shape="rect" id="node94" href="$classmi_1_1base_1_1Interface__declare.html" title=" " alt="" coords="1508,2749,1719,2791"/>
+<area shape="rect" id="node96" href="$classmi_1_1base_1_1Interface__declare.html" title=" " alt="" coords="1508,2815,1719,2856"/>
+<area shape="rect" id="node98" href="$classmi_1_1base_1_1Interface__declare.html" title=" " alt="" coords="1508,2880,1719,2921"/>
+<area shape="rect" id="node100" href="$classmi_1_1base_1_1Interface__declare.html" title=" " alt="" coords="1508,2945,1719,2987"/>
+<area shape="rect" id="node102" href="$classmi_1_1base_1_1Interface__declare.html" title=" " alt="" coords="1508,3011,1719,3052"/>
+<area shape="rect" id="node104" href="$classmi_1_1base_1_1Interface__declare.html" title=" " alt="" coords="1508,3076,1719,3117"/>
+<area shape="rect" id="node106" href="$classmi_1_1base_1_1Interface__declare.html" title=" " alt="" coords="1508,3141,1719,3183"/>
+<area shape="rect" id="node108" href="$classmi_1_1base_1_1Interface__declare.html" title=" " alt="" coords="1508,3207,1719,3248"/>
+<area shape="rect" id="node110" href="$classmi_1_1base_1_1Interface__declare.html" title=" " alt="" coords="1508,3272,1719,3313"/>
+<area shape="rect" id="node112" href="$classmi_1_1base_1_1Interface__declare.html" title=" " alt="" coords="1508,3337,1719,3379"/>
+<area shape="rect" id="node114" href="$classmi_1_1base_1_1Interface__declare.html" title=" " alt="" coords="1508,3403,1719,3444"/>
+<area shape="rect" id="node116" href="$classmi_1_1base_1_1Interface__declare.html" title=" " alt="" coords="1508,3468,1719,3509"/>
+<area shape="rect" id="node118" href="$classmi_1_1base_1_1Interface__declare.html" title=" " alt="" coords="1508,3533,1719,3575"/>
+<area shape="rect" id="node120" href="$classmi_1_1base_1_1Interface__declare.html" title=" " alt="" coords="1508,3599,1719,3640"/>
+<area shape="rect" id="node122" href="$classmi_1_1base_1_1Interface__declare.html" title=" " alt="" coords="1508,3664,1719,3705"/>
+<area shape="rect" id="node124" href="$classmi_1_1base_1_1Interface__declare.html" title=" " alt="" coords="1508,3729,1719,3771"/>
+<area shape="rect" id="node126" href="$classmi_1_1base_1_1Interface__declare.html" title=" " alt="" coords="1508,3795,1719,3836"/>
+<area shape="rect" id="node128" href="$classmi_1_1base_1_1Interface__declare.html" title=" " alt="" coords="1508,3860,1719,3901"/>
+<area shape="rect" id="node130" href="$classmi_1_1base_1_1Interface__declare.html" title=" " alt="" coords="1508,3925,1719,3967"/>
+<area shape="rect" id="node132" href="$classmi_1_1base_1_1Interface__declare.html" title=" " alt="" coords="1508,3991,1719,4032"/>
+<area shape="rect" id="node134" href="$classmi_1_1base_1_1Interface__declare.html" title=" " alt="" coords="1508,4056,1719,4097"/>
+<area shape="rect" id="node136" href="$classmi_1_1base_1_1Interface__declare.html" title=" " alt="" coords="1508,4121,1719,4163"/>
+<area shape="rect" id="node138" href="$classmi_1_1base_1_1Interface__declare.html" title=" " alt="" coords="1508,4187,1719,4228"/>
+<area shape="rect" id="node13" href="$classmi_1_1IBbox3.html" title="This interface represents bounding boxes." alt="" coords="1796,78,1888,105"/>
+<area shape="rect" id="node15" href="$classmi_1_1IBoolean__2.html" title="This interface represents a vector of two bool." alt="" coords="1783,143,1901,170"/>
+<area shape="rect" id="node17" href="$classmi_1_1IBoolean__2__2.html" title="This interface represents a 2 x 2 matrix of bool." alt="" coords="1775,209,1909,235"/>
+<area shape="rect" id="node19" href="$classmi_1_1IBoolean__2__3.html" title="This interface represents a 2 x 3 matrix of bool." alt="" coords="1775,274,1909,301"/>
+<area shape="rect" id="node21" href="$classmi_1_1IBoolean__2__4.html" title="This interface represents a 2 x 4 matrix of bool." alt="" coords="1775,339,1909,366"/>
+<area shape="rect" id="node23" href="$classmi_1_1IBoolean__3.html" title="This interface represents a vector of three bool." alt="" coords="1783,405,1901,431"/>
+<area shape="rect" id="node25" href="$classmi_1_1IBoolean__3__2.html" title="This interface represents a 3 x 2 matrix of bool." alt="" coords="1775,470,1909,497"/>
+<area shape="rect" id="node27" href="$classmi_1_1IBoolean__3__3.html" title="This interface represents a 3 x 3 matrix of bool." alt="" coords="1775,535,1909,562"/>
+<area shape="rect" id="node29" href="$classmi_1_1IBoolean__3__4.html" title="This interface represents a 3 x 4 matrix of bool." alt="" coords="1775,601,1909,627"/>
+<area shape="rect" id="node31" href="$classmi_1_1IBoolean__4.html" title="This interface represents a vector of four bool." alt="" coords="1783,666,1901,693"/>
+<area shape="rect" id="node33" href="$classmi_1_1IBoolean__4__2.html" title="This interface represents a 4 x 2 matrix of bool." alt="" coords="1775,731,1909,758"/>
+<area shape="rect" id="node35" href="$classmi_1_1IBoolean__4__3.html" title="This interface represents a 4 x 3 matrix of bool." alt="" coords="1775,797,1909,823"/>
+<area shape="rect" id="node37" href="$classmi_1_1IBoolean__4__4.html" title="This interface represents a 4 x 4 matrix of bool." alt="" coords="1775,862,1909,889"/>
+<area shape="rect" id="node39" href="$classmi_1_1IColor.html" title="This interface represents RGBA colors." alt="" coords="1799,927,1885,954"/>
+<area shape="rect" id="node41" href="$classmi_1_1IColor3.html" title="This interface represents RGB colors." alt="" coords="1795,993,1889,1019"/>
+<area shape="rect" id="node43" href="$classmi_1_1IFloat32__2.html" title="This interface represents a vector of two Float32." alt="" coords="1785,1058,1899,1085"/>
+<area shape="rect" id="node45" href="$classmi_1_1IFloat32__2__2.html" title="This interface represents a 2 x 2 matrix of Float32." alt="" coords="1777,1123,1907,1150"/>
+<area shape="rect" id="node47" href="$classmi_1_1IFloat32__2__3.html" title="This interface represents a 2 x 3 matrix of Float32." alt="" coords="1777,1189,1907,1215"/>
+<area shape="rect" id="node49" href="$classmi_1_1IFloat32__2__4.html" title="This interface represents a 2 x 4 matrix of Float32." alt="" coords="1777,1254,1907,1281"/>
+<area shape="rect" id="node51" href="$classmi_1_1IFloat32__3.html" title="This interface represents a vector of three Float32." alt="" coords="1785,1319,1899,1346"/>
+<area shape="rect" id="node53" href="$classmi_1_1IFloat32__3__2.html" title="This interface represents a 3 x 2 matrix of Float32." alt="" coords="1777,1385,1907,1411"/>
+<area shape="rect" id="node55" href="$classmi_1_1IFloat32__3__3.html" title="This interface represents a 3 x 3 matrix of Float32." alt="" coords="1777,1450,1907,1477"/>
+<area shape="rect" id="node57" href="$classmi_1_1IFloat32__3__4.html" title="This interface represents a 3 x 4 matrix of Float32." alt="" coords="1777,1515,1907,1542"/>
+<area shape="rect" id="node59" href="$classmi_1_1IFloat32__4.html" title="This interface represents a vector of four Float32." alt="" coords="1785,1581,1899,1607"/>
+<area shape="rect" id="node61" href="$classmi_1_1IFloat32__4__2.html" title="This interface represents a 4 x 2 matrix of Float32." alt="" coords="1777,1646,1907,1673"/>
+<area shape="rect" id="node63" href="$classmi_1_1IFloat32__4__3.html" title="This interface represents a 4 x 3 matrix of Float32." alt="" coords="1777,1711,1907,1738"/>
+<area shape="rect" id="node65" href="$classmi_1_1IFloat32__4__4.html" title="This interface represents a 4 x 4 matrix of Float32." alt="" coords="1777,1777,1907,1803"/>
+<area shape="rect" id="node67" href="$classmi_1_1IFloat64__2.html" title="This interface represents a vector of two Float64." alt="" coords="1785,1842,1899,1869"/>
+<area shape="rect" id="node69" href="$classmi_1_1IFloat64__2__2.html" title="This interface represents a 2 x 2 matrix of Float64." alt="" coords="1777,1907,1907,1934"/>
+<area shape="rect" id="node71" href="$classmi_1_1IFloat64__2__3.html" title="This interface represents a 2 x 3 matrix of Float64." alt="" coords="1777,1973,1907,1999"/>
+<area shape="rect" id="node73" href="$classmi_1_1IFloat64__2__4.html" title="This interface represents a 2 x 4 matrix of Float64." alt="" coords="1777,2038,1907,2065"/>
+<area shape="rect" id="node75" href="$classmi_1_1IFloat64__3.html" title="This interface represents a vector of three Float64." alt="" coords="1785,2103,1899,2130"/>
+<area shape="rect" id="node77" href="$classmi_1_1IFloat64__3__2.html" title="This interface represents a 3 x 2 matrix of Float64." alt="" coords="1777,2169,1907,2195"/>
+<area shape="rect" id="node79" href="$classmi_1_1IFloat64__3__3.html" title="This interface represents a 3 x 3 matrix of Float64." alt="" coords="1777,2234,1907,2261"/>
+<area shape="rect" id="node81" href="$classmi_1_1IFloat64__3__4.html" title="This interface represents a 3 x 4 matrix of Float64." alt="" coords="1777,2299,1907,2326"/>
+<area shape="rect" id="node83" href="$classmi_1_1IFloat64__4.html" title="This interface represents a vector of four Float64." alt="" coords="1785,2365,1899,2391"/>
+<area shape="rect" id="node85" href="$classmi_1_1IFloat64__4__2.html" title="This interface represents a 4 x 2 matrix of Float64." alt="" coords="1777,2430,1907,2457"/>
+<area shape="rect" id="node87" href="$classmi_1_1IFloat64__4__3.html" title="This interface represents a 4 x 3 matrix of Float64." alt="" coords="1777,2495,1907,2522"/>
+<area shape="rect" id="node89" href="$classmi_1_1IFloat64__4__4.html" title="This interface represents a 4 x 4 matrix of Float64." alt="" coords="1777,2561,1907,2587"/>
+<area shape="rect" id="node91" href="$classmi_1_1ISint32__2.html" title="This interface represents a vector of two Sint32." alt="" coords="1789,2626,1895,2653"/>
+<area shape="rect" id="node93" href="$classmi_1_1ISint32__2__2.html" title="This interface represents a 2 x 2 matrix of Sint32." alt="" coords="1781,2691,1903,2718"/>
+<area shape="rect" id="node95" href="$classmi_1_1ISint32__2__3.html" title="This interface represents a 2 x 3 matrix of Sint32." alt="" coords="1781,2757,1903,2783"/>
+<area shape="rect" id="node97" href="$classmi_1_1ISint32__2__4.html" title="This interface represents a 2 x 4 matrix of Sint32." alt="" coords="1781,2822,1903,2849"/>
+<area shape="rect" id="node99" href="$classmi_1_1ISint32__3.html" title="This interface represents a vector of three Sint32." alt="" coords="1789,2887,1895,2914"/>
+<area shape="rect" id="node101" href="$classmi_1_1ISint32__3__2.html" title="This interface represents a 3 x 2 matrix of Sint32." alt="" coords="1781,2953,1903,2979"/>
+<area shape="rect" id="node103" href="$classmi_1_1ISint32__3__3.html" title="This interface represents a 3 x 3 matrix of Sint32." alt="" coords="1781,3018,1903,3045"/>
+<area shape="rect" id="node105" href="$classmi_1_1ISint32__3__4.html" title="This interface represents a 3 x 4 matrix of Sint32." alt="" coords="1781,3083,1903,3110"/>
+<area shape="rect" id="node107" href="$classmi_1_1ISint32__4.html" title="This interface represents a vector of four Sint32." alt="" coords="1789,3149,1895,3175"/>
+<area shape="rect" id="node109" href="$classmi_1_1ISint32__4__2.html" title="This interface represents a 4 x 2 matrix of Sint32." alt="" coords="1781,3214,1903,3241"/>
+<area shape="rect" id="node111" href="$classmi_1_1ISint32__4__3.html" title="This interface represents a 4 x 3 matrix of Sint32." alt="" coords="1781,3279,1903,3306"/>
+<area shape="rect" id="node113" href="$classmi_1_1ISint32__4__4.html" title="This interface represents a 4 x 4 matrix of Sint32." alt="" coords="1781,3345,1903,3371"/>
+<area shape="rect" id="node115" href="$classmi_1_1ISpectrum.html" title="This interface represents spectrums." alt="" coords="1785,3410,1899,3437"/>
+<area shape="rect" id="node117" href="$classmi_1_1IUint32__2.html" title="This interface represents a vector of two Uint32." alt="" coords="1787,3475,1897,3502"/>
+<area shape="rect" id="node119" href="$classmi_1_1IUint32__2__2.html" title="This interface represents a 2 x 2 matrix of Uint32." alt="" coords="1780,3541,1904,3567"/>
+<area shape="rect" id="node121" href="$classmi_1_1IUint32__2__3.html" title="This interface represents a 2 x 3 matrix of Uint32." alt="" coords="1780,3606,1904,3633"/>
+<area shape="rect" id="node123" href="$classmi_1_1IUint32__2__4.html" title="This interface represents a 2 x 4 matrix of Uint32." alt="" coords="1780,3671,1904,3698"/>
+<area shape="rect" id="node125" href="$classmi_1_1IUint32__3.html" title="This interface represents a vector of three Uint32." alt="" coords="1787,3737,1897,3763"/>
+<area shape="rect" id="node127" href="$classmi_1_1IUint32__3__2.html" title="This interface represents a 3 x 2 matrix of Uint32." alt="" coords="1780,3802,1904,3829"/>
+<area shape="rect" id="node129" href="$classmi_1_1IUint32__3__3.html" title="This interface represents a 3 x 3 matrix of Uint32." alt="" coords="1780,3867,1904,3894"/>
+<area shape="rect" id="node131" href="$classmi_1_1IUint32__3__4.html" title="This interface represents a 3 x 4 matrix of Uint32." alt="" coords="1780,3933,1904,3959"/>
+<area shape="rect" id="node133" href="$classmi_1_1IUint32__4.html" title="This interface represents a vector of four Uint32." alt="" coords="1787,3998,1897,4025"/>
+<area shape="rect" id="node135" href="$classmi_1_1IUint32__4__2.html" title="This interface represents a 4 x 2 matrix of Uint32." alt="" coords="1780,4063,1904,4090"/>
+<area shape="rect" id="node137" href="$classmi_1_1IUint32__4__3.html" title="This interface represents a 4 x 3 matrix of Uint32." alt="" coords="1780,4129,1904,4155"/>
+<area shape="rect" id="node139" href="$classmi_1_1IUint32__4__4.html" title="This interface represents a 4 x 4 matrix of Uint32." alt="" coords="1780,4194,1904,4221"/>
+<area shape="rect" id="node141" href="$classmi_1_1IMap.html" title="This interface represents maps, i.e., a key&#45;value based data structure." alt="" coords="1360,2162,1439,2189"/>
+<area shape="rect" id="node143" href="$classmi_1_1IStructure.html" title="This interface represents structures, i.e., a key&#45;value based data structure." alt="" coords="1344,2227,1455,2254"/>
+</map>

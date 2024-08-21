@@ -1,0 +1,7 @@
+<map id="mi::neuraylib::Bsdf_buffer" name="mi::neuraylib::Bsdf_buffer">
+<area shape="rect" id="node1" title="Example implementation of the abstract interface mi::neuraylib::IBsdf_buffer." alt="" coords="109,304,300,331"/>
+<area shape="rect" id="node2" href="$classmi_1_1base_1_1Interface__implement.html" title=" " alt="" coords="5,229,404,256"/>
+<area shape="rect" id="node3" href="$classmi_1_1neuraylib_1_1IBsdf__buffer.html" title="Abstract interface for a buffer of BSDF values." alt="" coords="107,155,302,181"/>
+<area shape="rect" id="node4" href="$classmi_1_1base_1_1Interface__declare.html" title=" " alt="" coords="84,80,325,107"/>
+<area shape="rect" id="node5" href="$classmi_1_1base_1_1IInterface.html" title="The basic extensible interface." alt="" coords="131,5,279,32"/>
+</map>

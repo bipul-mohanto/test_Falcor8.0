@@ -1,0 +1,9 @@
+<map id="mi::neuraylib::IImage" name="mi::neuraylib::IImage">
+<area shape="rect" id="node1" title="This interface represents a pixel image file." alt="" coords="136,453,297,480"/>
+<area shape="rect" id="node2" href="$classmi_1_1base_1_1Interface__declare.html" title=" " alt="" coords="5,379,428,405"/>
+<area shape="rect" id="node3" href="$classmi_1_1neuraylib_1_1IScene__element.html" title="Common base interface for all scene elements." alt="" coords="107,304,327,331"/>
+<area shape="rect" id="node4" href="$classmi_1_1base_1_1Interface__declare.html" title=" " alt="" coords="13,229,420,256"/>
+<area shape="rect" id="node5" href="$classmi_1_1neuraylib_1_1IAttribute__set.html" title="The attribute set comprises all attributes attached to a database element." alt="" coords="115,155,319,181"/>
+<area shape="rect" id="node6" href="$classmi_1_1base_1_1Interface__declare.html" title=" " alt="" coords="96,80,337,107"/>
+<area shape="rect" id="node7" href="$classmi_1_1base_1_1IInterface.html" title="The basic extensible interface." alt="" coords="143,5,291,32"/>
+</map>

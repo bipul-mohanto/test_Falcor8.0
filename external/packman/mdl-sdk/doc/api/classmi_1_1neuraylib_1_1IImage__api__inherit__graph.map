@@ -1,0 +1,5 @@
+<map id="mi::neuraylib::IImage_api" name="mi::neuraylib::IImage_api">
+<area shape="rect" id="node1" title="This interface provides various utilities related to canvases and buffers." alt="" coords="32,155,220,181"/>
+<area shape="rect" id="node2" href="$classmi_1_1base_1_1Interface__declare.html" title=" " alt="" coords="5,80,247,107"/>
+<area shape="rect" id="node3" href="$classmi_1_1base_1_1IInterface.html" title="The basic extensible interface." alt="" coords="52,5,200,32"/>
+</map>

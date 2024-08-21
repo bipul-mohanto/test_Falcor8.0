@@ -1,0 +1,28 @@
+var classmi_1_1neuraylib_1_1IImage =
+[
+    [ "get_canvas", "classmi_1_1neuraylib_1_1IImage.html#a67180a96c0777afcc5b522bd862a796f", null ],
+    [ "get_filename", "classmi_1_1neuraylib_1_1IImage.html#ad804795dd825f10f83fb7f794e45801d", null ],
+    [ "get_frame_id", "classmi_1_1neuraylib_1_1IImage.html#a0cf21b8fa0395484f837556019d8f246", null ],
+    [ "get_frame_length", "classmi_1_1neuraylib_1_1IImage.html#a03a08ef7effeddf87b64acb2143ba59a", null ],
+    [ "get_frame_number", "classmi_1_1neuraylib_1_1IImage.html#a45f419a973124da15608d7e24162021c", null ],
+    [ "get_length", "classmi_1_1neuraylib_1_1IImage.html#ae0b265f4fa029c64e6b146e89207cc0b", null ],
+    [ "get_levels", "classmi_1_1neuraylib_1_1IImage.html#afa051f92785a095a45b9d1643eb719e8", null ],
+    [ "get_original_filename", "classmi_1_1neuraylib_1_1IImage.html#ac9d00bdda8771b5dd86d436a981b30f2", null ],
+    [ "get_selector", "classmi_1_1neuraylib_1_1IImage.html#a6393a211940dc752be67bf44470f3d2e", null ],
+    [ "get_type", "classmi_1_1neuraylib_1_1IImage.html#a4e917527e8882aaf37500797b264132d", null ],
+    [ "get_uvtile_id", "classmi_1_1neuraylib_1_1IImage.html#a9406032d28e0920c7584ce436d3a8bfc", null ],
+    [ "get_uvtile_uv", "classmi_1_1neuraylib_1_1IImage.html#aca59f36b60dabec6e849c1517c8b2bea", null ],
+    [ "get_uvtile_uv_ranges", "classmi_1_1neuraylib_1_1IImage.html#a57d3ee76946e04e35017950ae846d14c", null ],
+    [ "is_animated", "classmi_1_1neuraylib_1_1IImage.html#a526ef3a97907915c585658648bd0453a", null ],
+    [ "is_uvtile", "classmi_1_1neuraylib_1_1IImage.html#acaf38a1a5eb04a5137307756c1b87e84", null ],
+    [ "reset_file", "classmi_1_1neuraylib_1_1IImage.html#a16a71e021ce73365290a0e216e0c9a87", null ],
+    [ "reset_reader", "classmi_1_1neuraylib_1_1IImage.html#a342bc0e6d0ef096aff904dc65efcaada", null ],
+    [ "reset_reader", "classmi_1_1neuraylib_1_1IImage.html#a4053d863fefd962dcd6f08f09230c1db", null ],
+    [ "resolution_x", "classmi_1_1neuraylib_1_1IImage.html#aec640d3fc04f9af1ff363aa6a6e09e76", null ],
+    [ "resolution_y", "classmi_1_1neuraylib_1_1IImage.html#a26ee0330da968505076746b959fbbc67", null ],
+    [ "resolution_z", "classmi_1_1neuraylib_1_1IImage.html#ad771f3c3ae0b4a70e9107cf7c35e6189", null ],
+    [ "set_from_canvas", "classmi_1_1neuraylib_1_1IImage.html#a1dda6f02ce4bfffa790f33c298c200b4", null ],
+    [ "set_from_canvas", "classmi_1_1neuraylib_1_1IImage.html#a8ab93edba58de1f6ed73c1ce0fd7ba63", null ],
+    [ "set_from_canvas", "classmi_1_1neuraylib_1_1IImage.html#a98c3db091e0455971f410740b56ffa9e", null ],
+    [ "set_from_canvas", "classmi_1_1neuraylib_1_1IImage.html#a8445d989cd68ff78899605e78c154d7f", null ]
+];

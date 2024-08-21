@@ -1,0 +1,9 @@
+<map id="mi::neuraylib::IType_int" name="mi::neuraylib::IType_int">
+<area shape="rect" id="node1" title="The type of kind int." alt="" coords="120,453,295,480"/>
+<area shape="rect" id="node2" href="$classmi_1_1base_1_1Interface__declare.html" title=" " alt="" coords="5,379,409,405"/>
+<area shape="rect" id="node3" href="$classmi_1_1neuraylib_1_1IType__atomic.html" title="An atomic type." alt="" coords="106,304,309,331"/>
+<area shape="rect" id="node4" href="$classmi_1_1base_1_1Interface__declare.html" title=" " alt="" coords="31,229,383,256"/>
+<area shape="rect" id="node5" href="$classmi_1_1neuraylib_1_1IType.html" title="The interface to MDL types." alt="" coords="132,155,283,181"/>
+<area shape="rect" id="node6" href="$classmi_1_1base_1_1Interface__declare.html" title=" " alt="" coords="87,80,328,107"/>
+<area shape="rect" id="node7" href="$classmi_1_1base_1_1IInterface.html" title="The basic extensible interface." alt="" coords="133,5,281,32"/>
+</map>

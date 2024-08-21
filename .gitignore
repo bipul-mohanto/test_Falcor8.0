@@ -34,6 +34,7 @@ docs/
 !/external/packman/optix/
 !/external/packman/deps/packages.txt
 LICENSE.md
+!/external/packman/
 ########################################
 # User files.
 /CMakeUserPresets.json

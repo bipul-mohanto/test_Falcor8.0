@@ -1,0 +1,7 @@
+<map id="mi::neuraylib::Bsdf_isotropic_data" name="mi::neuraylib::Bsdf_isotropic_data">
+<area shape="rect" id="node1" title="Example implementation of the abstract interface mi::neuraylib::IBsdf_isotropic_data." alt="" coords="110,304,354,331"/>
+<area shape="rect" id="node2" href="$classmi_1_1base_1_1Interface__implement.html" title=" " alt="" coords="5,229,459,256"/>
+<area shape="rect" id="node3" href="$classmi_1_1neuraylib_1_1IBsdf__isotropic__data.html" title="Abstract interface for isotropic BSDF data." alt="" coords="108,155,356,181"/>
+<area shape="rect" id="node4" href="$classmi_1_1base_1_1Interface__declare.html" title=" " alt="" coords="111,80,353,107"/>
+<area shape="rect" id="node5" href="$classmi_1_1base_1_1IInterface.html" title="The basic extensible interface." alt="" coords="158,5,306,32"/>
+</map>

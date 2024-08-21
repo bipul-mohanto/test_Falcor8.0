@@ -1,0 +1,5 @@
+<map id="mi::neuraylib::IMdle_deserialization_callback" name="mi::neuraylib::IMdle_deserialization_callback">
+<area shape="rect" id="node1" title="Callback to map references to MDLE modules during deserialization." alt="" coords="5,155,320,181"/>
+<area shape="rect" id="node2" href="$classmi_1_1base_1_1Interface__declare.html" title=" " alt="" coords="42,80,283,107"/>
+<area shape="rect" id="node3" href="$classmi_1_1base_1_1IInterface.html" title="The basic extensible interface." alt="" coords="89,5,237,32"/>
+</map>

@@ -1,0 +1,171 @@
+/******************************************************************************
+ * Copyright 2023 NVIDIA Corporation. All rights reserved.
+ *****************************************************************************/
+
+#include "mdl_material_description_loader_mtlx.h"
+#include "mdl_generator.h"
+#include "../base_application.h"
+#include <MaterialXCore/Unit.h>
+#include <algorithm>
+
+namespace mi {namespace examples { namespace mdl_d3d12 { namespace materialx
+{
+
+Mdl_material_description_loader_mtlx::Mdl_material_description_loader_mtlx(
+    const Base_options& options)
+    : m_paths(options.mtlx_paths)
+    , m_libraries(options.mtlx_libraries)
+    , m_generated_mdl_path(options.generated_mdl_path)
+{
+    std::string version = MaterialX::getVersionString();
+    log_info("Enable MaterialX loader using SDK version: " + version);
+}
+
+// ------------------------------------------------------------------------------------------------
+
+bool Mdl_material_description_loader_mtlx::match_gltf_name(const std::string& gltf_name) const
+{
+    return strstr(gltf_name.c_str(), ".mtlx") != nullptr;
+}
+
+// ------------------------------------------------------------------------------------------------
+
+bool Mdl_material_description_loader_mtlx::generate_mdl_source_code(
+    Mdl_sdk& mdl_sdk,
+    const std::string& gltf_name,
+    const std::string& scene_directory,
+    std::string& out_generated_mdl_code,
+    std::string& out_generated_mdl_name) const
+{
+    mdl_d3d12::materialx::Mdl_generator mtlx2mdl;
+    mdl_d3d12::materialx::Mdl_generator_result result;
+
+    // set the material file to load
+    std::string mtlx_material_file = mi::examples::io::is_absolute_path(gltf_name)
+        ? gltf_name
+        : scene_directory + "/" + gltf_name;
+
+    // parse the file name and optional query
+    std::string query = mi::examples::strings::get_url_query(mtlx_material_file);
+    std::string selected_material_name = "";
+    if (!query.empty())
+    {
+        // drop the query from the file name
+        size_t pos = mtlx_material_file.find_first_of('?');
+        mtlx_material_file = mtlx_material_file.substr(0, pos);
+
+        // parse the query
+        auto query_map = mi::examples::strings::parse_url_query(query);
+        const auto& it = query_map.find("name");
+        if (it != query_map.end())
+            selected_material_name = it->second;
+    }
+
+    // allow to configure MaterialX search and library paths by the user
+    for (auto& p : m_paths)
+        mtlx2mdl.add_path(p);
+
+    for (auto& l : m_libraries)
+        mtlx2mdl.add_library(l);
+
+    // set the materials main source file
+    bool valid = true;
+    valid &= mtlx2mdl.set_source(mtlx_material_file, selected_material_name);
+
+    // generate the mdl code
+    try
+    {
+        valid &= mtlx2mdl.generate(mdl_sdk, result);
+    }
+    catch (const std::exception & ex)
+    {
+        log_error("Generated MDL from materialX crashed: " + gltf_name, ex, SRC);
+        return false;
+    }
+
+    if (!valid)
+    {
+        log_error("Generated MDL from materialX is not valid: " + gltf_name, SRC);
+        return false;
+    }
+
+    // dump the mdl for debugging only
+    if (!m_generated_mdl_path.empty())
+    {
+        // if the specified path points to an .mdl file, use it
+        // otherwise assume that it is a folder path to be used with generated names
+        std::string output_path = m_generated_mdl_path;
+        bool skip = false;
+        if (!mi::examples::strings::ends_with(output_path, ".mdl"))
+        {
+            if (mi::examples::io::file_exists(output_path))
+            {
+                log_warning("Writing out generated file skipped. Specified path points to "
+                    "an existing file that is not an mdl: " + output_path);
+                skip = true;
+            }
+            else
+            {
+                if (!mi::examples::io::mkdir(output_path, true))
+                {
+                    log_warning("Writing out generated file skipped. "
+                        "Specified path can not be created: " + output_path);
+                    skip = true;
+                }
+                else
+                {
+                    std::string basename = mi::examples::io::basename(mtlx_material_file, false);
+                    std::string material_name =
+                        mi::examples::strings::replace(result.materialx_material_name, '/', '_');
+
+                    output_path = output_path + "/" + basename + "." + material_name + ".mdl";
+                }
+            }
+        }
+
+        auto file = std::ofstream();
+        file.open(output_path, std::ofstream::out | std::ofstream::trunc);
+        if (file.is_open())
+        {
+            file << "// generated from MaterialX using the SDK version "
+                << MaterialX::getVersionString().c_str() << std::endl << std::endl;
+            file << result.generated_mdl_code;
+            file.close();
+        }
+    }
+
+    // return the first generated code segment.
+    out_generated_mdl_code = result.generated_mdl_code;
+    out_generated_mdl_name = result.generated_mdl_name;
+    return true;
+}
+
+// ------------------------------------------------------------------------------------------------
+
+size_t Mdl_material_description_loader_mtlx::get_file_type_count() const
+{
+    return 1;
+}
+
+// ------------------------------------------------------------------------------------------------
+
+std::string Mdl_material_description_loader_mtlx::get_file_type_extension(size_t index) const
+{
+    switch (index)
+    {
+        case 0: return "mtlx";
+        default: return "";
+    }
+}
+
+// ------------------------------------------------------------------------------------------------
+std::string Mdl_material_description_loader_mtlx::get_file_type_description(size_t index) const
+{
+    switch (index)
+    {
+        case 0: return "MaterialX";
+        default: return "";
+    }
+}
+
+}}}}

@@ -1,0 +1,9 @@
+<map id="mi::neuraylib::IType_array" name="mi::neuraylib::IType_array">
+<area shape="rect" id="node1" title="The type of kind array." alt="" coords="123,453,314,480"/>
+<area shape="rect" id="node2" href="$classmi_1_1base_1_1Interface__declare.html" title=" " alt="" coords="5,379,432,405"/>
+<area shape="rect" id="node3" href="$classmi_1_1neuraylib_1_1IType__compound.html" title="A compound type." alt="" coords="106,304,331,331"/>
+<area shape="rect" id="node4" href="$classmi_1_1base_1_1Interface__declare.html" title=" " alt="" coords="43,229,395,256"/>
+<area shape="rect" id="node5" href="$classmi_1_1neuraylib_1_1IType.html" title="The interface to MDL types." alt="" coords="143,155,294,181"/>
+<area shape="rect" id="node6" href="$classmi_1_1base_1_1Interface__declare.html" title=" " alt="" coords="98,80,339,107"/>
+<area shape="rect" id="node7" href="$classmi_1_1base_1_1IInterface.html" title="The basic extensible interface." alt="" coords="145,5,293,32"/>
+</map>

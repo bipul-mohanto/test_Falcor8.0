@@ -1,0 +1,5 @@
+<map id="mi::base::Plugin" name="mi::base::Plugin">
+<area shape="rect" id="node1" title="The abstract base class for plugins." alt="" coords="161,5,288,32"/>
+<area shape="rect" id="node2" href="$classmi_1_1mdl_1_1Mdl__distiller__plugin.html" title="Abstract interface for MDL distiller plugins." alt="" coords="5,80,212,107"/>
+<area shape="rect" id="node3" href="$classmi_1_1neuraylib_1_1IImage__plugin.html" title="Abstract interface for image plugins." alt="" coords="237,80,445,107"/>
+</map>

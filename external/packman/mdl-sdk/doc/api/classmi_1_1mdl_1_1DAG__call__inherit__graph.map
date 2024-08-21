@@ -1,0 +1,4 @@
+<map id="mi::mdl::DAG_call" name="mi::mdl::DAG_call">
+<area shape="rect" id="node1" title="A DAG IR call." alt="" coords="10,80,149,107"/>
+<area shape="rect" id="node2" href="$classmi_1_1mdl_1_1DAG__node.html" title="A node inside the DAG Intermediate Representation." alt="" coords="5,5,153,32"/>
+</map>

@@ -1,0 +1,7 @@
+<map id="mi::neuraylib::IExpression_direct_call" name="mi::neuraylib::IExpression_direct_call">
+<area shape="rect" id="node1" title="A direct call expression." alt="" coords="69,304,335,331"/>
+<area shape="rect" id="node2" href="$classmi_1_1base_1_1Interface__declare.html" title=" " alt="" coords="5,229,399,256"/>
+<area shape="rect" id="node3" href="$classmi_1_1neuraylib_1_1IExpression.html" title="The interface to MDL expressions." alt="" coords="107,155,297,181"/>
+<area shape="rect" id="node4" href="$classmi_1_1base_1_1Interface__declare.html" title=" " alt="" coords="81,80,323,107"/>
+<area shape="rect" id="node5" href="$classmi_1_1base_1_1IInterface.html" title="The basic extensible interface." alt="" coords="128,5,276,32"/>
+</map>

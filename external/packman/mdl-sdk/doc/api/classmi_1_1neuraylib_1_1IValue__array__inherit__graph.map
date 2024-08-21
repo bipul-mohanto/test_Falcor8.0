@@ -1,0 +1,9 @@
+<map id="mi::neuraylib::IValue_array" name="mi::neuraylib::IValue_array">
+<area shape="rect" id="node1" title="A value of type array." alt="" coords="123,453,321,480"/>
+<area shape="rect" id="node2" href="$classmi_1_1base_1_1Interface__declare.html" title=" " alt="" coords="5,379,439,405"/>
+<area shape="rect" id="node3" href="$classmi_1_1neuraylib_1_1IValue__compound.html" title="A compound value." alt="" coords="107,304,337,331"/>
+<area shape="rect" id="node4" href="$classmi_1_1base_1_1Interface__declare.html" title=" " alt="" coords="43,229,401,256"/>
+<area shape="rect" id="node5" href="$classmi_1_1neuraylib_1_1IValue.html" title="The interface to MDL values." alt="" coords="144,155,300,181"/>
+<area shape="rect" id="node6" href="$classmi_1_1base_1_1Interface__declare.html" title=" " alt="" coords="101,80,343,107"/>
+<area shape="rect" id="node7" href="$classmi_1_1base_1_1IInterface.html" title="The basic extensible interface." alt="" coords="148,5,296,32"/>
+</map>

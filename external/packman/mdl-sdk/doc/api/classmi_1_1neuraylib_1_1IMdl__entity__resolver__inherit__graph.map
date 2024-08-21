@@ -1,0 +1,5 @@
+<map id="mi::neuraylib::IMdl_entity_resolver" name="mi::neuraylib::IMdl_entity_resolver">
+<area shape="rect" id="node1" title="The entity resolver is used to resolve MDL modules and resources in such modules." alt="" coords="5,155,253,181"/>
+<area shape="rect" id="node2" href="$classmi_1_1base_1_1Interface__declare.html" title=" " alt="" coords="9,80,250,107"/>
+<area shape="rect" id="node3" href="$classmi_1_1base_1_1IInterface.html" title="The basic extensible interface." alt="" coords="55,5,203,32"/>
+</map>

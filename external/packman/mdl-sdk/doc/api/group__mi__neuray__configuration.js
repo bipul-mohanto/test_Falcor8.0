@@ -1,0 +1,47 @@
+var group__mi__neuray__configuration =
+[
+    [ "mi::neuraylib::IDebug_configuration", "classmi_1_1neuraylib_1_1IDebug__configuration.html", [
+      [ "get_option", "classmi_1_1neuraylib_1_1IDebug__configuration.html#ad98c905acb97df93f441c6fd2250087c", null ],
+      [ "set_option", "classmi_1_1neuraylib_1_1IDebug__configuration.html#aa352ab67db670f99ad88303214067b4d", null ]
+    ] ],
+    [ "mi::neuraylib::IMdl_configuration", "classmi_1_1neuraylib_1_1IMdl__configuration.html", [
+      [ "add_mdl_path", "classmi_1_1neuraylib_1_1IMdl__configuration.html#a282eca470ca15023059c81975c97fb93", null ],
+      [ "add_mdl_system_paths", "classmi_1_1neuraylib_1_1IMdl__configuration.html#a37987b943e1c12bc8cac2098cb09f14e", null ],
+      [ "add_mdl_user_paths", "classmi_1_1neuraylib_1_1IMdl__configuration.html#a5f476c125c21561525e5aa1142503910", null ],
+      [ "add_resource_path", "classmi_1_1neuraylib_1_1IMdl__configuration.html#a8ea1eebd2e012709a471ac6bf39a1428", null ],
+      [ "clear_mdl_paths", "classmi_1_1neuraylib_1_1IMdl__configuration.html#aee901e0d07006691a3c69a798dd60ffa", null ],
+      [ "clear_resource_paths", "classmi_1_1neuraylib_1_1IMdl__configuration.html#a82a278ccdf75c52ee68ecb9033669d43", null ],
+      [ "get_entity_resolver", "classmi_1_1neuraylib_1_1IMdl__configuration.html#a1b94f97365e4f14b0b52f5ddf809c8ac", null ],
+      [ "get_expose_names_of_let_expressions", "classmi_1_1neuraylib_1_1IMdl__configuration.html#a5d2450dc953335cbe958d363957df1f7", null ],
+      [ "get_implicit_cast_enabled", "classmi_1_1neuraylib_1_1IMdl__configuration.html#aa4950db6718dd1de109f98cbe4ba20f0", null ],
+      [ "get_logger", "classmi_1_1neuraylib_1_1IMdl__configuration.html#a1d199afc5ae186d6c096b959f4f7150e", null ],
+      [ "get_mdl_path", "classmi_1_1neuraylib_1_1IMdl__configuration.html#a5d0ee312da04f47865cf1cf0724f0d70", null ],
+      [ "get_mdl_paths_length", "classmi_1_1neuraylib_1_1IMdl__configuration.html#a4be0598426a2ee73e080e2909a4e2228", null ],
+      [ "get_mdl_system_path", "classmi_1_1neuraylib_1_1IMdl__configuration.html#aacf7ba11d8149b72b4c221333f9b8bf7", null ],
+      [ "get_mdl_system_paths_length", "classmi_1_1neuraylib_1_1IMdl__configuration.html#ab90d0b01313745a1057e893e2e105d01", null ],
+      [ "get_mdl_user_path", "classmi_1_1neuraylib_1_1IMdl__configuration.html#aea45afea359164b2678976a3479d72ae", null ],
+      [ "get_mdl_user_paths_length", "classmi_1_1neuraylib_1_1IMdl__configuration.html#ab7d78858ede55a2632ed147ae14fcc8a", null ],
+      [ "get_resource_path", "classmi_1_1neuraylib_1_1IMdl__configuration.html#a68168dbc1ce3a31a16d2cc3316b5956b", null ],
+      [ "get_resource_paths_length", "classmi_1_1neuraylib_1_1IMdl__configuration.html#a0a748da0a22ee16e3e33838304164f82", null ],
+      [ "get_simple_glossy_bsdf_legacy_enabled", "classmi_1_1neuraylib_1_1IMdl__configuration.html#a059bf562ee6f5e4d3b206149371bcc8c", null ],
+      [ "remove_mdl_path", "classmi_1_1neuraylib_1_1IMdl__configuration.html#a087dee18c099ccc4c92ca4f7e5d1f542", null ],
+      [ "remove_resource_path", "classmi_1_1neuraylib_1_1IMdl__configuration.html#afdfa452cabd4f41c5f29e2099c328765", null ],
+      [ "set_entity_resolver", "classmi_1_1neuraylib_1_1IMdl__configuration.html#a61a36f34fee01b4a09c0deef317d09d2", null ],
+      [ "set_expose_names_of_let_expressions", "classmi_1_1neuraylib_1_1IMdl__configuration.html#a026ca1b17de6a1e3ce9b2a6d188a22ee", null ],
+      [ "set_implicit_cast_enabled", "classmi_1_1neuraylib_1_1IMdl__configuration.html#ad36539ca6f35cc36799bccc2a8778a4c", null ],
+      [ "set_logger", "classmi_1_1neuraylib_1_1IMdl__configuration.html#a4e963a242b0f344d3eae685bc09ad1d6", null ],
+      [ "set_simple_glossy_bsdf_legacy_enabled", "classmi_1_1neuraylib_1_1IMdl__configuration.html#a08b092469aea2079e9263a4285d6540b", null ]
+    ] ],
+    [ "mi::neuraylib::IMdl_i18n_configuration", "classmi_1_1neuraylib_1_1IMdl__i18n__configuration.html", [
+      [ "get_locale", "classmi_1_1neuraylib_1_1IMdl__i18n__configuration.html#a5b91f2770b46cff703748cf17c0b07c6", null ],
+      [ "get_system_keyword", "classmi_1_1neuraylib_1_1IMdl__i18n__configuration.html#a246c9a321c4a4ffad314bdff4d51c215", null ],
+      [ "get_system_locale", "classmi_1_1neuraylib_1_1IMdl__i18n__configuration.html#a44ba77e5c8e71d3a38cec7e732ed69a9", null ],
+      [ "set_locale", "classmi_1_1neuraylib_1_1IMdl__i18n__configuration.html#a62ec2b716775224d513f44e684f2cd93", null ]
+    ] ],
+    [ "mi::neuraylib::IPlugin_configuration", "classmi_1_1neuraylib_1_1IPlugin__configuration.html", [
+      [ "get_plugin_descriptor", "classmi_1_1neuraylib_1_1IPlugin__configuration.html#acdac26810d6ab014048d066fbeef78a4", null ],
+      [ "get_plugin_length", "classmi_1_1neuraylib_1_1IPlugin__configuration.html#a51153b9f21802f96610492415a794f28", null ],
+      [ "load_plugin_library", "classmi_1_1neuraylib_1_1IPlugin__configuration.html#aa8660748a128a9bb925c831dbbf05a0b", null ],
+      [ "load_plugins_from_directory", "classmi_1_1neuraylib_1_1IPlugin__configuration.html#aa6bd1af9cbeb3fbb9545a3539e0eabe9", null ]
+    ] ]
+];

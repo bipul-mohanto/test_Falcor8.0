@@ -1,0 +1,7 @@
+<map id="mi::neuraylib::IReader" name="mi::neuraylib::IReader">
+<area shape="rect" id="node1" title="A reader supports binary block reads and string&#45;oriented line reads that zero&#45;terminate the result." alt="" coords="148,304,313,331"/>
+<area shape="rect" id="node2" href="$classmi_1_1base_1_1Interface__declare.html" title=" " alt="" coords="5,229,456,256"/>
+<area shape="rect" id="node3" href="$classmi_1_1neuraylib_1_1IReader__writer__base.html" title="Base interface for readers and writers." alt="" coords="107,155,355,181"/>
+<area shape="rect" id="node4" href="$classmi_1_1base_1_1Interface__declare.html" title=" " alt="" coords="110,80,351,107"/>
+<area shape="rect" id="node5" href="$classmi_1_1base_1_1IInterface.html" title="The basic extensible interface." alt="" coords="157,5,305,32"/>
+</map>

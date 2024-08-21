@@ -1,0 +1,7 @@
+<map id="mi::base::Default_allocator" name="mi::base::Default_allocator">
+<area shape="rect" id="node1" title="A default allocator implementation based on global new and delete." alt="" coords="97,304,295,331"/>
+<area shape="rect" id="node2" href="$classmi_1_1base_1_1Interface__implement__singleton.html" title=" " alt="" coords="5,229,387,256"/>
+<area shape="rect" id="node3" href="$classmi_1_1base_1_1IAllocator.html" title="The IAllocator interface class supports allocating and releasing memory dynamically." alt="" coords="122,155,270,181"/>
+<area shape="rect" id="node4" href="$classmi_1_1base_1_1Interface__declare.html" title=" " alt="" coords="75,80,317,107"/>
+<area shape="rect" id="node5" href="$classmi_1_1base_1_1IInterface.html" title="The basic extensible interface." alt="" coords="122,5,270,32"/>
+</map>

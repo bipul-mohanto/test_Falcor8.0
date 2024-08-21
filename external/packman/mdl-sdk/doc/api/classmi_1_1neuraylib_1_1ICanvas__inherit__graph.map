@@ -1,0 +1,7 @@
+<map id="mi::neuraylib::ICanvas" name="mi::neuraylib::ICanvas">
+<area shape="rect" id="node1" title="Abstract interface for a canvas represented by a rectangular array of tiles." alt="" coords="125,304,293,331"/>
+<area shape="rect" id="node2" href="$classmi_1_1base_1_1Interface__declare.html" title=" " alt="" coords="5,229,413,256"/>
+<area shape="rect" id="node3" href="$classmi_1_1neuraylib_1_1ICanvas__base.html" title="Abstract interface for a canvas (base class)." alt="" coords="106,155,313,181"/>
+<area shape="rect" id="node4" href="$classmi_1_1base_1_1Interface__declare.html" title=" " alt="" coords="89,80,330,107"/>
+<area shape="rect" id="node5" href="$classmi_1_1base_1_1IInterface.html" title="The basic extensible interface." alt="" coords="135,5,283,32"/>
+</map>

@@ -1,0 +1,5 @@
+<map id="mi::neuraylib::ITarget_resource_callback" name="mi::neuraylib::ITarget_resource_callback">
+<area shape="rect" id="node1" title="A callback interface to allow the user to handle resources when creating new mi::neuraylib::ITarget_a..." alt="" coords="5,155,289,181"/>
+<area shape="rect" id="node2" href="$classmi_1_1base_1_1Interface__declare.html" title=" " alt="" coords="27,80,268,107"/>
+<area shape="rect" id="node3" href="$classmi_1_1base_1_1IInterface.html" title="The basic extensible interface." alt="" coords="73,5,221,32"/>
+</map>

@@ -1,0 +1,11 @@
+<map id="mi::IUint8" name="mi::IUint8">
+<area shape="rect" id="node1" title="This interface represents mi::Uint8." alt="" coords="129,603,216,629"/>
+<area shape="rect" id="node2" href="$classmi_1_1base_1_1Interface__declare.html" title=" " alt="" coords="20,528,325,555"/>
+<area shape="rect" id="node3" href="$classmi_1_1INumber.html" title="This interface represents simple numeric types." alt="" coords="121,453,224,480"/>
+<area shape="rect" id="node4" href="$classmi_1_1base_1_1Interface__declare.html" title=" " alt="" coords="5,379,340,405"/>
+<area shape="rect" id="node5" href="$classmi_1_1IData__simple.html" title="This interface represents simple types." alt="" coords="106,304,239,331"/>
+<area shape="rect" id="node6" href="$classmi_1_1base_1_1Interface__declare.html" title=" " alt="" coords="31,229,315,256"/>
+<area shape="rect" id="node7" href="$classmi_1_1IData.html" title="This interface is the base interface of all types." alt="" coords="131,155,214,181"/>
+<area shape="rect" id="node8" href="$classmi_1_1base_1_1Interface__declare.html" title=" " alt="" coords="52,80,293,107"/>
+<area shape="rect" id="node9" href="$classmi_1_1base_1_1IInterface.html" title="The basic extensible interface." alt="" coords="99,5,247,32"/>
+</map>

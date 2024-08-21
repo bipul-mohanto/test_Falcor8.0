@@ -1,0 +1,7 @@
+<map id="mi::neuraylib::IValue_invalid_df" name="mi::neuraylib::IValue_invalid_df">
+<area shape="rect" id="node1" title="An invalid distribution function value." alt="" coords="71,304,298,331"/>
+<area shape="rect" id="node2" href="$classmi_1_1base_1_1Interface__declare.html" title=" " alt="" coords="5,229,364,256"/>
+<area shape="rect" id="node3" href="$classmi_1_1neuraylib_1_1IValue.html" title="The interface to MDL values." alt="" coords="107,155,263,181"/>
+<area shape="rect" id="node4" href="$classmi_1_1base_1_1Interface__declare.html" title=" " alt="" coords="64,80,305,107"/>
+<area shape="rect" id="node5" href="$classmi_1_1base_1_1IInterface.html" title="The basic extensible interface." alt="" coords="111,5,259,32"/>
+</map>

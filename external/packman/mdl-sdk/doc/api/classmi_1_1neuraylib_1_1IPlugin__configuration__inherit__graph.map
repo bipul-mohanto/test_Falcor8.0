@@ -1,0 +1,5 @@
+<map id="mi::neuraylib::IPlugin_configuration" name="mi::neuraylib::IPlugin_configuration">
+<area shape="rect" id="node1" title="This interface is used to load plugins and to query information about loaded plugins." alt="" coords="5,155,257,181"/>
+<area shape="rect" id="node2" href="$classmi_1_1base_1_1Interface__declare.html" title=" " alt="" coords="11,80,252,107"/>
+<area shape="rect" id="node3" href="$classmi_1_1base_1_1IInterface.html" title="The basic extensible interface." alt="" coords="57,5,205,32"/>
+</map>

@@ -1,0 +1,25 @@
+var classmi_1_1neuraylib_1_1IImage__api =
+[
+    [ "adjust_gamma", "classmi_1_1neuraylib_1_1IImage__api.html#aef6f6c7994c60410b14d45a6cd0af7ce", null ],
+    [ "adjust_gamma", "classmi_1_1neuraylib_1_1IImage__api.html#a9e6cdfcbf7079e9cfc39f5c1dd6b752a", null ],
+    [ "clone_canvas", "classmi_1_1neuraylib_1_1IImage__api.html#a017088f14fb848ec3593fc9a825da1ca", null ],
+    [ "clone_tile", "classmi_1_1neuraylib_1_1IImage__api.html#a1b18eb9d0d49aac626b17da193bdf92e", null ],
+    [ "convert", "classmi_1_1neuraylib_1_1IImage__api.html#a962d1b5d4485aa72b03732362ad6a42d", null ],
+    [ "convert", "classmi_1_1neuraylib_1_1IImage__api.html#a7ccacf25e70473aac799a5ad6d99d4bc", null ],
+    [ "create_buffer_from_canvas", "classmi_1_1neuraylib_1_1IImage__api.html#a628446a03400c8b652cdd0ad458f6e6f", null ],
+    [ "create_canvas", "classmi_1_1neuraylib_1_1IImage__api.html#a1e6f9fe8392cdb3d30e6e29764918dc9", null ],
+    [ "create_canvas_cuda", "classmi_1_1neuraylib_1_1IImage__api.html#aeb154abfa247b5232dd23e12f576946e", null ],
+    [ "create_canvas_from_buffer", "classmi_1_1neuraylib_1_1IImage__api.html#a6a5f889a2a8b2d32cf7eead592de8e7d", null ],
+    [ "create_canvas_from_reader", "classmi_1_1neuraylib_1_1IImage__api.html#a0bf8c95f0197d52791e34da3a7f2f57f", null ],
+    [ "create_mipmap", "classmi_1_1neuraylib_1_1IImage__api.html#ac3b2af8f53ad9d9ec9ac17bc88fae9d4", null ],
+    [ "create_tile", "classmi_1_1neuraylib_1_1IImage__api.html#a0746a58c081dc55cac5f8a4086cb6b19", null ],
+    [ "extract_channel", "classmi_1_1neuraylib_1_1IImage__api.html#a7801172228874766665f156825155395", null ],
+    [ "extract_channel", "classmi_1_1neuraylib_1_1IImage__api.html#a69e51e1ff14d99b1e14c9dfa4cc4164b", null ],
+    [ "get_bytes_per_component", "classmi_1_1neuraylib_1_1IImage__api.html#a9fc441808ea7c6ead3715113caa78462", null ],
+    [ "get_components_per_pixel", "classmi_1_1neuraylib_1_1IImage__api.html#ac2c497f568a162560189221e8cd1d4df", null ],
+    [ "get_pixel_type_for_channel", "classmi_1_1neuraylib_1_1IImage__api.html#a0bd7546579f7c939e1e129b0969b352f", null ],
+    [ "read_raw_pixels", "classmi_1_1neuraylib_1_1IImage__api.html#ad0b501a0089b1c11bf6588e6e58938f0", null ],
+    [ "supports_format_for_decoding", "classmi_1_1neuraylib_1_1IImage__api.html#ae6043fcc5dfa01b05b4c38cc441ddbd9", null ],
+    [ "supports_format_for_encoding", "classmi_1_1neuraylib_1_1IImage__api.html#a8745730328403649d2c3b35ffb66dacb", null ],
+    [ "write_raw_pixels", "classmi_1_1neuraylib_1_1IImage__api.html#a8f60678d57615c2ccdd19fb7ece5da16", null ]
+];

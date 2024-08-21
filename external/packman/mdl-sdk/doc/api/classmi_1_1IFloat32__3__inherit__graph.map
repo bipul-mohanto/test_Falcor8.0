@@ -1,0 +1,11 @@
+<map id="mi::IFloat32_3" name="mi::IFloat32_3">
+<area shape="rect" id="node1" title="This interface represents a vector of three Float32." alt="" coords="125,603,240,629"/>
+<area shape="rect" id="node2" href="$classmi_1_1base_1_1Interface__declare.html" title=" " alt="" coords="21,528,344,555"/>
+<area shape="rect" id="node3" href="$classmi_1_1ICompound.html" title="This interface represents compounds, i.e., vectors, matrices, colors, spectrums, and bounding boxes." alt="" coords="122,453,243,480"/>
+<area shape="rect" id="node4" href="$classmi_1_1base_1_1Interface__declare.html" title=" " alt="" coords="5,379,360,405"/>
+<area shape="rect" id="node5" href="$classmi_1_1IData__collection.html" title="This interface represents collections." alt="" coords="107,304,259,331"/>
+<area shape="rect" id="node6" href="$classmi_1_1base_1_1Interface__declare.html" title=" " alt="" coords="41,229,325,256"/>
+<area shape="rect" id="node7" href="$classmi_1_1IData.html" title="This interface is the base interface of all types." alt="" coords="141,155,224,181"/>
+<area shape="rect" id="node8" href="$classmi_1_1base_1_1Interface__declare.html" title=" " alt="" coords="62,80,303,107"/>
+<area shape="rect" id="node9" href="$classmi_1_1base_1_1IInterface.html" title="The basic extensible interface." alt="" coords="109,5,257,32"/>
+</map>

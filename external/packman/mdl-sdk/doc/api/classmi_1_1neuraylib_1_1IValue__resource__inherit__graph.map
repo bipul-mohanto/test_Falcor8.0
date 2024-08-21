@@ -1,0 +1,13 @@
+<map id="mi::neuraylib::IValue_resource" name="mi::neuraylib::IValue_resource">
+<area shape="rect" id="node1" title="Base class for resource values." alt="" coords="552,304,771,331"/>
+<area shape="rect" id="node6" href="$classmi_1_1base_1_1Interface__declare.html" title=" " alt="" coords="5,379,427,405"/>
+<area shape="rect" id="node8" href="$classmi_1_1base_1_1Interface__declare.html" title=" " alt="" coords="451,379,872,405"/>
+<area shape="rect" id="node10" href="$classmi_1_1base_1_1Interface__declare.html" title=" " alt="" coords="896,379,1317,405"/>
+<area shape="rect" id="node2" href="$classmi_1_1base_1_1Interface__declare.html" title=" " alt="" coords="482,229,841,256"/>
+<area shape="rect" id="node3" href="$classmi_1_1neuraylib_1_1IValue.html" title="The interface to MDL values." alt="" coords="583,155,739,181"/>
+<area shape="rect" id="node4" href="$classmi_1_1base_1_1Interface__declare.html" title=" " alt="" coords="541,80,782,107"/>
+<area shape="rect" id="node5" href="$classmi_1_1base_1_1IInterface.html" title="The basic extensible interface." alt="" coords="587,5,735,32"/>
+<area shape="rect" id="node7" href="$classmi_1_1neuraylib_1_1IValue__bsdf__measurement.html" title="A BSDF measurement value." alt="" coords="71,453,361,480"/>
+<area shape="rect" id="node9" href="$classmi_1_1neuraylib_1_1IValue__light__profile.html" title="A light profile value." alt="" coords="541,453,781,480"/>
+<area shape="rect" id="node11" href="$classmi_1_1neuraylib_1_1IValue__texture.html" title="A texture value." alt="" coords="1001,453,1212,480"/>
+</map>

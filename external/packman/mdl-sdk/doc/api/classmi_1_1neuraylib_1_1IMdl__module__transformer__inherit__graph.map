@@ -1,0 +1,5 @@
+<map id="mi::neuraylib::IMdl_module_transformer" name="mi::neuraylib::IMdl_module_transformer">
+<area shape="rect" id="node1" title="The module transformer allows to apply certain transformations on an MDL module." alt="" coords="5,155,288,181"/>
+<area shape="rect" id="node2" href="$classmi_1_1base_1_1Interface__declare.html" title=" " alt="" coords="26,80,267,107"/>
+<area shape="rect" id="node3" href="$classmi_1_1base_1_1IInterface.html" title="The basic extensible interface." alt="" coords="73,5,221,32"/>
+</map>

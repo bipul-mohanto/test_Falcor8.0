@@ -1,0 +1,9 @@
+<map id="mi::neuraylib::IValue_light_profile" name="mi::neuraylib::IValue_light_profile">
+<area shape="rect" id="node1" title="A light profile value." alt="" coords="96,453,336,480"/>
+<area shape="rect" id="node2" href="$classmi_1_1base_1_1Interface__declare.html" title=" " alt="" coords="5,379,427,405"/>
+<area shape="rect" id="node3" href="$classmi_1_1neuraylib_1_1IValue__resource.html" title="Base class for resource values." alt="" coords="107,304,325,331"/>
+<area shape="rect" id="node4" href="$classmi_1_1base_1_1Interface__declare.html" title=" " alt="" coords="37,229,395,256"/>
+<area shape="rect" id="node5" href="$classmi_1_1neuraylib_1_1IValue.html" title="The interface to MDL values." alt="" coords="138,155,294,181"/>
+<area shape="rect" id="node6" href="$classmi_1_1base_1_1Interface__declare.html" title=" " alt="" coords="95,80,337,107"/>
+<area shape="rect" id="node7" href="$classmi_1_1base_1_1IInterface.html" title="The basic extensible interface." alt="" coords="142,5,290,32"/>
+</map>
