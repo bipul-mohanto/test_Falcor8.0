@@ -1,10 +1,9 @@
 # Build folder.
 /build/
-/build_scripts/
 
 # Test output folder.
-tests/data/
-
+/tests/data/
+########################################
 # BM modified
 data/
 /docs/
@@ -21,12 +20,21 @@ fbx_media/*
 # Packman folders.
 /external/packman/
 /tools/.packman/
-!/external/fmt/include/fmt/format.h
-!/external/packman/deps/packages.txt
+#!/external/fmt/include/fmt/format.h
+#!/external/packman/deps/packages.txt
 # IDE folders.
 /.vs/
 /.vscode/
 /.vscode-default/
+docs/
+!/external/CMakeLists.txt
+!/external/packman/aftermath/
+!/external/packman/mdl-sdk/
+!/external/packman/nvapi/
+!/external/packman/optix/
+!/external/packman/deps/packages.txt
+LICENSE.md
+########################################
 # User files.
 /CMakeUserPresets.json
 
@@ -41,3 +49,4 @@ fbx_media/*
 *.mp4
 *.tlog
 *.bak
+*.swp

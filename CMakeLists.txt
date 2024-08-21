@@ -6,8 +6,10 @@ cmake_policy(SET CMP0104 NEW)
 cmake_policy(SET CMP0057 NEW)
 
 set(CMAKE_MODULE_PATH ${CMAKE_MODULE_PATH} ${CMAKE_SOURCE_DIR}/cmake)
-# bm: vcpkg (already integrated)
-#set(CMAKE_TOOLCHAIN_FILE "C:/vcpkg/scripts/buildsystems/vcpkg.cmake")
+
+# bm: vcpkg
+set(CMAKE_TOOLCHAIN_FILE "C:/vcpkg/scripts/buildsystems/vcpkg.cmake")
+
 project(Falcor
     DESCRIPTION "Falcor Realtime Rendering Framework"
     LANGUAGES CXX C
@@ -218,7 +220,6 @@ message(STATUS "FALCOR_HAS_DLSS: ${FALCOR_HAS_DLSS}")
 message(STATUS "FALCOR_HAS_NV_USD: ${FALCOR_HAS_NV_USD}")
 message(STATUS "FALCOR_HAS_MDL_SDK: ${FALCOR_HAS_MDL_SDK}")
 message(STATUS "FALCOR_ENABLE_USD: ${FALCOR_ENABLE_USD}")
-message(STATUS "FALCOR_HAS_OPENXR: ${FALCOR_HAS_OPENXR}") #bm
 
 # -----------------------------------------------------------------------------
 # Packman dependencies
@@ -351,11 +352,11 @@ file(TO_NATIVE_PATH ${output_dir} output_dir)
 
 if(FALCOR_WINDOWS)
     add_custom_target(deploy_dependencies ALL
-        COMMAND ${CMAKE_SOURCE_DIR}/build_scripts/deploycommon.bat ${source_dir} ${output_dir} $<CONFIG> ${FALCOR_SLANG_CONFIG} ${FALCOR_DLSS_DIR}
+        COMMAND ${CMAKE_SOURCE_DIR}/build_scripts/deploycommon.bat ${source_dir} ${output_dir} $<CONFIG> ${FALCOR_SLANG_DIR} ${FALCOR_DLSS_DIR}
     )
 elseif(FALCOR_LINUX)
     add_custom_target(deploy_dependencies ALL
-        COMMAND ${CMAKE_SOURCE_DIR}/build_scripts/deploycommon.sh ${source_dir} ${output_dir} $<CONFIG> ${FALCOR_SLANG_CONFIG} ${FALCOR_DLSS_DIR}
+        COMMAND ${CMAKE_SOURCE_DIR}/build_scripts/deploycommon.sh ${source_dir} ${output_dir} $<CONFIG> ${FALCOR_SLANG_DIR} ${FALCOR_DLSS_DIR}
     )
 endif()
 set_target_properties(deploy_dependencies PROPERTIES FOLDER "Misc")
@@ -472,3 +473,11 @@ endif()
 
 # Make Mogwai the default startup project in VS.
 set_property(DIRECTORY ${CMAKE_CURRENT_SOURCE_DIR} PROPERTY VS_STARTUP_PROJECT Mogwai)
+
+#bm (from vcpkg)
+# this is heuristically generated, and may not be correct
+find_package(Imath CONFIG REQUIRED)
+target_link_libraries(Falcor PRIVATE Imath::Imath Imath::ImathConfig)
+
+find_package(TBB CONFIG REQUIRED)
+target_link_libraries(Falcor PRIVATE TBB::tbb TBB::tbbmalloc TBB::tbbmalloc_proxy)

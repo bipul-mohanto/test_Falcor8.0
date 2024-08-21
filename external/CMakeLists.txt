@@ -96,7 +96,10 @@ set(FALCOR_DEPS_DIR ${PACKMAN_DIR}/deps)
 # Note: Using an INTERFACE target to simplify linking against all the various libraries in OpenEXR
 if(FALCOR_WINDOWS)
     add_library(OpenEXR INTERFACE)
-    target_include_directories(OpenEXR INTERFACE ${FALCOR_DEPS_DIR}/include)
+    target_include_directories(OpenEXR INTERFACE
+        ${FALCOR_DEPS_DIR}/include/OpenEXR
+        ${FALCOR_DEPS_DIR}/include/Imath
+    )
     target_link_directories(OpenEXR INTERFACE
         $<$<CONFIG:Release>:${FALCOR_DEPS_DIR}/lib>
         $<$<CONFIG:Debug>:${FALCOR_DEPS_DIR}/debug/lib>
@@ -107,7 +110,10 @@ if(FALCOR_WINDOWS)
     )
 elseif(FALCOR_LINUX)
     add_library(OpenEXR INTERFACE)
-    target_include_directories(OpenEXR INTERFACE ${FALCOR_DEPS_DIR}/include)
+    target_include_directories(OpenEXR INTERFACE
+        ${FALCOR_DEPS_DIR}/include/OpenEXR
+        ${FALCOR_DEPS_DIR}/include/Imath
+    )
     target_link_directories(OpenEXR INTERFACE
         $<$<CONFIG:Release>:${FALCOR_DEPS_DIR}/lib>
         $<$<CONFIG:Debug>:${FALCOR_DEPS_DIR}/debug/lib>
@@ -163,7 +169,6 @@ elseif(FALCOR_LINUX)
     )
 endif()
 
-# bm
 # OpenVDB
 if(FALCOR_WINDOWS)
     add_library(OpenVDB SHARED IMPORTED GLOBAL)
@@ -332,21 +337,32 @@ else()
 endif()
 
 # slang
-set(SLANG_DIR ${PACKMAN_DIR}/slang)
-set(FALCOR_SLANG_CONFIG release CACHE STRING "Slang config to use.")
-set_property(CACHE FALCOR_SLANG_CONFIG PROPERTY STRINGS release debug)
+
+set(FALCOR_LOCAL_SLANG OFF CACHE BOOL "Use a local build of slang instead of the binary package.")
+set(FALCOR_LOCAL_SLANG_DIR "${CMAKE_SOURCE_DIR}/../slang" CACHE PATH "Path to a local slang directory.")
+set(FALCOR_LOCAL_SLANG_BUILD_DIR "build/Debug" CACHE PATH "Path to the build directory of slang.")
+
+if(FALCOR_LOCAL_SLANG)
+    set(SLANG_DIR ${FALCOR_LOCAL_SLANG_DIR}/${FALCOR_LOCAL_SLANG_BUILD_DIR})
+    set(SLANG_INCLUDE_DIR ${FALCOR_LOCAL_SLANG_DIR}/include)
+else()
+    set(SLANG_DIR ${PACKMAN_DIR}/slang)
+    set(SLANG_INCLUDE_DIR ${PACKMAN_DIR}/slang/include)
+endif()
+set(FALCOR_SLANG_DIR ${SLANG_DIR} PARENT_SCOPE)
+
 if(FALCOR_WINDOWS)
     add_library(slang SHARED IMPORTED GLOBAL)
     set_target_properties(slang PROPERTIES
-        INTERFACE_INCLUDE_DIRECTORIES ${SLANG_DIR}
-        IMPORTED_IMPLIB ${SLANG_DIR}/bin/windows-x64/${FALCOR_SLANG_CONFIG}/slang.lib
-        IMPORTED_LOCATION ${SLANG_DIR}/bin/windows-x64/${FALCOR_SLANG_CONFIG}/slang.dll
+        INTERFACE_INCLUDE_DIRECTORIES ${SLANG_INCLUDE_DIR}
+        IMPORTED_IMPLIB ${SLANG_DIR}/lib/slang.lib
+        IMPORTED_LOCATION ${SLANG_DIR}/bin/slang.dll
     )
 elseif(FALCOR_LINUX)
     add_library(slang SHARED IMPORTED GLOBAL)
     set_target_properties(slang PROPERTIES
-        INTERFACE_INCLUDE_DIRECTORIES ${SLANG_DIR}
-        IMPORTED_LOCATION ${SLANG_DIR}/bin/linux-x64/${FALCOR_SLANG_CONFIG}/libslang.so
+        INTERFACE_INCLUDE_DIRECTORIES ${SLANG_INCLUDE_DIR}
+        IMPORTED_LOCATION ${SLANG_DIR}/lib/libslang.so
     )
 endif()
 
@@ -354,15 +370,15 @@ endif()
 if(FALCOR_WINDOWS)
     add_library(slang-gfx SHARED IMPORTED GLOBAL)
     set_target_properties(slang-gfx PROPERTIES
-        INTERFACE_INCLUDE_DIRECTORIES ${SLANG_DIR}
-        IMPORTED_IMPLIB ${SLANG_DIR}/bin/windows-x64/${FALCOR_SLANG_CONFIG}/gfx.lib
-        IMPORTED_LOCATION ${SLANG_DIR}/bin/windows-x64/${FALCOR_SLANG_CONFIG}/gfx.dll
+        INTERFACE_INCLUDE_DIRECTORIES ${SLANG_INCLUDE_DIR}
+        IMPORTED_IMPLIB ${SLANG_DIR}/lib/gfx.lib
+        IMPORTED_LOCATION ${SLANG_DIR}/bin/gfx.dll
     )
 elseif(FALCOR_LINUX)
     add_library(slang-gfx SHARED IMPORTED GLOBAL)
     set_target_properties(slang-gfx PROPERTIES
-        INTERFACE_INCLUDE_DIRECTORIES ${SLANG_DIR}
-        IMPORTED_LOCATION ${SLANG_DIR}/bin/linux-x64/${FALCOR_SLANG_CONFIG}/libgfx.so
+        INTERFACE_INCLUDE_DIRECTORIES ${SLANG_INCLUDE_DIR}
+        IMPORTED_LOCATION ${SLANG_DIR}/lib/libgfx.so
     )
 endif()
 
@@ -514,76 +530,3 @@ endif()
 set(RTXDI_DIR ${PACKMAN_DIR}/rtxdi)
 add_library(rtxdi INTERFACE)
 target_include_directories(rtxdi INTERFACE ${RTXDI_DIR}/rtxdi-sdk/include)
-
-
-# bm: openXR
-# TODO: relative path
-#include_directories(C:/Users/local-admin/Desktop/Falcor/external/OpenXR-SDK/include/openxr)
-#target_link_libraries(FALCOR_WINDOWS C:/Users/local-admin/Desktop/Falcor/external/OpenXR-SDK/build/win64/src/loader/Release/openxr_loader.lib)
-
-
-# bm: OpenXR
-#[[
-# Note: Using an INTERFACE target to simplify linking against all the various libraries in OpenXR
-if(FALCOR_WINDOWS)
-    add_library(OpenXR INTERFACE)
-    target_include_directories(OpenXR INTERFACE ${FALCOR_DEPS_DIR}/include/OpenXR-SDK/include/openxr)
-    target_link_directories(OpenXR INTERFACE
-        $<$<CONFIG:Release>:${FALCOR_DEPS_DIR}/lib>
-        $<$<CONFIG:Debug>:${FALCOR_DEPS_DIR}/debug/lib>
-    )
-    target_link_libraries(OpenXR INTERFACE
-        $<$<CONFIG:Release>:openxr_loader.lib>
-        $<$<CONFIG:Debug>:openxr_loaderd.lib>
-    )
-elseif(FALCOR_LINUX)
-    add_library(OpenXR INTERFACE)
-    target_include_directories(OpenXR INTERFACE ${FALCOR_DEPS_DIR}/include)
-    target_link_directories(OpenXR INTERFACE
-        $<$<CONFIG:Release>:${FALCOR_DEPS_DIR}/lib>
-        $<$<CONFIG:Debug>:${FALCOR_DEPS_DIR}/debug/lib>
-    )
-    target_link_libraries(OpenXR INTERFACE
-        $<$<CONFIG:Release>:libopenxr_loader.so>
-        $<$<CONFIG:Debug>:libopenxr_loader_d.so>
-    )
-endif()
-
-
-set(OPENXR_DIR ${PACKMAN_DIR}/OpenXR-SDK)
-if(EXISTS ${OPENXR_DIR}/include/openxr/openxr.h)
-    add_library(openxr INTERFACE)
-    target_include_directories(openxr INTERFACE ${OPENXR_DIR}/include/openxr)
-    set(FALCOR_HAS_OPENXR ON PARENT_SCOPE)
-else()
-    set(FALCOR_HAS_OPENXR OFF PARENT_SCOPE)
-endif()
-
-
-add_library(OpenXR-SDK INTERFACE)
-target_include_directories(OpenXR-SDK INTERFACE OpenXR-SDK/include/openxr)
-target_link_libraries(OpenXR-SDK INTERFACE OpenXR-SDK/build/win64/src/loader/Release/openxr_loader.lib)
-
-]]
-
-# Note: only static libs are supported under windows. Use static for linux as well for symmetry.
-if(FALCOR_WINDOWS)
-    add_library(openxr STATIC IMPORTED GLOBAL)
-    set_target_properties(openxr PROPERTIES
-        INTERFACE_INCLUDE_DIRECTORIES ${FALCOR_DEPS_DIR}/include/
-        IMPORTED_LOCATION_RELEASE ${FALCOR_DEPS_DIR}/lib/openxr_loader.lib
-        IMPORTED_LOCATION_DEBUG ${FALCOR_DEPS_DIR}/debug/lib/openxr_loaderd.lib
-    )
-    set(OPENXR_DIR ${FALCOR_DEPS_DIR}/include/openxr)
-    if(EXISTS ${OPENXR_DIR}/openxr.h)
-    #add_library(openxr INTERFACE)
-    target_include_directories(openxr INTERFACE ${OPENXR_DIR})
-    set(FALCOR_HAS_OPENXR ON PARENT_SCOPE)
-else()
-    set(FALCOR_HAS_OPENXR OFF PARENT_SCOPE)
-endif()
-
-
-elseif(FALCOR_LINUX)
-    #nothing
-endif()
