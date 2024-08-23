@@ -429,6 +429,13 @@ if(${CMAKE_GENERATOR} MATCHES "Ninja")
     add_dependencies(ninja_log_analyzer Falcor FalcorPython FalcorTest Mogwai ${plugin_targets})
     set_target_properties(ninja_log_analyzer PROPERTIES FOLDER "Misc")
 endif()
+if(${CMAKE_GENERATOR} MATCHES "Ninja")
+    add_custom_target(ninja_log_analyzer ALL
+        COMMAND ${TOOLS_PYTHON} ${CMAKE_SOURCE_DIR}/tools/ninja_log_analyzer.py ${CMAKE_CURRENT_BINARY_DIR}/.ninja_log -c 10
+    )
+    add_dependencies(ninja_log_analyzer Falcor FalcorPython FalcorTest MogwaiVR ${plugin_targets})
+    set_target_properties(ninja_log_analyzer PROPERTIES FOLDER "Misc")
+endif()
 
 # -----------------------------------------------------------------------------
 # Project sources
@@ -437,6 +444,7 @@ endif()
 add_subdirectory(Source/Falcor)
 add_subdirectory(Source/Modules)
 add_subdirectory(Source/Mogwai)
+add_subdirectory(Source/MogwaiVR)
 add_subdirectory(Source/plugins)
 add_subdirectory(Source/RenderPasses)
 add_subdirectory(Source/Samples)
@@ -471,8 +479,16 @@ if(plugin_targets)
     add_dependencies(Mogwai FalcorPython)
 endif()
 
+# Make MogwaiVR and FalcorPython depend on all plugins.
+if(plugin_targets)
+    add_dependencies(MogwaiVR ${plugin_targets})
+    add_dependencies(FalcorPython ${plugin_targets})
+    add_dependencies(MogwaiVR FalcorPython)
+endif()
+
 # Make Mogwai the default startup project in VS.
 set_property(DIRECTORY ${CMAKE_CURRENT_SOURCE_DIR} PROPERTY VS_STARTUP_PROJECT Mogwai)
+set_property(DIRECTORY ${CMAKE_CURRENT_SOURCE_DIR} PROPERTY VS_STARTUP_PROJECT MogwaiVR)
 
 #bm (from vcpkg)
 # this is heuristically generated, and may not be correct
@@ -481,3 +497,5 @@ target_link_libraries(Falcor PRIVATE Imath::Imath Imath::ImathConfig)
 
 find_package(TBB CONFIG REQUIRED)
 target_link_libraries(Falcor PRIVATE TBB::tbb TBB::tbbmalloc TBB::tbbmalloc_proxy)
+
+

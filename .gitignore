@@ -36,6 +36,7 @@ docs/
 LICENSE.md
 !/external/packman/
 !Source/
+im.PNG
 ########################################
 # User files.
 /CMakeUserPresets.json
