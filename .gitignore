@@ -16,6 +16,7 @@ README.md
 fbx_media/
 media/*
 fbx_media/*
+/pbrt-v4/
 
 # Packman folders.
 /external/packman/
