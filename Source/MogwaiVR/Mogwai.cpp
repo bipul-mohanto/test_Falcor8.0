@@ -822,7 +822,7 @@ namespace Mogwai
 
     std::string Renderer::getVersionString()
     {
-        return "Mogwai " + std::to_string(kMajorVersion) + "." + std::to_string(kMinorVersion);
+        return "Mogwai" + std::to_string(kMajorVersion) + "." + std::to_string(kMinorVersion);
     }
 }
 
@@ -943,7 +943,7 @@ int runMain(int argc, char** argv)
     if (rayTracingValidationFlag)
         config.deviceDesc.enableRaytracingValidation = true;
 
-    config.windowDesc.title = "Mogwai";
+    config.windowDesc.title = "Mogwai (testing)";
     if (widthFlag)
         config.windowDesc.width = args::get(widthFlag);
     if (heightFlag)

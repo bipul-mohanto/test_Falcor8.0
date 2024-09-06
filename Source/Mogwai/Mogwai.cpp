@@ -42,7 +42,10 @@
 #include <filesystem>
 #include <algorithm>
 
+#include "Extensions/MyVRPlugin/MyVRPlugin.h"
+
 FALCOR_EXPORT_D3D12_AGILITY_SDK
+
 
 namespace Mogwai
 {
@@ -106,7 +109,24 @@ namespace Mogwai
         mpExtensions.push_back(MogwaiSettings::create(this));
         if (gExtensions)
         {
-            for (auto& f : (*gExtensions)) mpExtensions.push_back(f.second(this));
+            //for (auto& f : (*gExtensions)) mpExtensions.push_back(f.second(this));
+            //gExtensions.reset();
+            for (auto& f : (*gExtensions))
+            {
+                auto extension = f.second(this);
+                mpExtensions.push_back(extension);
+
+                // Check if it's the VR plugin and initialize OpenXR
+                if (extension->getName() == "MyVRPlugin")
+                {
+                    auto vrPlugin = dynamic_cast<MyVRPlugin*>(extension.get());
+                    if (vrPlugin)
+                    {
+                        // Initialize OpenXR with the current render context
+                        vrPlugin->initializeOpenXR(pRenderContext);
+                    }
+                }
+            }
             gExtensions.reset();
         }
 
@@ -684,7 +704,18 @@ namespace Mogwai
             pGraph->compile(pRenderContext);
         }
 
+         // Begin VR frame if the VR plugin is active
+        for (auto& extension : mpExtensions)
+        {
+            if (extension->getName() == "MyVRPlugin")
+            {
+                dynamic_cast<MyVRPlugin*>(extension.get())->beginFrame(pRenderContext, pTargetFbo);
+            }
+        }
+
         beginFrame(pRenderContext, pTargetFbo);
+
+       
 
         // Clear frame buffer.
         const float4 clearColor(0.38f, 0.52f, 0.10f, 1);
@@ -717,7 +748,26 @@ namespace Mogwai
             {
                 ref<Texture> pOutTex = pGraph->getOutput(mGraphs[mActiveGraph].mainOutput)->asTexture();
                 FALCOR_ASSERT(pOutTex);
-                pRenderContext->blit(pOutTex->getSRV(), pTargetFbo->getRenderTargetView(0));
+ //////////////////////////////////////////////////////////////////////////////////////
+                // Check if VR plugin is active
+                bool isVrActive = false;
+                for (auto& extension : mpExtensions)
+                {
+                    if (extension->getName() == "MyVRPlugin")
+                    {
+                        dynamic_cast<MyVRPlugin*>(extension.get())->renderStereo(pRenderContext);
+                        isVrActive = true;
+                        break;
+                    }
+                }
+
+                // Blit to the FBO if not using VR
+                if (!isVrActive)
+                {
+                    pRenderContext->blit(pOutTex->getSRV(), pTargetFbo->getRenderTargetView(0));
+                }
+//////////////////////////////////////////////////////////////////////////////////////
+//                pRenderContext->blit(pOutTex->getSRV(), pTargetFbo->getRenderTargetView(0));
             }
 
             if (getSettings().getOption("PipedOutput:enable", false))
@@ -747,6 +797,15 @@ namespace Mogwai
                 }
             }
         }
+        // End VR frame if the VR plugin is active
+        for (auto& extension : mpExtensions)
+        {
+            if (extension->getName() == "MyVRPlugin")
+            {
+                dynamic_cast<MyVRPlugin*>(extension.get())->endFrame(pRenderContext, pTargetFbo);
+            }
+        }
+
 
         endFrame(pRenderContext, pTargetFbo);
     }

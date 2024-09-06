@@ -32,6 +32,8 @@
 #include "RenderGraph/RenderGraph.h"
 #include "AppData.h"
 
+#include "Extensions/MyVRPlugin/MyVRPlugin.h"
+
 namespace Falcor
 {
     class SettingsProperties;

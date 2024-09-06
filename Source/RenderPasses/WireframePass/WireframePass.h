@@ -32,7 +32,6 @@
 using namespace Falcor;
 
 
-
 class WireframePass : public RenderPass
 {
 public:

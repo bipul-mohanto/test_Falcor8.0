@@ -1,5 +1,5 @@
 /*
- * Copyright (c) 2023 NVIDIA Corporation.  All rights reserved.
+ * Copyright (c) 2021 NVIDIA Corporation.  All rights reserved.
  *
  * Redistribution and use in source and binary forms, with or without
  * modification, are permitted provided that the following conditions
@@ -30,8 +30,8 @@
 /// @author NVIDIA Corporation
 /// @brief  OptiX public API header
 
-#ifndef OPTIX_OPTIX_STACK_SIZE_H
-#define OPTIX_OPTIX_STACK_SIZE_H
+#ifndef __optix_optix_stack_size_h__
+#define __optix_optix_stack_size_h__
 
 #include "optix.h"
 
@@ -49,15 +49,13 @@ extern "C" {
 /// Retrieves direct and continuation stack sizes for each program in the program group and accumulates the upper bounds
 /// in the correponding output variables based on the semantic type of the program. Before the first invocation of this
 /// function with a given instance of #OptixStackSizes, the members of that instance should be set to 0.
-/// If the programs rely on external functions, passing the current pipeline will consider these as well. Otherwise, a null pointer
-/// can be passed instead. When external functions are present, a warning will be issued for these cases.
-inline OptixResult optixUtilAccumulateStackSizes( OptixProgramGroup programGroup, OptixStackSizes* stackSizes, OptixPipeline pipeline )
+inline OptixResult optixUtilAccumulateStackSizes( OptixProgramGroup programGroup, OptixStackSizes* stackSizes )
 {
     if( !stackSizes )
         return OPTIX_ERROR_INVALID_VALUE;
 
     OptixStackSizes localStackSizes;
-    OptixResult     result = optixProgramGroupGetStackSize( programGroup, &localStackSizes, pipeline );
+    OptixResult     result = optixProgramGroupGetStackSize( programGroup, &localStackSizes );
     if( result != OPTIX_SUCCESS )
         return result;
 
@@ -262,9 +260,6 @@ inline OptixResult optixUtilComputeStackSizesCssCCTree( const OptixStackSizes* s
 /// groups, and compute the maximas of the stack size requirements per array.
 ///
 /// See programming guide for an explanation of the formula.
-///
-/// If the programs rely on external functions, passing the current pipeline will consider these as well. Otherwise, a null pointer
-/// can be passed instead. When external functions are present, a warning will be issued for these cases.
 inline OptixResult optixUtilComputeStackSizesSimplePathTracer( OptixProgramGroup        programGroupRG,
                                                                OptixProgramGroup        programGroupMS1,
                                                                const OptixProgramGroup* programGroupCH1,
@@ -274,8 +269,7 @@ inline OptixResult optixUtilComputeStackSizesSimplePathTracer( OptixProgramGroup
                                                                unsigned int             programGroupCH2Count,
                                                                unsigned int* directCallableStackSizeFromTraversal,
                                                                unsigned int* directCallableStackSizeFromState,
-                                                               unsigned int* continuationStackSize,
-                                                               OptixPipeline pipeline )
+                                                               unsigned int* continuationStackSize )
 {
     if( !programGroupCH1 && ( programGroupCH1Count > 0 ) )
         return OPTIX_ERROR_INVALID_VALUE;
@@ -285,25 +279,25 @@ inline OptixResult optixUtilComputeStackSizesSimplePathTracer( OptixProgramGroup
     OptixResult result;
 
     OptixStackSizes stackSizesRG = {};
-    result                       = optixProgramGroupGetStackSize( programGroupRG, &stackSizesRG, pipeline );
+    result                       = optixProgramGroupGetStackSize( programGroupRG, &stackSizesRG );
     if( result != OPTIX_SUCCESS )
         return result;
 
     OptixStackSizes stackSizesMS1 = {};
-    result                        = optixProgramGroupGetStackSize( programGroupMS1, &stackSizesMS1, pipeline );
+    result                        = optixProgramGroupGetStackSize( programGroupMS1, &stackSizesMS1 );
     if( result != OPTIX_SUCCESS )
         return result;
 
     OptixStackSizes stackSizesCH1 = {};
     for( unsigned int i = 0; i < programGroupCH1Count; ++i )
     {
-        result = optixUtilAccumulateStackSizes( programGroupCH1[i], &stackSizesCH1, pipeline );
+        result = optixUtilAccumulateStackSizes( programGroupCH1[i], &stackSizesCH1 );
         if( result != OPTIX_SUCCESS )
             return result;
     }
 
     OptixStackSizes stackSizesMS2 = {};
-    result                        = optixProgramGroupGetStackSize( programGroupMS2, &stackSizesMS2, pipeline );
+    result                        = optixProgramGroupGetStackSize( programGroupMS2, &stackSizesMS2 );
     if( result != OPTIX_SUCCESS )
         return result;
 
@@ -311,7 +305,7 @@ inline OptixResult optixUtilComputeStackSizesSimplePathTracer( OptixProgramGroup
     memset( &stackSizesCH2, 0, sizeof( OptixStackSizes ) );
     for( unsigned int i = 0; i < programGroupCH2Count; ++i )
     {
-        result = optixUtilAccumulateStackSizes( programGroupCH2[i], &stackSizesCH2, pipeline );
+        result = optixUtilAccumulateStackSizes( programGroupCH2[i], &stackSizesCH2 );
         if( result != OPTIX_SUCCESS )
             return result;
     }
@@ -334,10 +328,10 @@ inline OptixResult optixUtilComputeStackSizesSimplePathTracer( OptixProgramGroup
     return OPTIX_SUCCESS;
 }
 
-/**@}*/  // end group optix_utilities
+/*@}*/  // end group optix_utilities
 
 #ifdef __cplusplus
 }
 #endif
 
-#endif  // OPTIX_OPTIX_STACK_SIZE_H
+#endif  // __optix_optix_stack_size_h__

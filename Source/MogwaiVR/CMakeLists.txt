@@ -9,9 +9,6 @@ target_sources(MogwaiVR PRIVATE
     MogwaiSettings.cpp
     MogwaiSettings.h
 
-    OpenXRManager.h
-    OpenXRManager.cpp
-
     Extensions/Capture/CaptureTrigger.cpp
     Extensions/Capture/CaptureTrigger.h
     Extensions/Capture/FrameCapture.cpp
@@ -31,6 +28,9 @@ target_sources(MogwaiVR PRIVATE
     include/SRanipal_LipData_v2.h
     include/SRanipal_NotRelease.h
     include/ViveSR_Enums.h
+
+    #OpenXRManager.h
+    #OpenXRManager.cpp
 
 )
 

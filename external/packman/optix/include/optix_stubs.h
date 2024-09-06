@@ -1,5 +1,5 @@
 /*
- * Copyright (c) 2023 NVIDIA Corporation.  All rights reserved.
+ * Copyright (c) 2021 NVIDIA Corporation.  All rights reserved.
  *
  * Redistribution and use in source and binary forms, with or without
  * modification, are permitted provided that the following conditions
@@ -30,8 +30,8 @@
 /// @author NVIDIA Corporation
 /// @brief  OptiX public API header
 
-#ifndef OPTIX_OPTIX_STUBS_H
-#define OPTIX_OPTIX_STUBS_H
+#ifndef __optix_optix_stubs_h__
+#define __optix_optix_stubs_h__
 
 #include "optix_function_table.h"
 
@@ -58,13 +58,6 @@ extern "C" {
 extern OptixFunctionTable g_optixFunctionTable;
 
 #ifdef _WIN32
-#if defined( _MSC_VER )
-// Visual Studio produces warnings suggesting strcpy and friends being replaced with _s
-// variants. All the string lengths and allocation sizes have been calculated and should
-// be safe, so we are disabling this warning to increase compatibility.
-#    pragma warning( push )
-#    pragma warning( disable : 4996 )
-#endif
 static void* optixLoadWindowsDllFromName( const char* optixDllName )
 {
     void* handle = NULL;
@@ -173,9 +166,6 @@ static void* optixLoadWindowsDllFromName( const char* optixDllName )
     free( deviceNames );
     return handle;
 }
-#if defined( _MSC_VER )
-#    pragma warning( pop )
-#endif
 
 static void* optixLoadWindowsDll( )
 {
@@ -259,7 +249,7 @@ inline OptixResult optixUninitWithHandle( void* handle )
 }
 
 
-/**@}*/  // end group optix_utilities
+/*@}*/  // end group optix_utilities
 
 #ifndef OPTIX_DOXYGEN_SHOULD_SKIP_THIS
 
@@ -378,36 +368,17 @@ inline OptixResult optixDeviceContextGetCacheDatabaseSizes( OptixDeviceContext c
     return g_optixFunctionTable.optixDeviceContextGetCacheDatabaseSizes( context, lowWaterMark, highWaterMark );
 }
 
-inline OptixResult optixModuleCreate( OptixDeviceContext                 context,
-                                      const OptixModuleCompileOptions*   moduleCompileOptions,
-                                      const OptixPipelineCompileOptions* pipelineCompileOptions,
-                                      const char*                        input,
-                                      size_t                             inputSize,
-                                      char*                              logString,
-                                      size_t*                            logStringSize,
-                                      OptixModule*                       module )
+inline OptixResult optixModuleCreateFromPTX( OptixDeviceContext                 context,
+                                             const OptixModuleCompileOptions*   moduleCompileOptions,
+                                             const OptixPipelineCompileOptions* pipelineCompileOptions,
+                                             const char*                        PTX,
+                                             size_t                             PTXsize,
+                                             char*                              logString,
+                                             size_t*                            logStringSize,
+                                             OptixModule*                       module )
 {
-    return g_optixFunctionTable.optixModuleCreate( context, moduleCompileOptions, pipelineCompileOptions, input, inputSize,
-                                                   logString, logStringSize, module );
-}
-
-inline OptixResult optixModuleCreateWithTasks( OptixDeviceContext                 context,
-                                               const OptixModuleCompileOptions*   moduleCompileOptions,
-                                               const OptixPipelineCompileOptions* pipelineCompileOptions,
-                                               const char*                        input,
-                                               size_t                             inputSize,
-                                               char*                              logString,
-                                               size_t*                            logStringSize,
-                                               OptixModule*                       module,
-                                               OptixTask*                         firstTask )
-{
-    return g_optixFunctionTable.optixModuleCreateWithTasks( context, moduleCompileOptions, pipelineCompileOptions, input,
-                                                            inputSize, logString, logStringSize, module, firstTask );
-}
-
-inline OptixResult optixModuleGetCompilationState( OptixModule module, OptixModuleCompileState* state )
-{
-    return g_optixFunctionTable.optixModuleGetCompilationState( module, state );
+    return g_optixFunctionTable.optixModuleCreateFromPTX( context, moduleCompileOptions, pipelineCompileOptions, PTX,
+                                                          PTXsize, logString, logStringSize, module );
 }
 
 inline OptixResult optixModuleDestroy( OptixModule module )
@@ -421,13 +392,8 @@ inline OptixResult optixBuiltinISModuleGet( OptixDeviceContext                 c
                                             const OptixBuiltinISOptions*       builtinISOptions,
                                             OptixModule*                       builtinModule )
 {
-    return g_optixFunctionTable.optixBuiltinISModuleGet( context, moduleCompileOptions, pipelineCompileOptions,
+    return g_optixFunctionTable.optixBuiltinISModuleGet( context, moduleCompileOptions, pipelineCompileOptions, 
                                                          builtinISOptions, builtinModule );
-}
-
-inline OptixResult optixTaskExecute( OptixTask task, OptixTask* additionalTasks, unsigned int maxNumAdditionalTasks, unsigned int* numAdditionalTasksCreated )
-{
-    return g_optixFunctionTable.optixTaskExecute( task, additionalTasks, maxNumAdditionalTasks, numAdditionalTasksCreated );
 }
 
 inline OptixResult optixProgramGroupCreate( OptixDeviceContext              context,
@@ -447,9 +413,9 @@ inline OptixResult optixProgramGroupDestroy( OptixProgramGroup programGroup )
     return g_optixFunctionTable.optixProgramGroupDestroy( programGroup );
 }
 
-inline OptixResult optixProgramGroupGetStackSize( OptixProgramGroup programGroup, OptixStackSizes* stackSizes, OptixPipeline pipeline )
+inline OptixResult optixProgramGroupGetStackSize( OptixProgramGroup programGroup, OptixStackSizes* stackSizes )
 {
-    return g_optixFunctionTable.optixProgramGroupGetStackSize( programGroup, stackSizes, pipeline );
+    return g_optixFunctionTable.optixProgramGroupGetStackSize( programGroup, stackSizes );
 }
 
 inline OptixResult optixPipelineCreate( OptixDeviceContext                 context,
@@ -508,27 +474,27 @@ inline OptixResult optixAccelBuild( OptixDeviceContext            context,
 }
 
 
-inline OptixResult optixAccelGetRelocationInfo( OptixDeviceContext context, OptixTraversableHandle handle, OptixRelocationInfo* info )
+inline OptixResult optixAccelGetRelocationInfo( OptixDeviceContext context, OptixTraversableHandle handle, OptixAccelRelocationInfo* info )
 {
     return g_optixFunctionTable.optixAccelGetRelocationInfo( context, handle, info );
 }
 
 
-inline OptixResult optixCheckRelocationCompatibility( OptixDeviceContext context, const OptixRelocationInfo* info, int* compatible )
+inline OptixResult optixAccelCheckRelocationCompatibility( OptixDeviceContext context, const OptixAccelRelocationInfo* info, int* compatible )
 {
-    return g_optixFunctionTable.optixCheckRelocationCompatibility( context, info, compatible );
+    return g_optixFunctionTable.optixAccelCheckRelocationCompatibility( context, info, compatible );
 }
 
 inline OptixResult optixAccelRelocate( OptixDeviceContext              context,
                                        CUstream                        stream,
-                                       const OptixRelocationInfo*      info,
-                                       const OptixRelocateInput*       relocateInputs,
-                                       size_t                          numRelocateInputs,
+                                       const OptixAccelRelocationInfo* info,
+                                       CUdeviceptr                     instanceTraversableHandles,
+                                       size_t                          numInstanceTraversableHandles,
                                        CUdeviceptr                     targetAccel,
                                        size_t                          targetAccelSizeInBytes,
                                        OptixTraversableHandle*         targetHandle )
 {
-    return g_optixFunctionTable.optixAccelRelocate( context, stream, info, relocateInputs, numRelocateInputs,
+    return g_optixFunctionTable.optixAccelRelocate( context, stream, info, instanceTraversableHandles, numInstanceTraversableHandles,
                                                     targetAccel, targetAccelSizeInBytes, targetHandle );
 }
 
@@ -542,66 +508,12 @@ inline OptixResult optixAccelCompact( OptixDeviceContext      context,
     return g_optixFunctionTable.optixAccelCompact( context, stream, inputHandle, outputBuffer, outputBufferSizeInBytes, outputHandle );
 }
 
-inline OptixResult optixAccelEmitProperty( OptixDeviceContext        context,
-                                           CUstream                  stream,
-                                           OptixTraversableHandle    handle,
-                                           const OptixAccelEmitDesc* emittedProperty )
-{
-    return g_optixFunctionTable.optixAccelEmitProperty( context, stream, handle, emittedProperty );
-}
-
 inline OptixResult optixConvertPointerToTraversableHandle( OptixDeviceContext      onDevice,
                                                            CUdeviceptr             pointer,
                                                            OptixTraversableType    traversableType,
                                                            OptixTraversableHandle* traversableHandle )
 {
     return g_optixFunctionTable.optixConvertPointerToTraversableHandle( onDevice, pointer, traversableType, traversableHandle );
-}
-
-inline OptixResult optixOpacityMicromapArrayComputeMemoryUsage( OptixDeviceContext                         context,
-                                                                const OptixOpacityMicromapArrayBuildInput* buildInput,
-                                                                OptixMicromapBufferSizes*                 bufferSizes )
-{
-    return g_optixFunctionTable.optixOpacityMicromapArrayComputeMemoryUsage( context, buildInput, bufferSizes );
-}
-
-inline OptixResult optixOpacityMicromapArrayBuild( OptixDeviceContext                         context,
-                                                   CUstream                                   stream,
-                                                   const OptixOpacityMicromapArrayBuildInput* buildInput,
-                                                   const OptixMicromapBuffers*               buffers )
-{
-    return g_optixFunctionTable.optixOpacityMicromapArrayBuild( context, stream, buildInput, buffers );
-}
-
-inline OptixResult optixOpacityMicromapArrayGetRelocationInfo( OptixDeviceContext   context,
-                                                               CUdeviceptr          opacityMicromapArray,
-                                                               OptixRelocationInfo* info )
-{
-    return g_optixFunctionTable.optixOpacityMicromapArrayGetRelocationInfo( context, opacityMicromapArray, info );
-}
-
-inline OptixResult optixOpacityMicromapArrayRelocate( OptixDeviceContext         context,
-                                                      CUstream                   stream,
-                                                      const OptixRelocationInfo* info,
-                                                      CUdeviceptr                targetOpacityMicromapArray,
-                                                      size_t                     targetOpacityMicromapArraySizeInBytes )
-{
-     return g_optixFunctionTable.optixOpacityMicromapArrayRelocate( context, stream, info, targetOpacityMicromapArray, targetOpacityMicromapArraySizeInBytes );
-}
-
-inline OptixResult optixDisplacementMicromapArrayComputeMemoryUsage( OptixDeviceContext context,
-                                                                     const OptixDisplacementMicromapArrayBuildInput* buildInput,
-                                                                     OptixMicromapBufferSizes* bufferSizes )
-{
-    return g_optixFunctionTable.optixDisplacementMicromapArrayComputeMemoryUsage( context, buildInput, bufferSizes );
-}
-
-inline OptixResult optixDisplacementMicromapArrayBuild( OptixDeviceContext                              context,
-                                                        CUstream                                        stream,
-                                                        const OptixDisplacementMicromapArrayBuildInput* buildInput,
-                                                        const OptixMicromapBuffers*                     buffers )
-{
-    return g_optixFunctionTable.optixDisplacementMicromapArrayBuild( context, stream, buildInput, buffers );
 }
 
 inline OptixResult optixSbtRecordPackHeader( OptixProgramGroup programGroup, void* sbtRecordHeaderHostPointer )
@@ -701,4 +613,4 @@ inline OptixResult optixDenoiserComputeAverageColor( OptixDenoiser       handle,
 }
 #endif
 
-#endif  // OPTIX_OPTIX_STUBS_H
+#endif  // __optix_optix_stubs_h__

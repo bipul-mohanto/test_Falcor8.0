@@ -1,6 +1,6 @@
 
 /*
- * Copyright (c) 2023 NVIDIA Corporation.  All rights reserved.
+ * Copyright (c) 2021 NVIDIA Corporation.  All rights reserved.
  *
  * NVIDIA Corporation and its licensors retain all intellectual property and proprietary
  * rights in and to this software, related documentation and any modifications thereto.
@@ -26,15 +26,15 @@
 /// Includes the host api if compiling host code, includes the cuda api if compiling device code.
 /// For the math library routines include optix_math.h
 
-#ifndef OPTIX_OPTIX_H
-#define OPTIX_OPTIX_H
+#ifndef __optix_optix_h__
+#define __optix_optix_h__
 
 /// The OptiX version.
 ///
 /// - major =  OPTIX_VERSION/10000
 /// - minor = (OPTIX_VERSION%10000)/100
 /// - micro =  OPTIX_VERSION%100
-#define OPTIX_VERSION 80000
+#define OPTIX_VERSION 70300
 
 
 #ifdef __CUDACC__
@@ -44,4 +44,4 @@
 #endif
 
 
-#endif  // OPTIX_OPTIX_H
+#endif  // __optix_optix_h__

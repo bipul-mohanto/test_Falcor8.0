@@ -1,5 +1,5 @@
 /*
- * Copyright (c) 2023 NVIDIA Corporation.  All rights reserved.
+ * Copyright (c) 2021 NVIDIA Corporation.  All rights reserved.
  *
  * Redistribution and use in source and binary forms, with or without
  * modification, are permitted provided that the following conditions
@@ -30,8 +30,9 @@
 /// @author NVIDIA Corporation
 /// @brief  OptiX public API header
 
-#ifndef OPTIX_DENOISER_TILING_H
-#define OPTIX_DENOISER_TILING_H
+#ifndef optix_denoiser_tiling_h
+#define optix_denoiser_tiling_h
+
 
 #include <optix.h>
 
@@ -67,19 +68,15 @@ struct OptixUtilDenoiserImageTile
 /// if the pixelStrideInBytes member of the image is zero.
 /// Otherwise return pixelStrideInBytes from the image.
 ///
-/// \param[in] image              Image containing the pixel stride
-/// \param[in] pixelStrideInBytes Pixel stride in bytes
+/// \param[in]                  image Image containing the pixel stride
 ///
-inline OptixResult optixUtilGetPixelStride( const OptixImage2D& image, unsigned int& pixelStrideInBytes )
+inline unsigned int optixUtilGetPixelStride( const OptixImage2D& image )
 {
-    pixelStrideInBytes = image.pixelStrideInBytes;
+    unsigned int pixelStrideInBytes = image.pixelStrideInBytes;
     if( pixelStrideInBytes == 0 )
     {
         switch( image.format )
         {
-            case OPTIX_PIXEL_FORMAT_HALF1:
-                pixelStrideInBytes = 1 * sizeof( short );
-                break;
             case OPTIX_PIXEL_FORMAT_HALF2:
                 pixelStrideInBytes = 2 * sizeof( short );
                 break;
@@ -88,9 +85,6 @@ inline OptixResult optixUtilGetPixelStride( const OptixImage2D& image, unsigned 
                 break;
             case OPTIX_PIXEL_FORMAT_HALF4:
                 pixelStrideInBytes = 4 * sizeof( short );
-                break;
-            case OPTIX_PIXEL_FORMAT_FLOAT1:
-                pixelStrideInBytes = 1 * sizeof( float );
                 break;
             case OPTIX_PIXEL_FORMAT_FLOAT2:
                 pixelStrideInBytes = 2 * sizeof( float );
@@ -107,12 +101,9 @@ inline OptixResult optixUtilGetPixelStride( const OptixImage2D& image, unsigned 
             case OPTIX_PIXEL_FORMAT_UCHAR4:
                 pixelStrideInBytes = 4 * sizeof( char );
                 break;
-            case OPTIX_PIXEL_FORMAT_INTERNAL_GUIDE_LAYER:
-                return OPTIX_ERROR_INVALID_VALUE;
-                break;
         }
     }
-    return OPTIX_SUCCESS;
+    return pixelStrideInBytes;
 }
 
 /// Split image into 2D tiles given horizontal and vertical tile size
@@ -135,18 +126,12 @@ inline OptixResult optixUtilDenoiserSplitImage(
     if( tileWidth == 0 || tileHeight == 0 )
         return OPTIX_ERROR_INVALID_VALUE;
 
-    unsigned int inPixelStride, outPixelStride;
-    if( const OptixResult res = optixUtilGetPixelStride( input, inPixelStride ) )
-        return res;
-    if( const OptixResult res = optixUtilGetPixelStride( output, outPixelStride ) )
-        return res;
+    unsigned int inPixelStride  = optixUtilGetPixelStride( input );
+    unsigned int outPixelStride = optixUtilGetPixelStride( output );
 
     int inp_w = std::min( tileWidth + 2 * overlapWindowSizeInPixels, input.width );
     int inp_h = std::min( tileHeight + 2 * overlapWindowSizeInPixels, input.height );
     int inp_y = 0, copied_y = 0;
-
-    int upscaleX = output.width / input.width;
-    int upscaleY = output.height / input.height;
 
     do
     {
@@ -162,25 +147,23 @@ inline OptixResult optixUtilDenoiserSplitImage(
                                       std::min( tileWidth, input.width - copied_x );
 
             OptixUtilDenoiserImageTile tile;
-            tile.input.data               = input.data + (size_t)( inp_y - inputOffsetY ) * input.rowStrideInBytes
-                                            + (size_t)( inp_x - inputOffsetX ) * inPixelStride;
+            tile.input.data               = input.data + ( inp_y - inputOffsetY ) * input.rowStrideInBytes
+                                            + ( inp_x - inputOffsetX ) * inPixelStride;
             tile.input.width              = inp_w;
             tile.input.height             = inp_h;
             tile.input.rowStrideInBytes   = input.rowStrideInBytes;
             tile.input.pixelStrideInBytes = input.pixelStrideInBytes;
             tile.input.format             = input.format;
 
-            tile.output.data               = output.data + (size_t)( upscaleY * inp_y ) * output.rowStrideInBytes
-                                             + (size_t)( upscaleX * inp_x ) * outPixelStride;
-            tile.output.width              = upscaleX * copy_x;
-            tile.output.height             = upscaleY * copy_y;
+            tile.output.data               = output.data + inp_y * output.rowStrideInBytes + inp_x * outPixelStride;
+            tile.output.width              = copy_x;
+            tile.output.height             = copy_y;
             tile.output.rowStrideInBytes   = output.rowStrideInBytes;
             tile.output.pixelStrideInBytes = output.pixelStrideInBytes;
             tile.output.format             = output.format;
 
             tile.inputOffsetX = inputOffsetX;
             tile.inputOffsetY = inputOffsetY;
-
             tiles.push_back( tile );
 
             inp_x += inp_x == 0 ? tileWidth + overlapWindowSizeInPixels : tileWidth;
@@ -238,8 +221,6 @@ inline OptixResult optixUtilDenoiserInvokeTiled(
     if( !guideLayer || !layers )
         return OPTIX_ERROR_INVALID_VALUE;
 
-    const unsigned int upscale = numLayers > 0 && layers[0].previousOutput.width == 2 * layers[0].input.width ? 2 : 1;
-
     std::vector<std::vector<OptixUtilDenoiserImageTile>> tiles( numLayers );
     std::vector<std::vector<OptixUtilDenoiserImageTile>> prevTiles( numLayers );
     for( unsigned int l = 0; l < numLayers; l++ )
@@ -253,8 +234,8 @@ inline OptixResult optixUtilDenoiserInvokeTiled(
         {
             OptixImage2D dummyOutput = layers[l].previousOutput;
             if( const OptixResult res = optixUtilDenoiserSplitImage( layers[l].previousOutput, dummyOutput,
-                                                                 upscale * overlapWindowSizeInPixels,
-                                                                 upscale * tileWidth, upscale * tileHeight, prevTiles[l] ) )
+                                                                 overlapWindowSizeInPixels,
+                                                                 tileWidth, tileHeight, prevTiles[l] ) )
                 return res;
         }
     }
@@ -278,7 +259,6 @@ inline OptixResult optixUtilDenoiserInvokeTiled(
                                                                  tileWidth, tileHeight, normalTiles ) )
             return res;
     }
-
     std::vector<OptixUtilDenoiserImageTile> flowTiles;
     if( guideLayer->flow.data )
     {
@@ -286,26 +266,6 @@ inline OptixResult optixUtilDenoiserInvokeTiled(
         if( const OptixResult res = optixUtilDenoiserSplitImage( guideLayer->flow, dummyOutput,
                                                                  overlapWindowSizeInPixels,
                                                                  tileWidth, tileHeight, flowTiles ) )
-            return res;
-    }
-
-    std::vector<OptixUtilDenoiserImageTile> flowTrustTiles;
-    if( guideLayer->flowTrustworthiness.data )
-    {
-        OptixImage2D dummyOutput = guideLayer->flowTrustworthiness;
-        if( const OptixResult res = optixUtilDenoiserSplitImage( guideLayer->flowTrustworthiness, dummyOutput,
-                                                                 overlapWindowSizeInPixels,
-                                                                 tileWidth, tileHeight, flowTrustTiles ) )
-            return res;
-    }
-
-    std::vector<OptixUtilDenoiserImageTile> internalGuideLayerTiles;
-    if( guideLayer->previousOutputInternalGuideLayer.data && guideLayer->outputInternalGuideLayer.data )
-    {
-        if( const OptixResult res = optixUtilDenoiserSplitImage( guideLayer->previousOutputInternalGuideLayer,
-                                                                 guideLayer->outputInternalGuideLayer,
-                                                                 upscale * overlapWindowSizeInPixels,
-                                                                 upscale * tileWidth, upscale * tileHeight, internalGuideLayerTiles ) )
             return res;
     }
 
@@ -319,7 +279,6 @@ inline OptixResult optixUtilDenoiserInvokeTiled(
             layer.output = ( tiles[l] )[t].output;
             if( layers[l].previousOutput.data )
                 layer.previousOutput = ( prevTiles[l] )[t].input;
-            layer.type = layers[l].type;
             tlayers.push_back( layer );
         }
 
@@ -333,15 +292,6 @@ inline OptixResult optixUtilDenoiserInvokeTiled(
         if( guideLayer->flow.data )
             gl.flow = flowTiles[t].input;
 
-        if( guideLayer->flowTrustworthiness.data )
-            gl.flowTrustworthiness = flowTrustTiles[t].input;
-
-        if( guideLayer->previousOutputInternalGuideLayer.data )
-            gl.previousOutputInternalGuideLayer = internalGuideLayerTiles[t].input;
-
-        if( guideLayer->outputInternalGuideLayer.data )
-            gl.outputInternalGuideLayer = internalGuideLayerTiles[t].output;
-
         if( const OptixResult res =
                 optixDenoiserInvoke( denoiser, stream, params, denoiserState, denoiserStateSizeInBytes,
                                      &gl, &tlayers[0], numLayers,
@@ -352,10 +302,10 @@ inline OptixResult optixUtilDenoiserInvokeTiled(
     return OPTIX_SUCCESS;
 }
 
-/**@}*/  // end group optix_utilities
+/*@}*/  // end group optix_utilities
 
 #ifdef __cplusplus
 }
 #endif
 
-#endif  // OPTIX_DENOISER_TILING_H 
+#endif  // __optix_optix_stack_size_h__

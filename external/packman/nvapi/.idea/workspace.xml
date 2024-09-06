@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CMakeSettings">
+    <configurations>
+      <configuration PROFILE_NAME="Debug" ENABLED="true" CONFIG_NAME="Debug" />
+    </configurations>
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="41dd1656-d6af-4f19-8b6e-73fff6beaba4" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/../../../Source/Mogwai/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Source/Mogwai/CMakeLists.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Source/Mogwai/Mogwai.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Source/Mogwai/Mogwai.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Source/Mogwai/Mogwai.h" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Source/Mogwai/Mogwai.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Source/MogwaiVR/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Source/MogwaiVR/CMakeLists.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Source/MogwaiVR/Mogwai.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Source/MogwaiVR/Mogwai.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Source/MogwaiVR/Mogwai.h" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Source/MogwaiVR/Mogwai.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Source/MogwaiVR/OpenXRManager.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Source/MogwaiVR/OpenXRManager.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Source/MogwaiVR/OpenXRManager.h" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Source/MogwaiVR/OpenXRManager.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Source/RenderPasses/WireframePass/WireframePass.h" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Source/RenderPasses/WireframePass/WireframePass.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../optix/include/internal/optix_device_impl.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../optix/include/internal/optix_device_impl_transformations.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../optix/include/internal/optix_micromap_impl.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../optix/include/optix.h" beforeDir="false" afterPath="$PROJECT_DIR$/../optix/include/optix.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../optix/include/optix_denoiser_tiling.h" beforeDir="false" afterPath="$PROJECT_DIR$/../optix/include/optix_denoiser_tiling.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../optix/include/optix_device.h" beforeDir="false" afterPath="$PROJECT_DIR$/../optix/include/optix_device.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../optix/include/optix_function_table.h" beforeDir="false" afterPath="$PROJECT_DIR$/../optix/include/optix_function_table.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../optix/include/optix_function_table_definition.h" beforeDir="false" afterPath="$PROJECT_DIR$/../optix/include/optix_function_table_definition.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../optix/include/optix_host.h" beforeDir="false" afterPath="$PROJECT_DIR$/../optix/include/optix_host.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../optix/include/optix_micromap.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../optix/include/optix_stack_size.h" beforeDir="false" afterPath="$PROJECT_DIR$/../optix/include/optix_stack_size.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../optix/include/optix_stubs.h" beforeDir="false" afterPath="$PROJECT_DIR$/../optix/include/optix_stubs.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../optix/include/optix_types.h" beforeDir="false" afterPath="$PROJECT_DIR$/../optix/include/optix_types.h" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ClangdSettings">
+    <option name="formatViaClangd" value="false" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../.." />
+  </component>
+  <component name="ProjectApplicationVersion">
+    <option name="ide" value="CLion" />
+    <option name="majorVersion" value="2023" />
+    <option name="minorVersion" value="3.4" />
+  </component>
+  <component name="ProjectColorInfo"><![CDATA[{
+  "associatedIndex": 3
+}]]></component>
+  <component name="ProjectId" id="2lFL2y7eGMadRD61oCaNE2YjGyC" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.cidr.known.project.marker": "true",
+    "RunOnceActivity.readMode.enableVisualFormatting": "true",
+    "cf.advertisement.text.has.clang-format": "true",
+    "cf.first.check.clang-format": "false",
+    "cidr.known.project.marker": "true",
+    "nodejs_package_manager_path": "npm",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="41dd1656-d6af-4f19-8b6e-73fff6beaba4" name="Changes" comment="" />
+      <created>1724770674997</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1724770674997</updated>
+      <workItem from="1724770676425" duration="4000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>

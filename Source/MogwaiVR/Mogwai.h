@@ -37,7 +37,7 @@
 //#include <openxr/openxr.h>
 //#include "include/SRanipal.h"
 //#include "include/SRanipal_Enums.h"
-#include "OpenXRManager.h"
+//#include "OpenXRManager.h"
 
 
 namespace Falcor
