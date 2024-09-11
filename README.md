@@ -1,9 +1,8 @@
-### Foveated Path Tracing Research
+### test project
 
 ### TODOs
 - [x] integrate OpenXR with CMAKE
 - [ ] active VR
-- [ ] path tracing in Log Polar and Inverse Log-Polar space
 - [ ] enable eye tracking
 
 
